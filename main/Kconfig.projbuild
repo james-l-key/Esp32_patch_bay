@@ -1,0 +1,190 @@
+menu "Patch Bay Configuration"
+
+    choice DISPLAY_TYPE
+        prompt "Display Driver"
+        default SSD1306
+        help
+            Select the OLED display driver.
+
+        config SSD1306
+            bool "SSD1306"
+        config SH1106
+            bool "SH1106"
+    endchoice
+
+    config I2C_SDA_PIN
+        int "I2C SDA Pin"
+        default 18
+        range 0 39
+        help
+            GPIO pin for I2C SDA (display communication).
+
+    config I2C_SCL_PIN
+        int "I2C SCL Pin"
+        default 19
+        range 0 39
+        help
+            GPIO pin for I2C SCL (display communication).
+
+    config PROGRAM_BUTTON_PIN
+        int "Program Button Pin"
+        default 6
+        range 0 39
+        help
+            GPIO pin for Program button.
+
+    config END_BUTTON_PIN
+        int "End Button Pin"
+        default 7
+        range 0 39
+        help
+            GPIO pin for End Program button.
+
+    config PEDAL_BUTTON_1_PIN
+        int "Pedal 1 Button Pin"
+        default 2
+        range 0 39
+        help
+            GPIO pin for Pedal 1 button.
+
+    config PEDAL_BUTTON_2_PIN
+        int "Pedal 2 Button Pin"
+        default 3
+        range 0 39
+        help
+            GPIO pin for Pedal 2 button.
+
+    config PEDAL_BUTTON_3_PIN
+        int "Pedal 3 Button Pin"
+        default 4
+        range 0 39
+        help
+            GPIO pin for Pedal 3 button.
+
+    config PEDAL_BUTTON_4_PIN
+        int "Pedal 4 Button Pin"
+        default 5
+        range 0 39
+        help
+            GPIO pin for Pedal 4 button.
+
+    config PEDAL_BUTTON_5_PIN
+        int "Pedal 5 Button Pin"
+        default 8
+        range 0 39
+        help
+            GPIO pin for Pedal 5 button.
+
+    config PEDAL_BUTTON_6_PIN
+        int "Pedal 6 Button Pin"
+        default 9
+        range 0 39
+        help
+            GPIO pin for Pedal 6 button.
+
+    config PEDAL_BUTTON_7_PIN
+        int "Pedal 7 Button Pin"
+        default 10
+        range 0 39
+        help
+            GPIO pin for Pedal 7 button.
+
+    config PEDAL_BUTTON_8_PIN
+        int "Pedal 8 Button Pin"
+        default 11
+        range 0 39
+        help
+            GPIO pin for Pedal 8 button.
+
+    config SR_DATA_PIN
+        int "Shift Register Data Pin"
+        default 12
+        range 0 39
+        help
+            GPIO pin for 74HC595 shift register data.
+
+    config SR_CLOCK_PIN
+        int "Shift Register Clock Pin"
+        default 13
+        range 0 39
+        help
+            GPIO pin for 74HC595 shift register clock.
+
+    config SR_LATCH_PIN
+        int "Shift Register Latch Pin"
+        default 14
+        range 0 39
+        help
+            GPIO pin for 74HC595 shift register latch.
+
+    config ENABLE_LEDS
+        bool "Enable LED Indicators"
+        default n
+        help
+            Enable 8 LEDs for pedal status indicators.
+
+    config LED_1_PIN
+        int "LED 1 Pin"
+        default 33
+        range 0 39
+        depends on ENABLE_LEDS
+        help
+            GPIO pin for Pedal 1 status LED.
+
+    config LED_2_PIN
+        int "LED 2 Pin"
+        default 34
+        range 0 39
+        depends on ENABLE_LEDS
+        help
+            GPIO pin for Pedal 2 status LED.
+
+    config LED_3_PIN
+        int "LED 3 Pin"
+        default 35
+        range 0 39
+        depends on ENABLE_LEDS
+        help
+            GPIO pin for Pedal 3 status LED.
+
+    config LED_4_PIN
+        int "LED 4 Pin"
+        default 36
+        range 0 39
+        depends on ENABLE_LEDS
+        help
+            GPIO pin for Pedal 4 status LED.
+
+    config LED_5_PIN
+        int "LED 5 Pin"
+        default 37
+        range 0 39
+        depends on ENABLE_LEDS
+        help
+            GPIO pin for Pedal 5 status LED.
+
+    config LED_6_PIN
+        int "LED 6 Pin"
+        default 38
+        range 0 39
+        depends on ENABLE_LEDS
+        help
+            GPIO pin for Pedal 6 status LED.
+
+    config LED_7_PIN
+        int "LED 7 Pin"
+        default 39
+        range 0 39
+        depends on ENABLE_LEDS
+        help
+            GPIO pin for Pedal 7 status LED.
+
+    config LED_8_PIN
+        int "LED 8 Pin"
+        default 40
+        range 0 39
+        depends on ENABLE_LEDS
+        help
+            GPIO pin for Pedal 8 status LED.
+
+endmenu
