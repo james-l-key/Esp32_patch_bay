@@ -1,6 +1,6 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,linux,c,c++,cmake,dotenv,doxygen,git,unity,virtualenv
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,linux,c,c++,cmake,dotenv,doxygen,git,unity,virtualenv
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,virtualenv,unity,linux,git,doxygen,dotenv,cmake,c++,c,kicad
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,virtualenv,unity,linux,git,doxygen,dotenv,cmake,c++,c,kicad
 
 ### C ###
 # Prerequisites
@@ -116,8 +116,47 @@ latex
 *_LOCAL_*.txt
 *_REMOTE_*.txt
 
-### Linux ###
+### KiCad ###
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
 *~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+### KiCad Patch ###
+rescue-backup/
+
+*.tsv
+bom/
+
+# Gerber export output
+out/
+
+### Linux ###
 
 # temporary files which can be created if a process still has a handle open of a deleted file
 .fuse_hidden*
@@ -169,7 +208,6 @@ ExportedObj/
 *.unityproj
 *.sln
 *.suo
-*.tmp
 *.user
 *.userprefs
 *.pidb
@@ -235,9 +273,8 @@ pip-selfcheck.json
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,linux,c,c++,cmake,dotenv,doxygen,git,unity,virtualenv
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,virtualenv,unity,linux,git,doxygen,dotenv,cmake,c++,c,kicad
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
-
 
 managed_components
