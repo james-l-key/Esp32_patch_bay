@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Bay")(type "KiCad")(uri "${KIPRJMOD}/Bay.kicad_sym")(options "")(descr ""))
+)

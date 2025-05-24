@@ -1157,20 +1157,173 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Bay:OLED"
+		(symbol "AudioJack2_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Disp1"
-				(at 0 7.62 0)
+			(property "Reference" "J"
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "~"
-				(at 0 5.08 0)
+			(property "Value" "AudioJack2"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle mono phone headphone TS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack2_1_0_1"
+				(rectangle
+					(start -3.81 0)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AudioJack2_1_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Bay:OLED"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Dis"
+				(at 0 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1206,8 +1359,8 @@
 			)
 			(symbol "OLED_0_1"
 				(rectangle
-					(start -7.62 3.81)
-					(end 7.62 -7.62)
+					(start -7.62 5.08)
+					(end 7.62 -6.35)
 					(stroke
 						(width 0)
 						(type default)
@@ -1219,7 +1372,7 @@
 			)
 			(symbol "OLED_1_1"
 				(pin power_in line
-					(at -3.81 -10.16 90)
+					(at -3.81 -8.89 90)
 					(length 2.54)
 					(name "VCC"
 						(effects
@@ -1237,7 +1390,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -1.27 -10.16 90)
+					(at -1.27 -8.89 90)
 					(length 2.54)
 					(name "SDA"
 						(effects
@@ -1255,7 +1408,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 1.27 -10.16 90)
+					(at 1.27 -8.89 90)
 					(length 2.54)
 					(name "SCL"
 						(effects
@@ -1273,7 +1426,7 @@
 					)
 				)
 				(pin power_in line
-					(at 3.81 -10.16 90)
+					(at 3.81 -8.89 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2341,6 +2494,132 @@
 					(at 0 -2.54 90)
 					(length 2.032)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4752,18 +5031,6 @@
 		(uuid "18516a80-fcff-4ec4-ad5d-2b77f1e998ff")
 	)
 	(junction
-		(at 293.37 495.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2386010b-55e3-48aa-b080-aa9325a6e278")
-	)
-	(junction
-		(at 218.44 560.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "247bb956-999d-4d76-994a-bcbfd246fa7e")
-	)
-	(junction
 		(at 485.14 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4822,6 +5089,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34247daf-39b9-4b1d-8e9d-692019074fb0")
+	)
+	(junction
+		(at 250.19 622.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39d915cf-df20-44ae-a404-8bad5f9d7101")
 	)
 	(junction
 		(at 349.25 101.6)
@@ -4950,6 +5223,12 @@
 		(uuid "6f870afe-3e99-4961-b43c-a6a881c5a708")
 	)
 	(junction
+		(at 293.37 495.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71e3fe42-6bdb-434e-97f3-9666437a05bb")
+	)
+	(junction
 		(at 335.28 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4992,12 +5271,6 @@
 		(uuid "782a7c88-26ab-474d-93c7-97925bb7f073")
 	)
 	(junction
-		(at 295.91 433.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7de53c92-7dfc-447a-aeac-83f16d9c8b95")
-	)
-	(junction
 		(at 309.88 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5034,34 +5307,16 @@
 		(uuid "8f75e049-e9da-4173-ab02-27953e9ea56e")
 	)
 	(junction
-		(at 250.19 622.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9355bb5c-60ba-4857-86e6-62ad3c2e3022")
-	)
-	(junction
 		(at 236.22 560.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99573332-b892-492d-8a0b-2268319bc42f")
 	)
 	(junction
-		(at 290.83 558.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c83e8b5-d9ab-4afa-9a8c-12d943b2f17f")
-	)
-	(junction
 		(at 615.95 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d67437d-8afe-494a-89f8-8cc6ef3f595e")
-	)
-	(junction
-		(at 513.08 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f568b5a-60a6-4c22-9bab-15b68ae2e68d")
 	)
 	(junction
 		(at 274.32 114.3)
@@ -5130,6 +5385,12 @@
 		(uuid "c507e8f3-363f-4da7-aa84-645dd3634623")
 	)
 	(junction
+		(at 563.88 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbfcf89c-2ab7-4efc-b635-191de5a27c56")
+	)
+	(junction
 		(at 68.58 311.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5178,6 +5439,12 @@
 		(uuid "dd6b2d30-5a2a-4199-95c2-833c67bb4fcf")
 	)
 	(junction
+		(at 290.83 558.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddf71c3d-8002-43c5-9c0e-381a945f54b1")
+	)
+	(junction
 		(at 312.42 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5188,6 +5455,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de836312-84c0-4b44-a628-1c9b2b3b6805")
+	)
+	(junction
+		(at 218.44 560.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ded4822d-e008-4ec4-bd05-e20ad28aad43")
 	)
 	(junction
 		(at 57.15 290.83)
@@ -5218,6 +5491,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9edbcef-d09e-4075-aa5b-dd9442382775")
+	)
+	(junction
+		(at 295.91 433.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee62a467-ded9-478d-80fc-78f5d08bf8e9")
 	)
 	(junction
 		(at 427.99 420.37)
@@ -6235,6 +6514,16 @@
 		)
 		(uuid "1505d13b-e1ec-4f49-8b93-409b7d94c4d7")
 	)
+	(wire
+		(pts
+			(xy 563.88 43.18) (xy 558.8 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "156d0bec-b144-445b-81a8-00beb995763f")
+	)
 	(bus
 		(pts
 			(xy 110.49 326.39) (xy 208.28 326.39)
@@ -6687,6 +6976,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 431.8) (xy 223.52 431.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dd43e12-891c-4eb4-a229-77484d080fe8")
+	)
+	(wire
+		(pts
 			(xy 640.08 171.45) (xy 640.08 139.7)
 		)
 		(stroke
@@ -6744,6 +7043,16 @@
 			(type default)
 		)
 		(uuid "31ca3592-3a54-45ec-b414-c32648324d5d")
+	)
+	(wire
+		(pts
+			(xy 220.98 495.3) (xy 220.98 497.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32363568-b5cb-4f96-a2e7-bf3ec6e2c695")
 	)
 	(wire
 		(pts
@@ -7244,6 +7553,16 @@
 			(type default)
 		)
 		(uuid "4deb5a19-5789-415c-bbff-62260488df9b")
+	)
+	(wire
+		(pts
+			(xy 217.17 495.3) (xy 220.98 495.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e6a9509-1fd9-4808-a021-5af271f68d58")
 	)
 	(wire
 		(pts
@@ -7947,6 +8266,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 431.8) (xy 223.52 435.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7502a096-be70-4c60-bda9-1fce935b02e6")
+	)
+	(wire
+		(pts
 			(xy 417.83 199.39) (xy 417.83 204.47)
 		)
 		(stroke
@@ -8184,16 +8513,6 @@
 			(type default)
 		)
 		(uuid "7e7b435b-357e-4fde-90bd-2db7a0b522b9")
-	)
-	(wire
-		(pts
-			(xy 513.08 83.82) (xy 513.08 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ecac6f5-c618-4f0c-877c-7eb573436b32")
 	)
 	(wire
 		(pts
@@ -9367,6 +9686,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 435.61) (xy 226.06 435.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6eeda8f-821b-4d94-99aa-740ab3442c1c")
+	)
+	(wire
+		(pts
 			(xy 96.52 298.45) (xy 105.41 298.45)
 		)
 		(stroke
@@ -9544,6 +9873,16 @@
 			(type default)
 		)
 		(uuid "bfebda30-40aa-4ebc-a03c-384ff4071822")
+	)
+	(wire
+		(pts
+			(xy 220.98 497.84) (xy 222.25 497.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c000368b-cf2d-4609-a4fc-e295de73974b")
 	)
 	(wire
 		(pts
@@ -13791,28 +14130,6 @@
 			)
 		)
 	)
-	(global_label "3.3V"
-		(shape input)
-		(at 349.25 173.99 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c9647ec3-9f66-4995-88a0-dfbedcac76c7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 349.25 181.0876 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Pedal5_Out"
 		(shape output)
 		(at 694.69 66.04 0)
@@ -14763,7 +15080,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 441.706 208.026 90)
 			(effects
 				(font
@@ -14825,7 +15142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 650.24 170.18 0)
 			(effects
 				(font
@@ -14873,73 +15190,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 250.19 622.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "063cc914-953c-46b4-9b36-38a35f791056")
-		(property "Reference" "#PWR051"
-			(at 250.19 628.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 250.19 627.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 622.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 622.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 250.19 622.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a21bc39-4c0e-4364-9ba2-6a3ef1ed9b6f")
-		)
-		(instances
-			(project "circuit"
-				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 139.7 363.22 0)
 		(unit 1)
@@ -14967,7 +15217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 139.7 363.22 0)
 			(effects
 				(font
@@ -15037,7 +15287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed"
 			(at 459.74 144.78 0)
 			(effects
 				(font
@@ -15114,7 +15364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 297.18 372.11 0)
 			(effects
 				(font
@@ -15187,7 +15437,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 421.64 391.16 0)
 			(effects
 				(font
@@ -15326,7 +15576,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 639.826 138.176 90)
 			(effects
 				(font
@@ -15388,7 +15638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 477.52 195.58 0)
 			(effects
 				(font
@@ -15461,7 +15711,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 411.48 219.71 0)
 			(effects
 				(font
@@ -15529,7 +15779,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 304.8 71.12 0)
 			(effects
 				(font
@@ -15597,7 +15847,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 628.65 149.86 0)
 			(effects
 				(font
@@ -15664,7 +15914,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 330.2 110.49 0)
 			(effects
 				(font
@@ -15808,7 +16058,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 292.1 135.89 0)
 			(effects
 				(font
@@ -15876,7 +16126,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 424.18 420.37 0)
 			(effects
 				(font
@@ -16010,7 +16260,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 652.78 91.44 0)
 			(effects
 				(font
@@ -16054,7 +16304,7 @@
 	)
 	(symbol
 		(lib_id "Bay:OLED")
-		(at 222.25 34.29 0)
+		(at 222.25 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16063,7 +16313,7 @@
 		(fields_autoplaced yes)
 		(uuid "20ac2ec0-0ab9-4766-8e7f-97ac3674d171")
 		(property "Reference" "Disp1"
-			(at 222.25 26.67 0)
+			(at 222.25 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16071,15 +16321,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 222.25 29.21 0)
+			(at 222.25 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 222.25 34.29 0)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x04_P6mm_D1.7mm_OD3mm"
+			(at 222.25 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16088,7 +16338,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 34.29 0)
+			(at 222.25 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16097,7 +16347,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 34.29 0)
+			(at 222.25 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16218,7 +16468,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 279.4 109.22 0)
 			(effects
 				(font
@@ -16288,7 +16538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 462.28 193.04 0)
 			(effects
 				(font
@@ -16356,7 +16606,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 433.07 149.86 0)
 			(effects
 				(font
@@ -16424,7 +16674,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 420.37 360.68 0)
 			(effects
 				(font
@@ -16492,7 +16742,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PTSM-0,5-2-2.5-H-THR_1x02_P2.50mm_Horizontal"
 			(at 436.88 308.61 0)
 			(effects
 				(font
@@ -16561,7 +16811,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 457.2 162.56 0)
 			(effects
 				(font
@@ -16694,7 +16944,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 330.2 96.52 0)
 			(effects
 				(font
@@ -16764,7 +17014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-16_W7.62mm_SideBrazed"
 			(at 86.36 345.44 0)
 			(effects
 				(font
@@ -16849,6 +17099,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 218.44 560.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f244a57-3c8b-4d64-85aa-2f98abf12fad")
+		(property "Reference" "#PWR049"
+			(at 218.44 566.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 218.44 565.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 560.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 560.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 560.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9aad5563-b881-4307-87c9-914a10089231")
+		)
+		(instances
+			(project "circuit"
+				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 457.2 96.52 0)
@@ -16868,7 +17183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 457.2 101.6 0)
 			(effects
 				(font
@@ -16941,7 +17256,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 652.78 162.56 0)
 			(effects
 				(font
@@ -17050,6 +17365,7 @@
 		)
 	)
 	(symbol
+		(lib_name "AudioJack2_1")
 		(lib_id "Connector_Audio:AudioJack2")
 		(at 425.45 68.58 0)
 		(unit 1)
@@ -17075,7 +17391,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 425.45 68.58 0)
 			(effects
 				(font
@@ -17137,7 +17453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 411.48 58.42 0)
 			(effects
 				(font
@@ -17209,7 +17525,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 279.4 123.19 0)
 			(effects
 				(font
@@ -17271,7 +17587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 452.12 240.03 0)
 			(effects
 				(font
@@ -17344,7 +17660,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 459.74 93.98 0)
 			(effects
 				(font
@@ -17406,7 +17722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 480.06 125.73 0)
 			(effects
 				(font
@@ -17481,7 +17797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 68.58 360.68 0)
 			(effects
 				(font
@@ -17548,7 +17864,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 415.29 137.16 0)
 			(effects
 				(font
@@ -17616,7 +17932,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 639.826 67.056 90)
 			(effects
 				(font
@@ -17684,7 +18000,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 317.5 147.32 0)
 			(effects
 				(font
@@ -17751,7 +18067,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 412.75 207.01 0)
 			(effects
 				(font
@@ -17794,6 +18110,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 293.37 495.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46b04539-d9da-4735-8ca4-641d729cf1a9")
+		(property "Reference" "#PWR048"
+			(at 293.37 501.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 293.37 500.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.37 495.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 495.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 293.37 495.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "798acc17-aec0-45e6-a397-ea9cd7fe4c47")
+		)
+		(instances
+			(project "circuit"
+				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 403.86 194.31 0)
@@ -17813,7 +18194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 403.86 199.39 0)
 			(effects
 				(font
@@ -17885,7 +18266,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 304.8 85.09 0)
 			(effects
 				(font
@@ -17955,7 +18336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-16_W7.62mm_SideBrazed"
 			(at 317.5 424.18 0)
 			(effects
 				(font
@@ -18066,7 +18447,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 609.6 78.74 0)
 			(effects
 				(font
@@ -18194,7 +18575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 454.66 170.18 0)
 			(effects
 				(font
@@ -18267,7 +18648,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 609.6 149.86 0)
 			(effects
 				(font
@@ -18334,7 +18715,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 610.87 137.16 0)
 			(effects
 				(font
@@ -18371,6 +18752,72 @@
 			(project "bay"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
 					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 349.25 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "522d0c92-84e8-4e92-b4a9-b1ebff861077")
+		(property "Reference" "#PWR010"
+			(at 349.25 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 349.25 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 349.25 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 349.25 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ae64562-841f-4516-90ee-e7bcc1ae6129")
+		)
+		(instances
+			(project "circuit"
+				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -18471,7 +18918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 469.9 299.72 0)
 			(effects
 				(font
@@ -18539,7 +18986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 292.1 58.42 0)
 			(effects
 				(font
@@ -18609,7 +19056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-16_W7.62mm_SideBrazed"
 			(at 86.36 293.37 0)
 			(effects
 				(font
@@ -18719,7 +19166,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 304.8 134.62 0)
 			(effects
 				(font
@@ -18779,7 +19226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 228.6 372.11 0)
 			(effects
 				(font
@@ -18893,6 +19340,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 219.71 431.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b1e4b86-595b-467f-9673-5adc121e892d")
+		(property "Reference" "#PWR045"
+			(at 219.71 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 219.71 436.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d94904ae-5f89-496b-9ba8-6ce46fbc41eb")
+		)
+		(instances
+			(project "circuit"
+				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Analog_Switch:CD4051B")
 		(at 243.84 407.67 0)
 		(unit 1)
@@ -18920,7 +19432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-16_W7.62mm_SideBrazed"
 			(at 247.65 426.72 0)
 			(effects
 				(font
@@ -19092,7 +19604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 513.08 88.9 0)
 			(effects
 				(font
@@ -19141,16 +19653,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 293.37 495.3 0)
+		(at 217.17 495.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "661642a1-0c07-4256-84c4-34276cf0c82f")
-		(property "Reference" "#PWR048"
-			(at 293.37 501.65 0)
+		(uuid "668fe672-f5f9-4be3-9315-4ddd757efa25")
+		(property "Reference" "#PWR047"
+			(at 217.17 501.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19158,17 +19669,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 293.37 500.38 0)
+		(property "Value" "AGND"
+			(at 217.17 500.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 293.37 495.3 0)
+			(at 217.17 495.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19177,7 +19687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 293.37 495.3 0)
+			(at 217.17 495.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19186,7 +19696,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 293.37 495.3 0)
+			(at 217.17 495.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19195,79 +19705,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e1eb43ff-891f-4713-b289-283d8252753b")
+			(uuid "e6a46c59-bb6d-4881-8b6f-4d0d8cde1772")
 		)
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 226.06 435.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68041e22-4682-4425-bf97-a6fb1e97e3fb")
-		(property "Reference" "#PWR045"
-			(at 226.06 441.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 226.06 440.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 435.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 435.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 435.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dfda4b36-3930-4d5b-82fc-7825b1f2e138")
-		)
-		(instances
-			(project "circuit"
-				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "#PWR045")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -19299,7 +19742,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 430.53 219.71 0)
 			(effects
 				(font
@@ -19342,6 +19785,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 553.72 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "692aa09e-63f1-4bd4-a1f3-e0ab258b8f9b")
+		(property "Reference" "#PWR01"
+			(at 553.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 553.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 553.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 553.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 553.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14343579-3220-4a67-aa0e-db96408632ad")
+		)
+		(instances
+			(project ""
+				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Analog_Switch:CD4051B")
 		(at 246.38 339.09 0)
 		(unit 1)
@@ -19369,7 +19878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-16_W7.62mm_SideBrazed"
 			(at 250.19 358.14 0)
 			(effects
 				(font
@@ -19482,7 +19991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-16_W7.62mm_SideBrazed"
 			(at 157.48 347.98 0)
 			(effects
 				(font
@@ -19586,7 +20095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 601.98 58.42 0)
 			(effects
 				(font
@@ -19661,7 +20170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 660.4 52.07 0)
 			(effects
 				(font
@@ -19704,6 +20213,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 295.91 433.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c6d1628-91e3-4fee-84c8-1f805697afc8")
+		(property "Reference" "#PWR046"
+			(at 295.91 439.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 295.91 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 295.91 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9030f694-f828-4be8-bbd3-94f9f80cc0d8")
+		)
+		(instances
+			(project "circuit"
+				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 68.58 308.61 0)
 		(unit 1)
@@ -19731,7 +20305,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 68.58 308.61 0)
 			(effects
 				(font
@@ -19801,7 +20375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 464.82 123.19 0)
 			(effects
 				(font
@@ -19937,7 +20511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed"
 			(at 655.32 73.66 0)
 			(effects
 				(font
@@ -20016,7 +20590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 650.24 99.06 0)
 			(effects
 				(font
@@ -20091,7 +20665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 660.4 123.19 0)
 			(effects
 				(font
@@ -20161,7 +20735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 467.36 54.61 0)
 			(effects
 				(font
@@ -20288,7 +20862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 419.1 347.98 0)
 			(effects
 				(font
@@ -20361,7 +20935,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 330.2 160.02 0)
 			(effects
 				(font
@@ -20429,7 +21003,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 445.77 360.68 0)
 			(effects
 				(font
@@ -20496,7 +21070,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 317.5 161.29 0)
 			(effects
 				(font
@@ -20650,7 +21224,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 440.436 220.726 90)
 			(effects
 				(font
@@ -20693,6 +21267,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 556.26 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e66183e-8b6c-45b4-9d19-00932da9f27b")
+		(property "Reference" "NT1"
+			(at 556.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 556.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_THT_Pad1.0mm"
+			(at 556.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 556.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 556.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a0edbcd-e6f3-4f8b-94ea-586388ed5967")
+		)
+		(pin "2"
+			(uuid "f7853a06-909c-425a-b083-5f57066d4035")
+		)
+		(instances
+			(project ""
+				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
+					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 304.8 148.59 270)
 		(unit 1)
@@ -20717,7 +21359,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 304.8 148.59 0)
 			(effects
 				(font
@@ -20859,7 +21501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-16_W7.62mm_SideBrazed"
 			(at 146.05 293.37 0)
 			(effects
 				(font
@@ -20969,7 +21611,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 317.5 83.82 0)
 			(effects
 				(font
@@ -21097,7 +21739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 675.64 54.61 0)
 			(effects
 				(font
@@ -21211,6 +21853,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 290.83 558.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97dcb4a0-fd59-4ca7-968e-67b2238ad367")
+		(property "Reference" "#PWR050"
+			(at 290.83 565.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 290.83 563.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 558.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 558.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 290.83 558.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c9aec57-f4f2-4502-ac44-f3fa559ea371")
+		)
+		(instances
+			(project "circuit"
+				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 63.5 311.15 0)
@@ -21305,7 +22012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-16_W7.62mm_SideBrazed"
 			(at 318.77 358.14 0)
 			(effects
 				(font
@@ -21416,7 +22123,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 629.92 66.04 0)
 			(effects
 				(font
@@ -21484,7 +22191,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 628.65 78.74 0)
 			(effects
 				(font
@@ -21554,7 +22261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-16_W7.62mm_SideBrazed"
 			(at 271.78 613.41 0)
 			(effects
 				(font
@@ -21667,7 +22374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-16_W7.62mm_SideBrazed"
 			(at 243.84 488.95 0)
 			(effects
 				(font
@@ -21844,7 +22551,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 330.2 173.99 0)
 			(effects
 				(font
@@ -21912,7 +22619,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 441.706 69.596 90)
 			(effects
 				(font
@@ -21974,7 +22681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 601.98 129.54 0)
 			(effects
 				(font
@@ -22049,7 +22756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-16_W7.62mm_SideBrazed"
 			(at 314.96 486.41 0)
 			(effects
 				(font
@@ -22159,7 +22866,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 610.87 66.04 0)
 			(effects
 				(font
@@ -22227,7 +22934,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 431.8 207.01 0)
 			(effects
 				(font
@@ -22295,7 +23002,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 435.61 68.58 0)
 			(effects
 				(font
@@ -22363,7 +23070,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 445.77 391.16 0)
 			(effects
 				(font
@@ -22433,7 +23140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed"
 			(at 462.28 76.2 0)
 			(effects
 				(font
@@ -22578,7 +23285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 482.6 57.15 0)
 			(effects
 				(font
@@ -22653,7 +23360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 457.2 299.72 0)
 			(effects
 				(font
@@ -22696,73 +23403,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 218.44 560.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7076823-71bd-4934-93d4-e1f81b410936")
-		(property "Reference" "#PWR049"
-			(at 218.44 566.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 218.44 565.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 560.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 560.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 560.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fb8466b-c071-4eff-9f8d-2557f2daf61f")
-		)
-		(instances
-			(project "circuit"
-				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 279.4 50.8 0)
 		(unit 1)
@@ -22788,7 +23428,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 279.4 45.72 0)
 			(effects
 				(font
@@ -22858,7 +23498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed"
 			(at 457.2 214.63 0)
 			(effects
 				(font
@@ -22912,6 +23552,71 @@
 			(project "bay"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 250.19 622.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb3a0cd1-68a9-4eb8-b88c-460793507506")
+		(property "Reference" "#PWR051"
+			(at 250.19 628.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 250.19 627.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 622.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 622.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 622.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f33d916-cc98-43c5-8855-dec5dd28c6d4")
+		)
+		(instances
+			(project "circuit"
+				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -23017,7 +23722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed"
 			(at 655.32 144.78 0)
 			(effects
 				(font
@@ -23101,7 +23806,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 317.5 97.79 0)
 			(effects
 				(font
@@ -23144,6 +23849,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 563.88 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6427fc1-387d-4099-bfcc-a46563cb57f4")
+		(property "Reference" "#PWR02"
+			(at 563.88 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 563.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 563.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 563.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 563.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d9540b4-7711-4f1e-aaf0-61aa7ddf5216")
+		)
+		(instances
+			(project "circuit"
+				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 629.92 137.16 90)
 		(unit 1)
@@ -23169,7 +23940,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 629.92 137.16 0)
 			(effects
 				(font
@@ -23212,73 +23983,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 295.91 433.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c793c3e3-c565-4766-b12e-a2e6e27ac4c3")
-		(property "Reference" "#PWR046"
-			(at 295.91 439.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 295.91 438.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 295.91 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 295.91 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 295.91 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffac2eb5-7928-46e6-b890-102ac4559f4d")
-		)
-		(instances
-			(project "circuit"
-				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 128.27 312.42 0)
 		(unit 1)
@@ -23306,7 +24010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 128.27 312.42 0)
 			(effects
 				(font
@@ -23374,7 +24078,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 638.556 79.756 90)
 			(effects
 				(font
@@ -23442,7 +24146,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 487.68 68.58 0)
 			(effects
 				(font
@@ -23509,7 +24213,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 279.4 59.69 0)
 			(effects
 				(font
@@ -23571,7 +24275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 406.4 129.54 0)
 			(effects
 				(font
@@ -23644,7 +24348,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 638.556 150.876 90)
 			(effects
 				(font
@@ -23712,7 +24416,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal_CircularHoles"
 			(at 410.21 305.816 0)
 			(effects
 				(font
@@ -23780,7 +24484,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 414.02 149.86 0)
 			(effects
 				(font
@@ -23850,7 +24554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-16_W7.62mm_SideBrazed"
 			(at 240.03 551.18 0)
 			(effects
 				(font
@@ -23961,7 +24665,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 454.66 232.41 0)
 			(effects
 				(font
@@ -24031,7 +24735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Espressif:ESP32-S3-DevKitC"
+		(property "Footprint" "Esp32 DevKits:ESP32-S3-DevKitC"
 			(at 154.94 158.75 0)
 			(effects
 				(font
@@ -24200,140 +24904,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 290.83 558.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de98b33d-3b97-487e-973c-1384fda9a999")
-		(property "Reference" "#PWR050"
-			(at 290.83 565.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 290.83 563.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 290.83 558.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 290.83 558.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 290.83 558.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "42ec93c2-fd73-4012-9e66-21a56276777d")
-		)
-		(instances
-			(project "circuit"
-				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 222.25 497.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e03e1e3f-11e1-47e1-bc03-dfd958acda29")
-		(property "Reference" "#PWR047"
-			(at 222.25 504.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 222.25 502.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 497.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 497.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 497.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f3b75c05-1e7b-479f-be40-4f0885830512")
-		)
-		(instances
-			(project "circuit"
-				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Analog_Switch:CD4051B")
 		(at 308.61 530.86 0)
 		(unit 1)
@@ -24361,7 +24931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-16_W7.62mm_SideBrazed"
 			(at 312.42 549.91 0)
 			(effects
 				(font
@@ -24471,7 +25041,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 292.1 72.39 0)
 			(effects
 				(font
@@ -24671,7 +25241,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 444.246 138.176 90)
 			(effects
 				(font
@@ -24733,7 +25303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 675.64 125.73 0)
 			(effects
 				(font
@@ -24808,7 +25378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 447.04 331.47 0)
 			(effects
 				(font
@@ -24878,7 +25448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 471.17 326.39 0)
 			(effects
 				(font
@@ -24946,7 +25516,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 442.976 150.876 90)
 			(effects
 				(font
@@ -25013,7 +25583,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 292.1 121.92 0)
 			(effects
 				(font
@@ -25081,7 +25651,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 500.38 81.28 0)
 			(effects
 				(font
@@ -25118,6 +25688,72 @@
 			(project "bay"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 563.88 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f636dfaa-ace5-4fb5-b6c7-243d07c06ec2")
+		(property "Reference" "#FLG010"
+			(at 563.88 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 563.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 563.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 563.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 563.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f818984b-e859-4059-8316-f402d7a7c026")
+		)
+		(instances
+			(project "circuit"
+				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
+					(reference "#FLG010")
 					(unit 1)
 				)
 			)
@@ -25215,7 +25851,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 434.34 137.16 0)
 			(effects
 				(font
@@ -25283,7 +25919,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 447.04 420.37 0)
 			(effects
 				(font
