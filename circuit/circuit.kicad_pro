@@ -537,7 +537,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 100,
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -653,6 +653,30 @@
     [
       "420e3d7a-6c9a-4806-b4be-05d56aeb21de",
       "Root"
+    ],
+    [
+      "52ecec71-1c0e-4647-a50f-721f168ee7e0",
+      "Power"
+    ],
+    [
+      "91f6596b-9a37-4517-8aab-00555625375a",
+      "Buffers"
+    ],
+    [
+      "eb40e95c-c2ba-417c-afee-eaf028752aed",
+      "IO Routing"
+    ],
+    [
+      "be7f89fe-51f3-4dfc-9362-b897b38bc33a",
+      "Pedal Routing 1 - 4"
+    ],
+    [
+      "badefe61-f2aa-4ce3-b43f-f44172d96524",
+      "Pedal Routing 5 - 8"
+    ],
+    [
+      "4760116a-7aa4-465f-87dd-a53dbe30c185",
+      "Shift Registers"
     ]
   ],
   "text_variables": {}
