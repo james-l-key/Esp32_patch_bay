@@ -2502,7 +2502,7 @@
 			)
 		)
 	)
-	(global_label "MATRIX_OUT"
+	(global_label "MATRIX_OUT_PRE"
 		(shape input)
 		(at 36.83 43.18 180)
 		(fields_autoplaced yes)
@@ -3303,7 +3303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
+		(property "Footprint" "Bay:Pedal_Jack"
 			(at 24.13 166.37 0)
 			(effects
 				(font
@@ -3849,7 +3849,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
+		(property "Footprint" "Bay:Pedal_Jack"
 			(at 33.02 30.48 0)
 			(effects
 				(font
@@ -4185,7 +4185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
+		(property "Footprint" "Bay:Pedal_Jack"
 			(at 25.4 88.9 0)
 			(effects
 				(font
@@ -4320,7 +4320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
+		(property "Footprint" "Bay:Pedal_Jack"
 			(at 25.4 153.67 0)
 			(effects
 				(font
@@ -4455,7 +4455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
+		(property "Footprint" "Bay:Pedal_Jack"
 			(at 140.97 40.64 0)
 			(effects
 				(font
@@ -4590,7 +4590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
+		(property "Footprint" "Bay:Pedal_Jack"
 			(at 140.97 101.6 0)
 			(effects
 				(font
@@ -4657,7 +4657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
+		(property "Footprint" "Bay:Pedal_Jack"
 			(at 142.24 88.9 0)
 			(effects
 				(font
@@ -5765,7 +5765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
+		(property "Footprint" "Bay:Pedal_Jack"
 			(at 142.24 27.94 0)
 			(effects
 				(font
@@ -6636,7 +6636,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
+		(property "Footprint" "Bay:Pedal_Jack"
 			(at 24.13 101.6 0)
 			(effects
 				(font
@@ -6975,7 +6975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
+		(property "Footprint" "Bay:Pedal_Jack"
 			(at 107.95 43.18 0)
 			(effects
 				(font

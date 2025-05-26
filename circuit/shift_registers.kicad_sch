@@ -696,16 +696,12 @@
 		(uuid "ffc502d3-cdb4-4cd3-bb5f-4200eaa0eef7")
 	)
 	(no_connect
-		(at 204.47 139.7)
-		(uuid "2601a152-6f4f-4e8e-9ff9-108ad589fc38")
-	)
-	(no_connect
-		(at 204.47 142.24)
-		(uuid "9191db91-362e-4317-9f8a-cb4b2a1eb996")
-	)
-	(no_connect
 		(at 204.47 147.32)
 		(uuid "de9e4660-e4b3-4ca7-9c82-45c36dde489d")
+	)
+	(no_connect
+		(at 133.35 72.39)
+		(uuid "eed7ad86-1757-4af7-973b-21fb81b77305")
 	)
 	(bus_entry
 		(at 142.24 82.55)
@@ -816,13 +812,13 @@
 		(uuid "43482e04-09ee-4970-b775-a9d356afac1c")
 	)
 	(bus_entry
-		(at 144.78 69.85)
+		(at 218.44 137.16)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "503e1d62-a2f8-420f-9d24-7b0c25d0e31f")
+		(uuid "4739acdc-d9d9-4788-8730-99f72aa88fef")
 	)
 	(bus_entry
 		(at 218.44 127)
@@ -859,6 +855,15 @@
 			(type default)
 		)
 		(uuid "697a5dcd-2618-4d67-87f5-3ebc8ae56354")
+	)
+	(bus_entry
+		(at 218.44 139.7)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7010f66b-6a90-4a0a-8c0f-62601751b70f")
 	)
 	(bus_entry
 		(at 203.2 77.47)
@@ -969,15 +974,6 @@
 		(uuid "e5a01a1a-00fc-4de7-9211-36d7044b5a19")
 	)
 	(bus_entry
-		(at 142.24 72.39)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e97756af-2ea1-41a1-9112-755f45c999f5")
-	)
-	(bus_entry
 		(at 147.32 132.08)
 		(size -2.54 2.54)
 		(stroke
@@ -1067,7 +1063,7 @@
 	)
 	(bus
 		(pts
-			(xy 144.78 69.85) (xy 144.78 72.39)
+			(xy 144.78 68.58) (xy 144.78 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1084,6 +1080,16 @@
 			(type default)
 		)
 		(uuid "1b96dd0d-995e-43e0-96b8-a4da845d81c0")
+	)
+	(wire
+		(pts
+			(xy 204.47 142.24) (xy 215.9 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0379e3-548b-4a4e-bb6d-5938eecc7e25")
 	)
 	(bus
 		(pts
@@ -1445,6 +1451,16 @@
 		)
 		(uuid "6a3f138d-78a9-42ba-aa4b-6e667f8f352d")
 	)
+	(bus
+		(pts
+			(xy 218.44 137.16) (xy 218.44 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aefb6bb-1823-412f-8514-9480dd3ed648")
+	)
 	(wire
 		(pts
 			(xy 158.75 77.47) (xy 158.75 96.52)
@@ -1514,16 +1530,6 @@
 			(type default)
 		)
 		(uuid "7469babe-41bb-4ced-a0be-f03868b846ec")
-	)
-	(wire
-		(pts
-			(xy 133.35 72.39) (xy 142.24 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78b252c8-ce32-4fc2-b1c6-3e859dd26a55")
 	)
 	(bus
 		(pts
@@ -1604,6 +1610,16 @@
 			(type default)
 		)
 		(uuid "8323e94d-d4a7-4929-83b7-1b547dd5a6a9")
+	)
+	(bus
+		(pts
+			(xy 218.44 134.62) (xy 218.44 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84fd286f-4901-4993-8ca0-cdbb7af1799f")
 	)
 	(bus
 		(pts
@@ -1827,16 +1843,6 @@
 	)
 	(bus
 		(pts
-			(xy 144.78 68.58) (xy 144.78 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baa140b8-965c-4304-a8c0-b38310cab527")
-	)
-	(bus
-		(pts
 			(xy 203.2 72.39) (xy 203.2 69.85)
 		)
 		(stroke
@@ -1934,6 +1940,16 @@
 			(type default)
 		)
 		(uuid "cd35499d-81ef-44cb-9896-25948846dc21")
+	)
+	(wire
+		(pts
+			(xy 204.47 139.7) (xy 215.9 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceeefbd4-bba3-4ea1-8c06-42d72ccf8e69")
 	)
 	(bus
 		(pts
@@ -2265,16 +2281,6 @@
 		)
 		(uuid "6288b68b-e29f-4b7b-a9be-4114003b402c")
 	)
-	(label "U7_Q1"
-		(at 135.89 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "64c817e0-390a-4019-9d43-78219cc68433")
-	)
 	(label "U8_Q2"
 		(at 194.31 74.93 0)
 		(effects
@@ -2314,6 +2320,16 @@
 			(justify right bottom)
 		)
 		(uuid "8db932f0-6653-4b58-8b88-3779e50cb402")
+	)
+	(label "U10_Q6"
+		(at 204.47 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90995bc8-df2d-4c3a-84ae-f1ab68107598")
 	)
 	(label "U8_Q1"
 		(at 194.31 72.39 0)
@@ -2395,6 +2411,16 @@
 		)
 		(uuid "af6eaeb8-66bd-4e7d-9528-9c1b4e3ad6aa")
 	)
+	(label "U10_Q7"
+		(at 204.47 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8d1f62b-dea0-49e5-ab43-6b4519c9d805")
+	)
 	(label "U9_Q4"
 		(at 133.35 132.08 0)
 		(effects
@@ -2455,7 +2481,7 @@
 		)
 		(uuid "dad08f02-b5ed-45ea-aaca-80d7fd024511")
 	)
-	(label "U10_Q[0..5]"
+	(label "U10_Q[0..7]"
 		(at 223.52 119.38 0)
 		(effects
 			(font
@@ -2890,7 +2916,7 @@
 		)
 		(uuid "63427573-1742-47b4-9609-33f480437064")
 	)
-	(hierarchical_label "U10_Q[0..5]"
+	(hierarchical_label "U10_Q[0..7]"
 		(shape output)
 		(at 222.25 120.65 0)
 		(effects

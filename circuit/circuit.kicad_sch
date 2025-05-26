@@ -407,7 +407,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Espressif:ESP32-S3-DevKitC"
+		(symbol "Espressif:ESP32-S3-DevKitC"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1660,12 +1660,6 @@
 		(uuid "3df3d4bb-2fa4-403d-aa47-00a8be9e010c")
 	)
 	(junction
-		(at 219.71 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f450423-11cd-42f7-a826-176200d02d1a")
-	)
-	(junction
 		(at 299.72 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1726,22 +1720,16 @@
 		(uuid "761b20ce-76d4-4bd8-906b-8737b565b566")
 	)
 	(junction
-		(at 224.79 255.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80cad862-0e5a-47a0-99a6-1c70f4134faa")
-	)
-	(junction
 		(at 309.88 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8951c83b-b254-4586-999b-d67ace90a090")
 	)
 	(junction
-		(at 227.33 198.12)
+		(at 222.25 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8db46113-c4bf-4fa2-a125-2c0a2257e00f")
+		(uuid "8a728efb-834e-4529-8c2d-38eece7ad596")
 	)
 	(junction
 		(at 349.25 152.4)
@@ -1947,16 +1935,6 @@
 		)
 		(uuid "04228dcf-5c45-4fcf-a4bd-e30b8a2f3f3e")
 	)
-	(bus
-		(pts
-			(xy 210.82 198.12) (xy 227.33 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08e99dfb-0af0-412a-a00b-6cdd75c9c62f")
-	)
 	(wire
 		(pts
 			(xy 349.25 88.9) (xy 349.25 101.6)
@@ -1996,16 +1974,6 @@
 			(type default)
 		)
 		(uuid "124f7c1d-edd4-4c45-ab10-9153783c9668")
-	)
-	(bus
-		(pts
-			(xy 227.33 252.73) (xy 238.76 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "135f9f07-3e81-4698-8f97-fd50360a8b03")
 	)
 	(wire
 		(pts
@@ -2086,16 +2054,6 @@
 			(type default)
 		)
 		(uuid "21da74ae-9d07-4f4c-9911-95944669efbe")
-	)
-	(bus
-		(pts
-			(xy 238.76 309.88) (xy 224.79 309.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "262215ac-7a25-4276-9812-5cd68783c65d")
 	)
 	(wire
 		(pts
@@ -2229,7 +2187,7 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 312.42) (xy 222.25 203.2)
+			(xy 222.25 312.42) (xy 222.25 257.81)
 		)
 		(stroke
 			(width 0)
@@ -2327,16 +2285,6 @@
 		)
 		(uuid "598e6437-6a2f-43fc-b4b3-67f136da8cca")
 	)
-	(bus
-		(pts
-			(xy 224.79 309.88) (xy 224.79 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f4cf845-edbd-46d1-ae13-89aafdbf844e")
-	)
 	(wire
 		(pts
 			(xy 201.93 106.68) (xy 201.93 114.3)
@@ -2406,16 +2354,6 @@
 			(type default)
 		)
 		(uuid "6eef5895-b025-4fc9-ab1f-bcce5f49c4d8")
-	)
-	(bus
-		(pts
-			(xy 227.33 198.12) (xy 227.33 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f656f6a-190c-450b-b324-846e4cc32638")
 	)
 	(wire
 		(pts
@@ -2617,6 +2555,16 @@
 		)
 		(uuid "97fb4e86-3fc9-43eb-aef9-d6280b28fe89")
 	)
+	(bus
+		(pts
+			(xy 222.25 257.81) (xy 238.76 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "989a344c-4fab-4b5f-a0df-eaf9a4aa8ae9")
+	)
 	(wire
 		(pts
 			(xy 129.54 68.58) (xy 97.79 68.58)
@@ -2699,7 +2647,7 @@
 	)
 	(bus
 		(pts
-			(xy 227.33 198.12) (xy 237.49 198.12)
+			(xy 210.82 198.12) (xy 237.49 198.12)
 		)
 		(stroke
 			(width 0)
@@ -2726,6 +2674,16 @@
 			(type default)
 		)
 		(uuid "b104a95b-25f4-4749-a5b2-5e885475c200")
+	)
+	(bus
+		(pts
+			(xy 222.25 257.81) (xy 222.25 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c84827-ae07-46b5-9486-5d5ffff488c4")
 	)
 	(wire
 		(pts
@@ -2937,16 +2895,6 @@
 		)
 		(uuid "e4001e34-0c32-4ac8-8eed-59561e6b7fa8")
 	)
-	(bus
-		(pts
-			(xy 219.71 205.74) (xy 237.49 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e67e12d9-dcfa-42a9-ad8e-43cc8c6688f9")
-	)
 	(wire
 		(pts
 			(xy 335.28 173.99) (xy 335.28 165.1)
@@ -3036,6 +2984,26 @@
 			(type default)
 		)
 		(uuid "ffae3a37-07b7-473b-960f-fb9e5bb462f2")
+	)
+	(label "U10_Q[0..7]"
+		(at 219.71 220.98 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b8a7d12-e5ca-470e-9ec1-e2974cf43cdb")
+	)
+	(label "U9_Q[0..7]"
+		(at 212.09 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57734ee3-b744-4795-a622-0d7acb5d185d")
 	)
 	(global_label "3.3V"
 		(shape input)
@@ -4544,6 +4512,202 @@
 		)
 	)
 	(symbol
+		(lib_id "Espressif:ESP32-S3-DevKitC")
+		(at 154.94 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a30e7397-ad60-47e6-9553-6a43f1437fb0")
+		(property "Reference" "U5"
+			(at 157.0833 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESP32-S3-DevKitC"
+			(at 157.0833 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ESP:ESP32-S3-DevKitC"
+			(at 154.94 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESP32-S3-DevKitC"
+			(at 154.94 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "38"
+			(uuid "df1a15fc-e00a-4994-8a9b-9148d9b9c256")
+		)
+		(pin "16"
+			(uuid "53d07081-897a-4806-b667-2918aed5da04")
+		)
+		(pin "10"
+			(uuid "9d157e27-7445-4744-90ae-79b82c04b8f2")
+		)
+		(pin "28"
+			(uuid "a0cee767-1e06-44e4-b72d-509e0f9b89f5")
+		)
+		(pin "33"
+			(uuid "ea1ee6ac-fa04-420b-b5b8-313930d913e7")
+		)
+		(pin "31"
+			(uuid "d7610995-124a-4e98-b6ea-3e7b101c9214")
+		)
+		(pin "18"
+			(uuid "3f4eddb5-e419-42cb-bab0-1c3b063a84b3")
+		)
+		(pin "6"
+			(uuid "a3163ac6-2655-44b8-b76a-f53c3edc1fc7")
+		)
+		(pin "35"
+			(uuid "d0229692-dc40-40cb-afd6-1d1ad7123fe8")
+		)
+		(pin "9"
+			(uuid "60938434-c965-4ad0-a73e-3fcedd07679f")
+		)
+		(pin "36"
+			(uuid "7a349a4e-7955-4a2c-8f85-b12b2231d159")
+		)
+		(pin "37"
+			(uuid "d7266cab-c599-4cd4-8fe7-bfc93e15ef2a")
+		)
+		(pin "11"
+			(uuid "cb0d2430-89be-4aca-b29e-2ee9a5025668")
+		)
+		(pin "29"
+			(uuid "95543072-6865-4864-822b-2c7624442541")
+		)
+		(pin "20"
+			(uuid "5ef4b71a-26f3-441b-abcd-020758c1716c")
+		)
+		(pin "12"
+			(uuid "d8174c05-c2a1-4660-8b36-3f6d4ce01a2b")
+		)
+		(pin "5"
+			(uuid "2563796d-c729-49ed-9f2e-1ab9014884d0")
+		)
+		(pin "34"
+			(uuid "96642392-220a-40e3-befa-03ec44fe8cfa")
+		)
+		(pin "15"
+			(uuid "4f1058e3-ac40-4f41-a88e-124dde38d17b")
+		)
+		(pin "13"
+			(uuid "f587a6ef-f66f-4f6c-b24b-21c9de4dfc8b")
+		)
+		(pin "4"
+			(uuid "66662d82-4562-4c77-9f01-35e63c77efb8")
+		)
+		(pin "7"
+			(uuid "ca9a3b5e-47bd-437e-a722-b76bc45ada7b")
+		)
+		(pin "17"
+			(uuid "880517b7-973a-4a7e-b2c6-b6461a2141b7")
+		)
+		(pin "1"
+			(uuid "47b5e688-2002-476a-afc8-a1058c56584f")
+		)
+		(pin "21"
+			(uuid "18634a6d-2f7d-4d3d-85a5-e08b1571fc8c")
+		)
+		(pin "27"
+			(uuid "ca8602c4-f385-4281-ba26-318795b9aeb7")
+		)
+		(pin "32"
+			(uuid "46c64ed3-79cf-48c2-97c5-9e817d398aa8")
+		)
+		(pin "22"
+			(uuid "ae8a88f9-0864-4022-b069-9ac8b6ff8bce")
+		)
+		(pin "25"
+			(uuid "8be37582-3650-49c5-8315-0a5b0dd43ae1")
+		)
+		(pin "2"
+			(uuid "ba30bf5b-4aa4-4c02-9605-f18eeb379e93")
+		)
+		(pin "14"
+			(uuid "052d9473-a568-4519-8392-f697493ee4e2")
+		)
+		(pin "3"
+			(uuid "72374a83-311c-49a5-8b63-c8031f4b1f26")
+		)
+		(pin "8"
+			(uuid "4e878468-5aec-406b-b4c1-529ae6ded7f0")
+		)
+		(pin "23"
+			(uuid "2536d686-478c-44f0-8484-319fd701e89e")
+		)
+		(pin "19"
+			(uuid "d57a18ef-a543-4427-9c0d-b2e94257182e")
+		)
+		(pin "41"
+			(uuid "cea1b5ef-4d27-4b3a-a372-27d0dc23fc78")
+		)
+		(pin "42"
+			(uuid "16971a14-3f9a-44c3-8f3a-c26132a8bd21")
+		)
+		(pin "43"
+			(uuid "e0bab28e-8f11-43c4-abd7-3242589de390")
+		)
+		(pin "44"
+			(uuid "977305f7-9209-436e-95bf-89ede7ff205c")
+		)
+		(pin "39"
+			(uuid "b9fd2ffb-d903-4384-a57f-407d2bbb01b6")
+		)
+		(pin "40"
+			(uuid "484bd41c-8d5c-4d8a-907e-a6e8eea3d40a")
+		)
+		(pin "26"
+			(uuid "5939214c-eee0-4124-bbc4-b86a36a142b0")
+		)
+		(pin "24"
+			(uuid "ad0b89a8-57c0-4e86-a356-f682b07d610c")
+		)
+		(pin "30"
+			(uuid "7ec34e52-ecef-42e6-8430-44e991609be0")
+		)
+		(instances
+			(project ""
+				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 279.4 50.8 0)
 		(unit 1)
@@ -4806,202 +4970,6 @@
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
 					(reference "C101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Espressif:ESP32-S3-DevKitC")
-		(at 154.94 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc4fa76e-a981-4ff7-a946-f630d4d35297")
-		(property "Reference" "U5"
-			(at 157.0833 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESP32-S3-DevKitC"
-			(at 157.0833 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Esp32 DevKits:ESP32-S3-DevKitC"
-			(at 154.94 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESP32-S3-DevKitC"
-			(at 154.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "44"
-			(uuid "bd345fa0-aa99-454f-9a76-9a04c0a46d76")
-		)
-		(pin "32"
-			(uuid "39d86560-326e-4eda-bae3-5d33c462fd50")
-		)
-		(pin "41"
-			(uuid "109bcc41-d432-4380-ab03-a56a17906c08")
-		)
-		(pin "40"
-			(uuid "2e49eea7-2444-43ab-b2e5-4ddaeedac96f")
-		)
-		(pin "28"
-			(uuid "fbba763f-dc51-48aa-8506-d2853ef2674d")
-		)
-		(pin "5"
-			(uuid "d5370757-0d62-4202-a4d0-5c2a7080de25")
-		)
-		(pin "4"
-			(uuid "dc86f0c8-5357-4dfa-b334-201a4e9d258b")
-		)
-		(pin "19"
-			(uuid "db0cb721-dced-4d98-b219-057441803126")
-		)
-		(pin "17"
-			(uuid "bded7cab-e1e2-4306-a328-af94e9f89bb2")
-		)
-		(pin "3"
-			(uuid "4129db50-7536-47d7-90c3-218d5f732ff4")
-		)
-		(pin "35"
-			(uuid "10f8862c-a7fb-4a12-8871-c0e34aed4567")
-		)
-		(pin "43"
-			(uuid "a2267f16-c6cf-4412-9baf-dcc28bcc810c")
-		)
-		(pin "34"
-			(uuid "df46b3bd-75d9-4a81-a336-9fa18aa0a16d")
-		)
-		(pin "18"
-			(uuid "47cdd268-ea69-4042-a980-105a72dd1ce1")
-		)
-		(pin "11"
-			(uuid "baa4b2d3-01ef-467f-b8e4-a05460cc9bc9")
-		)
-		(pin "27"
-			(uuid "4d88881d-9930-49f8-83b0-130694ed4c8a")
-		)
-		(pin "30"
-			(uuid "edcadd46-193a-406a-8458-4cce5a7abc32")
-		)
-		(pin "20"
-			(uuid "723568ae-9bdf-4aeb-9640-31f807c3093c")
-		)
-		(pin "10"
-			(uuid "2e81aa20-56e9-4734-a343-e1367bdff017")
-		)
-		(pin "33"
-			(uuid "b0759ce7-9ca9-4bcb-91c2-ecb8306b764a")
-		)
-		(pin "29"
-			(uuid "0cfd627f-2a20-4c14-8385-597d6b7c9339")
-		)
-		(pin "39"
-			(uuid "0ac738af-71a6-41a4-9693-e2cda694532b")
-		)
-		(pin "8"
-			(uuid "12c7f805-dc6f-45c0-8217-28186d986dde")
-		)
-		(pin "9"
-			(uuid "bab03b42-d271-4761-a515-938aa0c1c5ff")
-		)
-		(pin "36"
-			(uuid "c004365e-2424-424b-89c2-8f60d4d0bcd8")
-		)
-		(pin "37"
-			(uuid "1fff588d-1ca9-42dc-8fcd-c972f66d8584")
-		)
-		(pin "38"
-			(uuid "19f31c66-967a-4c93-8e22-c59a75747398")
-		)
-		(pin "14"
-			(uuid "b4c89472-6414-46c0-a593-560f2c6446e2")
-		)
-		(pin "2"
-			(uuid "30e87052-a1f8-4244-8df9-9ed1c873f38c")
-		)
-		(pin "24"
-			(uuid "d086a3a8-3c85-46c6-86f5-29d3d7b7e430")
-		)
-		(pin "1"
-			(uuid "11f5d17f-f9b2-4ab4-9187-d82c160b1f68")
-		)
-		(pin "26"
-			(uuid "9697ebd1-a48d-4790-b494-5b63b6e503e9")
-		)
-		(pin "25"
-			(uuid "c54295d8-a91e-4f41-8b25-e60eeb5dcbe0")
-		)
-		(pin "31"
-			(uuid "1e894119-0605-4715-86de-d8f31fea266f")
-		)
-		(pin "21"
-			(uuid "5936df18-1088-4886-909b-a9604ecfe599")
-		)
-		(pin "23"
-			(uuid "72c6d27e-dfb1-4e06-90e0-9ab48d528726")
-		)
-		(pin "7"
-			(uuid "2f3ad15c-614e-45c4-ad74-0e493b6bf667")
-		)
-		(pin "12"
-			(uuid "49a3e5ac-6c88-4712-a739-2c89c76ecc05")
-		)
-		(pin "15"
-			(uuid "40c09ac1-20e2-485e-8277-aee2678a0f29")
-		)
-		(pin "16"
-			(uuid "ed371c2c-5277-4718-a25b-b4115239560c")
-		)
-		(pin "13"
-			(uuid "f5e054c6-ae15-4ff7-a661-7155165b422f")
-		)
-		(pin "22"
-			(uuid "2d9ef474-709b-4f1a-952c-3b5e8f302012")
-		)
-		(pin "6"
-			(uuid "18abfb31-8841-467e-a948-0b63f41e45d0")
-		)
-		(pin "42"
-			(uuid "80bc60a1-fbd5-47f7-8bd6-8d3e09d6d46e")
-		)
-		(instances
-			(project ""
-				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -5337,7 +5305,7 @@
 				(justify right)
 			)
 		)
-		(pin "U10_Q[0..5]" output
+		(pin "U10_Q[0..7]" output
 			(at 210.82 205.74 0)
 			(uuid "d656dde2-edb0-4551-9949-0c29c0c42947")
 			(effects
@@ -5440,8 +5408,8 @@
 		)
 	)
 	(sheet
-		(at 238.76 303.53)
-		(size 120.65 54.61)
+		(at 237.49 303.53)
+		(size 111.76 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5456,7 +5424,7 @@
 		)
 		(uuid "badefe61-f2aa-4ce3-b43f-f44172d96524")
 		(property "Sheetname" "Pedal Routing 5 - 8"
-			(at 238.76 302.8184 0)
+			(at 237.49 302.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5465,7 +5433,7 @@
 			)
 		)
 		(property "Sheetfile" "pedal_routing_4-8.kicad_sch"
-			(at 238.76 358.7246 0)
+			(at 237.49 348.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5473,18 +5441,8 @@
 				(justify left top)
 			)
 		)
-		(pin "U8_Q[0..7]" input
-			(at 238.76 309.88 180)
-			(uuid "8dda94ee-7019-4b08-b895-70dbe14359ba")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "U9_Q[0..7]" input
-			(at 238.76 312.42 180)
+			(at 237.49 312.42 180)
 			(uuid "af2629da-96ec-4c70-9f90-b3c7aae9a450")
 			(effects
 				(font
@@ -5493,8 +5451,8 @@
 				(justify left)
 			)
 		)
-		(pin "U10_Q[0..5]" input
-			(at 238.76 314.96 180)
+		(pin "U10_Q[0..7]" input
+			(at 237.49 314.96 180)
 			(uuid "8e26477e-b787-450d-99b1-2f5590f68417")
 			(effects
 				(font
@@ -5512,8 +5470,8 @@
 		)
 	)
 	(sheet
-		(at 238.76 247.65)
-		(size 120.65 41.91)
+		(at 237.49 247.65)
+		(size 111.76 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5528,7 +5486,7 @@
 		)
 		(uuid "be7f89fe-51f3-4dfc-9362-b897b38bc33a")
 		(property "Sheetname" "Pedal Routing 1 - 4"
-			(at 238.76 246.9384 0)
+			(at 237.49 246.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,7 +5495,7 @@
 			)
 		)
 		(property "Sheetfile" "pedal_routing_1-4.kicad_sch"
-			(at 238.76 290.1446 0)
+			(at 237.49 290.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,16 +5504,16 @@
 			)
 		)
 		(property "Field2" ""
-			(at 238.76 247.65 0)
+			(at 237.49 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "U7_Q[0..7]" input
-			(at 238.76 252.73 180)
-			(uuid "fc05150b-9288-4284-8caa-a75b81821c34")
+		(pin "U8_Q[0..7]" input
+			(at 237.49 255.27 180)
+			(uuid "791ef4bf-651e-41b0-a79b-4273328012b9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5563,9 +5521,9 @@
 				(justify left)
 			)
 		)
-		(pin "U8_Q[0..7]" input
-			(at 238.76 255.27 180)
-			(uuid "791ef4bf-651e-41b0-a79b-4273328012b9")
+		(pin "U9_Q[0..7]" input
+			(at 237.49 257.81 180)
+			(uuid "4a2c1f68-36ce-415c-9d56-ad8b8a9af37a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5583,7 +5541,7 @@
 	)
 	(sheet
 		(at 237.49 190.5)
-		(size 120.65 38.1)
+		(size 111.76 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5607,7 +5565,7 @@
 			)
 		)
 		(property "Sheetfile" "iorouting.kicad_sch"
-			(at 237.49 229.1846 0)
+			(at 237.49 227.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5618,16 +5576,6 @@
 		(pin "U7_Q[0..7]" input
 			(at 237.49 198.12 180)
 			(uuid "4525a2e3-6608-4ae2-bc00-4816f901d1c3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "U10_Q[0..5]" input
-			(at 237.49 205.74 180)
-			(uuid "86c00428-c5f4-4e46-b09c-2155385ab319")
 			(effects
 				(font
 					(size 1.27 1.27)
