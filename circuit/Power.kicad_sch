@@ -1023,7 +1023,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:AMS1117-3.3"
+		(symbol "Regulator_Linear:AMS1117CD-3.3"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1035,7 +1038,7 @@
 					)
 				)
 			)
-			(property "Value" "AMS1117-3.3"
+			(property "Value" "AMS1117CD-3.3"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -1044,7 +1047,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -1062,7 +1065,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, TO-252"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1080,7 +1083,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?223*TabPin2*"
+			(property "ki_fp_filters" "TO?252*TabPin2*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1089,7 +1092,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AMS1117-3.3_0_1"
+			(symbol "AMS1117CD-3.3_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 1.905)
@@ -1102,7 +1105,7 @@
 					)
 				)
 			)
-			(symbol "AMS1117-3.3_1_1"
+			(symbol "AMS1117CD-3.3_1_1"
 				(pin power_in line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -2526,7 +2529,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:AMS1117-3.3")
+		(lib_id "Regulator_Linear:AMS1117CD-3.3")
 		(at 107.95 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2551,7 +2554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
 			(at 107.95 160.02 0)
 			(effects
 				(font
@@ -2569,7 +2572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, TO-252"
 			(at 107.95 165.1 0)
 			(effects
 				(font
@@ -2901,7 +2904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PTSM-0,5-2-2.5-H-THR_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Fuse:Fuse_Bourns_MF-RG500"
 			(at 107.95 53.34 0)
 			(effects
 				(font
@@ -4048,7 +4051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0350b61-cbde-441c-91df-3de970513827")
-		(property "Reference" "U24"
+		(property "Reference" "U4"
 			(at 106.68 139.7 0)
 			(effects
 				(font
@@ -4104,7 +4107,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "U24")
+					(reference "U4")
 					(unit 1)
 				)
 			)
