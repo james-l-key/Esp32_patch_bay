@@ -41,7 +41,7 @@ The patch bay is built around the following components:
 
 ### Power Requirements
 - **Input Power**: The system is designed for an external **12V DC power supply** connected via a barrel jack.
-- **Dual Rail (±15V)**: A DC/DC converter (e.g., TMA-1215D) generates isolated ±15V rails for the analog audio circuitry.
+- **Isolated Dual Rails (±15V)**: A TMA-1215D DC/DC converter (U3) takes the 12V input and generates isolated **±15V** rails, which are used by the analog audio circuitry.
 - **Regulated +5V**: A linear regulator (e.g., LM7805) provides +5V, primarily for digital components if needed, and as an input to the 3.3V regulator.
 - **Regulated -5V**: A linear regulator (e.g., LM7905) provides -5V.
 - **Regulated +3.3V**: A linear regulator (e.g., AMS1117-3.3) provides +3.3V for the ESP32-S3 and OLED display.
@@ -77,3 +77,112 @@ The firmware is written in C using the **ESP-IDF** framework (v5.1 or later) for
    ```bash
    git clone [https://github.com/phi/Esp32_patch_bay.git](https://github.com/phi/Esp32_patch_bay.git)
    cd Esp32_patch_bay
+   
+2. **Set Up ESP-IDF**:
+        Follow the ESP-IDF Getting Started Guide.
+        Ensure the idf.py tool is accessible in your terminal.
+
+3. **Build the Firmware**:
+    ```bash
+    idf.py set-target esp32s3
+    idf.py build
+   
+5. **Flash the Firmware**:
+
+    Connect the ESP32-S3 to your computer via USB.
+    Flash the firmware:
+    ```bash
+
+        idf.py -p /dev/ttyUSB0 flash
+
+  Replace /dev/ttyUSB0 with your serial port (e.g., COM3 on Windows).
+
+  6. **Open the Schematic**:
+        Launch KiCad 9.0.
+        Open circuit.kicad_sch from the repository root.
+        Verify connections and assign footprints for PCB layout.
+
+   7. **Assemble the Hardware**:
+        Solder components onto a PCB or prototype board based on the schematic.
+        Connect 1/4” jacks to guitar, pedals, and amplifier.
+        Power the circuit with +3.3V and ±9V supplies.
+
+## Usage
+
+  **Power On**:
+        Connect the patch bay to power (+3.3V, ±9V).
+        The OLED displays the current signal chain (e.g., Guitar → Pedal 1 → Pedal 2 → Amp).
+
+  **Program Mode**:
+        Press the Program button (SW1) to enter Program Mode (LED1 lights up).
+        Use Pedal 1 (SW2) and Pedal 2 (SW3) buttons to select the desired signal path.
+        Press Program again to save and exit.
+
+  **Signal Routing**:
+        The ESP32-S3 updates the 74HC595 shift registers, which set the analog switches to route the audio signal.
+        TL072 op-amps buffer the input and output to maintain signal integrity.
+
+  **Monitor**:
+        Use the OLED to confirm the signal chain.
+        Check the serial output (via idf.py monitor) for debugging.
+
+***Example Signal Chains***
+
+  * Bypass: Guitar → Amp.
+  * Single Pedal: Guitar → Pedal 1 → Amp.
+  * Dual Pedal: Guitar → Pedal 1 → Pedal 7 → Amp or Guitar → Pedal 2 → Pedal 1 → Amp.
+
+## Project Structure
+
+```md
+Esp32_patch_bay/
+├── circuit.kicad_sch        # KiCad 9.0 schematic for 3x3 matrix (scalable to 9x8)
+├── main/
+│   ├── main.c               # Entry point for ESP-IDF firmware
+│   ├── matrix.c             # Signal routing matrix control
+│   ├── matrix.h             # Header for matrix functions
+│   ├── oled.c               # OLED display driver
+│   ├── oled.h               # Header for OLED functions
+├── CMakeLists.txt           # ESP-IDF project configuration
+├── README.md                # This file
+├── LICENSE                  # License file (e.g., MIT)
+└── docs/
+    ├── HARDWARE.md          # Detailed hardware setup
+    ├── SOFTWARE.md          # Firmware development guide
+    ├── TROUBLESHOOTING.md   # Common issues and solutions
+```
+## Scaling to 8 Pedals
+
+**The current schematic implements a 9x8 matrix (Guitar In, Amp Out, and 8 pedals In/Out).**
+
+
+## Contributing
+
+**Contributions are welcome! To contribute**:
+
+  Fork the repository.
+  Create a branch (git checkout -b feature/your-feature).
+  Commit changes (git commit -m "Add your feature").
+  Push to the branch (git push origin feature/your-feature).
+  Open a Pull Request.
+
+**Please include**:
+
+  Detailed descriptions of changes.
+  Updates to documentation if necessary.
+  Tests or verification steps for hardware/firmware changes.
+
+## Issues
+
+  Report bugs or suggest features via the Issues tab.
+  Include reproduction steps and relevant logs (e.g., idf.py monitor output).
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+  Espressif Systems for the ESP-IDF framework and ESP32-S3.
+  KiCad for open-source EDA tools.
+  Community: Inspiration from guitar pedalboard designs and open-source hardware projects.
