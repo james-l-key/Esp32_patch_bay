@@ -7,8 +7,8 @@
 | SSD1306 OLED       | 1        | 128x64, I2C interface                      |
 | CD4051B Multiplexer| Multiple | Analog multiplexer for signal routing      |
 | ADG419BN Analog Switch| Multiple | SPDT analog switch for signal routing      |
-| TL072 Op-Amp       | 3        | Dual op-amp for buffering                  |
-| 74HC595 Shift Reg. | 2        | 8-bit shift register                       |
+| TL072 Op-Amp       | 6        | Dual op-amp for buffering                  |
+| 74HC595 Shift Reg. | 4        | 8-bit shift register                       |
 | 1/4” Mono Jack     | 18        | For guitar, pedals, and amp                |
 | Push Button        | 10        | Tactile switches                           |
 | LED                | 1        | 3mm, any color                             |
