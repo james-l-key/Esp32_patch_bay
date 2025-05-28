@@ -3,12 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "4baeca82-a139-4a3b-adc6-194d7e139cb3")
-	(paper "USLetter")
-	(title_block
-		(title "ESP332 Guitar Patch Bay")
-		(date "2025-05-27")
-		(rev "1")
-	)
+	(paper "A4")
 	(lib_symbols
 		(symbol "Analog_Switch:ADG419BN"
 			(pin_names
@@ -1554,10 +1549,10 @@
 		(uuid "2c6aa1ca-143a-4510-a029-5082def4d2a2")
 	)
 	(junction
-		(at 80.01 96.52)
+		(at 80.01 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "31de2c46-511e-42cc-a9b9-37c02ec417bd")
+		(uuid "592d64b3-3000-40df-9175-a8a173f5d525")
 	)
 	(junction
 		(at 80.01 106.68)
@@ -1572,6 +1567,12 @@
 		(uuid "7161673f-6e31-48c0-b8e4-50be9203a53f")
 	)
 	(junction
+		(at 95.25 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "956d0e5e-5fef-4ce0-ac5d-507046c874f3")
+	)
+	(junction
 		(at 201.93 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1582,12 +1583,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b50400b2-05c5-4f17-9266-f6c9c4030891")
-	)
-	(junction
-		(at 95.25 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bda4b272-318f-4be0-9061-6b7b7f4643a5")
 	)
 	(junction
 		(at 132.08 142.24)
@@ -1702,7 +1697,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 99.06) (xy 95.25 96.52)
+			(xy 95.25 99.06) (xy 95.25 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1719,16 +1714,6 @@
 			(type default)
 		)
 		(uuid "10150810-35c6-4a6f-991c-a7149c9da088")
-	)
-	(wire
-		(pts
-			(xy 80.01 96.52) (xy 80.01 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17ff2209-c941-4ba8-9bc7-fe857a9eec43")
 	)
 	(wire
 		(pts
@@ -1952,7 +1937,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 96.52) (xy 86.36 96.52)
+			(xy 80.01 93.98) (xy 86.36 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1980,16 +1965,6 @@
 		)
 		(uuid "8915c32e-72ab-48b4-a0f3-90ee268e9828")
 	)
-	(wire
-		(pts
-			(xy 95.25 90.17) (xy 95.25 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8939f01e-2765-4fb2-b1c0-e8058529f405")
-	)
 	(bus
 		(pts
 			(xy 72.39 45.72) (xy 72.39 55.88)
@@ -2012,6 +1987,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 93.98) (xy 95.25 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "946f476b-e5d7-45a4-b132-51e0bbb661c6")
+	)
+	(wire
+		(pts
 			(xy 186.69 72.39) (xy 186.69 95.25)
 		)
 		(stroke
@@ -2029,6 +2014,16 @@
 			(type default)
 		)
 		(uuid "9776889c-0b64-4191-a43f-3c3ca601f9da")
+	)
+	(wire
+		(pts
+			(xy 80.01 93.98) (xy 80.01 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97a64be6-ced7-42fb-9615-e724a4b0eb86")
 	)
 	(bus
 		(pts
@@ -2109,16 +2104,6 @@
 			(type default)
 		)
 		(uuid "b6b61741-f62f-44f9-bef0-c4c6dec92a60")
-	)
-	(wire
-		(pts
-			(xy 80.01 72.39) (xy 80.01 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6e54216-8ea4-4589-8386-e48e4d3dd77b")
 	)
 	(wire
 		(pts
@@ -2222,7 +2207,17 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 96.52) (xy 95.25 96.52)
+			(xy 80.01 72.39) (xy 80.01 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed5b8088-b6a7-4aa9-ac05-03968b4f884b")
+	)
+	(wire
+		(pts
+			(xy 91.44 93.98) (xy 95.25 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3539,7 +3534,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 88.9 96.52 270)
+		(at 88.9 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3547,7 +3542,7 @@
 		(dnp no)
 		(uuid "5b1c980b-10db-4c97-8101-8bbf063cfaf1")
 		(property "Reference" "C113"
-			(at 88.8936 90.17 90)
+			(at 88.8936 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3555,7 +3550,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 88.8936 92.71 90)
+			(at 88.8936 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,7 +3558,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
-			(at 88.9 96.52 0)
+			(at 88.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,7 +3567,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 96.52 0)
+			(at 88.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,7 +3576,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 88.9 96.52 0)
+			(at 88.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -3,7 +3,12 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "b4755bd8-1b5a-4cc4-bea5-4bdf2be7d7f6")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "ESP332 Guitar Patch Bay")
+		(date "2025-05-27")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "74xx:74HC595"
 			(exclude_from_sim no)

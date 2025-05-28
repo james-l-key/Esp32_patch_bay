@@ -3,12 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "a83670a0-c793-47f6-a96f-308ab6ed6115")
-	(paper "USLetter")
-	(title_block
-		(title "ESP332 Guitar Patch Bay")
-		(date "2025-05-27")
-		(rev "1")
-	)
+	(paper "A4")
 	(lib_symbols
 		(symbol "Analog_Switch:CD4051B"
 			(exclude_from_sim no)

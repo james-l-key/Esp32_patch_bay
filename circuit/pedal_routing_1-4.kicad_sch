@@ -3,7 +3,12 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "954ea419-b627-4f16-a23c-808d17f05af2")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "ESP332 Guitar Patch Bay")
+		(date "2025-05-27")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Analog_Switch:CD4051B"
 			(exclude_from_sim no)
@@ -3687,7 +3692,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1mF"
+		(property "Value" "0.1uF"
 			(at 166.3636 31.75 90)
 			(effects
 				(font
@@ -3998,7 +4003,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1mF"
+		(property "Value" "0.1uF"
 			(at 142.2336 80.01 90)
 			(effects
 				(font
@@ -4309,7 +4314,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1mF"
+		(property "Value" "0.1uF"
 			(at 120.6436 118.11 90)
 			(effects
 				(font
@@ -4489,7 +4494,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1mF"
+		(property "Value" "0.1uF"
 			(at 59.6836 80.01 90)
 			(effects
 				(font
@@ -4557,7 +4562,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1mF"
+		(property "Value" "0.1uF"
 			(at 81.2736 33.02 90)
 			(effects
 				(font
@@ -4625,7 +4630,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1mF"
+		(property "Value" "0.1uF"
 			(at 96.5136 165.1 90)
 			(effects
 				(font
@@ -4693,7 +4698,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1mF"
+		(property "Value" "0.1uF"
 			(at 242.5636 30.48 90)
 			(effects
 				(font
@@ -4761,7 +4766,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1mF"
+		(property "Value" "0.1uF"
 			(at 212.0836 77.47 90)
 			(effects
 				(font

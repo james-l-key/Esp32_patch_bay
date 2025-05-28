@@ -3,7 +3,12 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "420e3d7a-6c9a-4806-b4be-05d56aeb21de")
-	(paper "A2")
+	(paper "USLetter")
+	(title_block
+		(title "ESP332 Guitar Patch Bay")
+		(date "2025-05-27")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Bay:OLED"
 			(exclude_from_sim no)
@@ -1768,6 +1773,12 @@
 		(uuid "b2e99f2a-09b2-4ec9-8b5f-73f9a8f03eda")
 	)
 	(junction
+		(at 375.92 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbf3b223-e778-4723-81fd-14164ea4f97c")
+	)
+	(junction
 		(at 386.08 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3244,7 +3255,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1mF"
+		(property "Value" ".1uF"
 			(at 330.1936 106.68 90)
 			(effects
 				(font
@@ -3311,7 +3322,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1mF"
+		(property "Value" ".1uF"
 			(at 292.0936 132.08 90)
 			(effects
 				(font
@@ -3653,7 +3664,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1mF"
+		(property "Value" ".1uF"
 			(at 279.3936 119.38 90)
 			(effects
 				(font
@@ -3788,7 +3799,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1mF"
+		(property "Value" ".1uF"
 			(at 304.7936 81.28 90)
 			(effects
 				(font
@@ -4191,7 +4202,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1mF"
+		(property "Value" ".1uF"
 			(at 317.4936 157.48 90)
 			(effects
 				(font
@@ -4326,7 +4337,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1mF"
+		(property "Value" ".1uF"
 			(at 304.7936 144.78 90)
 			(effects
 				(font
@@ -4461,7 +4472,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1mF"
+		(property "Value" ".1uF"
 			(at 330.1936 170.18 90)
 			(effects
 				(font
@@ -4776,6 +4787,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 375.92 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bde399a7-3c2e-4d42-804d-16019dc76cda")
+		(property "Reference" "#FLG0102"
+			(at 374.015 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 372.11 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 375.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 375.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 375.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8337c694-ef66-436f-a8fd-f56ada870828")
+		)
+		(instances
+			(project "circuit"
+				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
+					(reference "#FLG0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 317.5 97.79 270)
 		(unit 1)
@@ -4792,7 +4870,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1mF"
+		(property "Value" ".1uF"
 			(at 317.4936 93.98 90)
 			(effects
 				(font
@@ -4925,7 +5003,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1mF"
+		(property "Value" ".1uF"
 			(at 279.3936 55.88 90)
 			(effects
 				(font
@@ -4992,7 +5070,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1mF"
+		(property "Value" ".1uF"
 			(at 292.0936 68.58 90)
 			(effects
 				(font
@@ -5111,7 +5189,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 386.08 38.1 0)
+		(at 386.08 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5120,7 +5198,7 @@
 		(fields_autoplaced yes)
 		(uuid "f636dfaa-ace5-4fb5-b6c7-243d07c06ec2")
 		(property "Reference" "#FLG0101"
-			(at 386.08 36.195 0)
+			(at 387.985 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5129,11 +5207,12 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 386.08 33.02 0)
+			(at 389.89 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5432,7 +5511,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "pedal_routing_4-8.kicad_sch"
+		(property "Sheetfile" "pedal_routing_5-8.kicad_sch"
 			(at 237.49 348.5646 0)
 			(effects
 				(font
@@ -5564,7 +5643,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "iorouting.kicad_sch"
+		(property "Sheetfile" "io_routing.kicad_sch"
 			(at 237.49 227.9146 0)
 			(effects
 				(font
