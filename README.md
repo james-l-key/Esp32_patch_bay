@@ -3,16 +3,21 @@
 An 8-pedal mono guitar patch bay controlled by an ESP32-S3, allowing dynamic reconfiguration of guitar pedal signal chains via a user interface with an OLED display and push buttons. The project uses analog multiplexers (CD4051B, ADG419BN) and op-amps (TL072) to route audio signals, controlled through shift registers (74HC595) interfaced with the ESP32-S3. The schematic is designed in KiCad 9.0, and the firmware is developed using the ESP-IDF framework.
 
 ## Table of Contents
-- [Features](#features)
-- [Hardware](#hardware)
-- [Software](#software)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Scaling to 8 Pedals](#scaling-to-8-pedals)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+- [Esp32\_Patch\_Bay](#esp32_patch_bay)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Hardware](#hardware)
+    - [Power Requirements](#power-requirements)
+  - [Software](#software)
+    - [Dependencies](#dependencies)
+  - [Installation](#installation)
+    - [Prerequisites](#prerequisites)
+    - [Steps](#steps)
+  - [Scaling to 8 Pedals](#scaling-to-8-pedals)
+  - [Contributing](#contributing)
+  - [Issues](#issues)
+  - [License](#license)
+  - [Acknowledgements](#acknowledgements)
 
 ## Features
 - **Dynamic Signal Routing**: Reconfigure the signal chain for up to 8 mono guitar pedals using a 9x8 matrix.

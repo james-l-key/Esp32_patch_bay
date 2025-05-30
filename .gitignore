@@ -280,3 +280,5 @@ pip-selfcheck.json
 managed_components
 
 circuit/~circuit.kicad_sch.lck
+sdkconfig.old
+sdkconfig

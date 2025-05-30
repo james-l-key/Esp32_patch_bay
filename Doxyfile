@@ -1,0 +1,23 @@
+# Doxyfile for ESP32 Patch Bay
+PROJECT_NAME           = "ESP32 Patch Bay"
+PROJECT_NUMBER         = "1.0"
+PROJECT_BRIEF          = "Audio Effects Patch Bay Controlled by ESP32"
+OUTPUT_DIRECTORY       = "docs/doxygen"
+INPUT                  = main README.md docs
+FILE_PATTERNS          = *.c *.h *.md
+RECURSIVE              = YES
+USE_MDFILE_AS_MAINPAGE = README.md
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+HTML_OUTPUT            = html
+GENERATE_TREEVIEW      = YES
+SOURCE_BROWSER         = YES
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES
+VERBATIM_HEADERS       = YES
+ALPHABETICAL_INDEX     = YES
+EXCLUDE_PATTERNS       = */build/* */managed_components/*
+IMAGE_PATH             = docs/images
