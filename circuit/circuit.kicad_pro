@@ -676,7 +676,11 @@
     ],
     [
       "4760116a-7aa4-465f-87dd-a53dbe30c185",
-      "Shift Registers"
+      "Matrix Shift Registers"
+    ],
+    [
+      "29d699ec-0c90-4221-aaaa-5e1847dd8909",
+      "LED Shift Registers"
     ]
   ],
   "text_variables": {}

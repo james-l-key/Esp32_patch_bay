@@ -2128,7 +2128,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 69.85) (xy 113.03 69.85)
+			(xy 110.49 69.85) (xy 113.03 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2866,9 +2866,9 @@
 			)
 		)
 	)
-	(global_label "SR_DS"
+	(global_label "MATRIX_SR_DS"
 		(shape input)
-		(at 104.14 69.85 180)
+		(at 110.49 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2878,7 +2878,7 @@
 		)
 		(uuid "ce2d2679-de61-49b0-9aa6-b472eb936811")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.2282 69.85 0)
+			(at 101.5782 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
