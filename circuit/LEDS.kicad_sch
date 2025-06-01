@@ -2227,7 +2227,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Pedal_2"
 			(at 100.6475 72.39 0)
 			(effects
 				(font
@@ -2505,7 +2505,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1uF"
+		(property "Value" "0.1uF"
 			(at 40.64 92.7162 0)
 			(effects
 				(font
@@ -2575,7 +2575,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Pedal_7"
 			(at 244.1575 82.55 0)
 			(effects
 				(font
@@ -2653,7 +2653,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1uF"
+		(property "Value" "0.1uF"
 			(at 176.53 92.7162 0)
 			(effects
 				(font
@@ -2858,7 +2858,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Pedal_4"
 			(at 100.6475 92.71 0)
 			(effects
 				(font
@@ -2936,7 +2936,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Pedal_1"
 			(at 100.6475 62.23 0)
 			(effects
 				(font
@@ -3014,7 +3014,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Pedal_8"
 			(at 244.1575 92.71 0)
 			(effects
 				(font
@@ -3092,7 +3092,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Pedal_3"
 			(at 100.6475 82.55 0)
 			(effects
 				(font
@@ -3170,7 +3170,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Pedal_6"
 			(at 244.1575 72.39 0)
 			(effects
 				(font
@@ -3451,7 +3451,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Status"
 			(at 100.6475 102.87 0)
 			(effects
 				(font
@@ -3597,7 +3597,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Pedal_5"
 			(at 244.1575 62.23 0)
 			(effects
 				(font

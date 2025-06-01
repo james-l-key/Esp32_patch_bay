@@ -3879,7 +3879,7 @@
 				)
 			)
 		)
-		(property "Value" ".1uF"
+		(property "Value" "0.1uF"
 			(at 330.1936 106.68 90)
 			(effects
 				(font
@@ -3946,7 +3946,7 @@
 				)
 			)
 		)
-		(property "Value" ".1uF"
+		(property "Value" "0.1uF"
 			(at 292.0936 132.08 90)
 			(effects
 				(font
@@ -4022,7 +4022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x04_P6mm_D1.7mm_OD3mm"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
 			(at 222.25 35.56 0)
 			(effects
 				(font
@@ -4288,7 +4288,7 @@
 				)
 			)
 		)
-		(property "Value" ".1uF"
+		(property "Value" "0.1uF"
 			(at 279.3936 119.38 90)
 			(effects
 				(font
@@ -4423,7 +4423,7 @@
 				)
 			)
 		)
-		(property "Value" ".1uF"
+		(property "Value" "0.1uF"
 			(at 304.7936 81.28 90)
 			(effects
 				(font
@@ -4826,7 +4826,7 @@
 				)
 			)
 		)
-		(property "Value" ".1uF"
+		(property "Value" "0.1uF"
 			(at 317.4936 157.48 90)
 			(effects
 				(font
@@ -4961,7 +4961,7 @@
 				)
 			)
 		)
-		(property "Value" ".1uF"
+		(property "Value" "0.1uF"
 			(at 304.7936 144.78 90)
 			(effects
 				(font
@@ -5169,7 +5169,7 @@
 				)
 			)
 		)
-		(property "Value" ".1uF"
+		(property "Value" "0.1uF"
 			(at 330.1936 170.18 90)
 			(effects
 				(font
@@ -5710,7 +5710,7 @@
 				)
 			)
 		)
-		(property "Value" ".1uF"
+		(property "Value" "0.1uF"
 			(at 317.4936 93.98 90)
 			(effects
 				(font
@@ -5843,7 +5843,7 @@
 				)
 			)
 		)
-		(property "Value" ".1uF"
+		(property "Value" "0.1uF"
 			(at 279.3936 55.88 90)
 			(effects
 				(font
@@ -5910,7 +5910,7 @@
 				)
 			)
 		)
-		(property "Value" ".1uF"
+		(property "Value" "0.1uF"
 			(at 292.0936 68.58 90)
 			(effects
 				(font

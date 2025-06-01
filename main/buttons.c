@@ -52,9 +52,11 @@ static const gpio_num_t PEDAL_BUTTON_PINS[NUM_PEDALS_MAX] = {
     CONFIG_PEDAL_BUTTON_5_PIN, CONFIG_PEDAL_BUTTON_6_PIN, CONFIG_PEDAL_BUTTON_7_PIN, CONFIG_PEDAL_BUTTON_8_PIN};
 
 #ifdef CONFIG_ENABLE_LEDS
-static const gpio_num_t PEDAL_LED_PINS[NUM_PEDALS_MAX] = {
-    CONFIG_LED_1_PIN, CONFIG_LED_2_PIN, CONFIG_LED_3_PIN, CONFIG_LED_4_PIN,
-    CONFIG_LED_5_PIN, CONFIG_LED_6_PIN, CONFIG_LED_7_PIN, CONFIG_LED_8_PIN};
+// We'll define a shift register-based LED implementation
+// The LEDs are controlled by a shift register with a single data pin
+static const gpio_num_t LED_SR_DATA_PIN = CONFIG_LED_SR_DATA_PIN;
+static const gpio_num_t LED_SR_CLOCK_PIN = CONFIG_SR_CLOCK_PIN; // Reusing main shift register clock
+static const gpio_num_t LED_SR_LATCH_PIN = CONFIG_SR_LATCH_PIN; // Reusing main shift register latch
 #endif
 
 // --- Button State Tracking for Press Types ---
@@ -236,21 +238,53 @@ static void _update_loaded_from_preset_slot_status()
     }
 }
 
-// --- LED Control Functions (Placeholders) ---
+// --- LED Control Functions ---
 #ifdef CONFIG_ENABLE_LEDS
+
+/**
+ * @brief Updates the LED status using a shift register
+ *
+ * Shifts out the current LED status to the LED shift register
+ *
+ * @param led_status An 8-bit value representing the on/off state of each LED
+ */
+static void update_led_shift_register(uint8_t led_status)
+{
+    // Set latch low to begin data transfer
+    gpio_set_level(LED_SR_LATCH_PIN, 0);
+
+    // Shift out the data
+    for (int i = 7; i >= 0; i--)
+    {
+        gpio_set_level(LED_SR_DATA_PIN, (led_status >> i) & 0x01);
+        gpio_set_level(LED_SR_CLOCK_PIN, 1);
+        gpio_set_level(LED_SR_CLOCK_PIN, 0);
+    }
+
+    // Set latch high to latch the data
+    gpio_set_level(LED_SR_LATCH_PIN, 1);
+}
+
 /**
  * @brief Set the state of a pedal LED
  *
- * Controls the LED associated with a specific pedal.
+ * Controls the LED associated with a specific pedal using the shift register
  *
  * @param pedal_index Index of the pedal (0-7)
  * @param on true to turn the LED on, false to turn it off
  */
 static void _set_pedal_led(uint8_t pedal_index, bool on)
 {
+    static uint8_t led_status = 0; // Keep track of LED states
+    
     if (pedal_index < NUM_PEDALS_MAX)
     {
-        gpio_set_level(PEDAL_LED_PINS[pedal_index], on ? 1 : 0);
+        if (on) {
+            led_status |= (1 << pedal_index);  // Set the bit
+        } else {
+            led_status &= ~(1 << pedal_index); // Clear the bit
+        }
+        update_led_shift_register(led_status);
     }
 }
 
@@ -412,19 +446,20 @@ void buttons_init(void)
     gpio_config(&io_conf);
 
 #ifdef CONFIG_ENABLE_LEDS
-    uint64_t led_pin_mask = 0;
-    for (int i = 0; i < NUM_PEDALS_MAX; i++)
-    {
-        led_pin_mask |= (1ULL << PEDAL_LED_PINS[i]);
-    }
+    // Configure LED shift register pins
     gpio_config_t led_conf = {
-        .pin_bit_mask = led_pin_mask,
+        .pin_bit_mask = (1ULL << LED_SR_DATA_PIN) |
+                         (1ULL << LED_SR_CLOCK_PIN) |
+                         (1ULL << LED_SR_LATCH_PIN),
         .mode = GPIO_MODE_OUTPUT,
         .pull_up_en = GPIO_PULLUP_DISABLE,
         .pull_down_en = GPIO_PULLDOWN_DISABLE,
         .intr_type = GPIO_INTR_DISABLE,
     };
     gpio_config(&led_conf);
+    
+    // Initialize all LEDs to off
+    update_led_shift_register(0);
 #endif
 
     // Initialize button states

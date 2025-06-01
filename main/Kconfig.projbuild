@@ -96,8 +96,8 @@ menu "Patch Bay Configuration"
         help
             GPIO pin for Pedal 8 button.
 
-    config SR_DATA_PIN
-        int "Shift Register Data Pin (SR_DS)"
+    config MATRIX_SR_DATA_PIN
+        int "Matrix Shift Register Data Pin (MATRIX_SR_DS)"
         default 16
         range 0 48
         help
@@ -124,83 +124,18 @@ menu "Patch Bay Configuration"
         help
             GPIO pin for 74HC595 shift register output enable.
 
-
     config ENABLE_LEDS
         bool "Enable LED Indicators"
         default n
         help
             Enable 8 LEDs for pedal status indicators.
 
-    config LED_0_PIN
-        int "LED 0 Pin"
+    config LED_SR_DATA_PIN
+        int "LED Shift Register Data Pin (LED_SR_DS)"
         default 21
         range 0 48
         depends on ENABLE_LEDS
         help
-            GPIO pin for Program/Mem status LED.
-
-    config LED_1_PIN
-        int "LED 1 Pin"
-        default 39
-        range 0 48
-        depends on ENABLE_LEDS
-        help
-            GPIO pin for Pedal 1 status LED.
-
-    config LED_2_PIN
-        int "LED 2 Pin"
-        default 40
-        range 0 48
-        depends on ENABLE_LEDS
-        help
-            GPIO pin for Pedal 2 status LED.
-
-    config LED_3_PIN
-        int "LED 3 Pin"
-        default 41
-        range 0 48
-        depends on ENABLE_LEDS
-        help
-            GPIO pin for Pedal 3 status LED.
-
-    config LED_4_PIN
-        int "LED 4 Pin"
-        default 42
-        range 0 48
-        depends on ENABLE_LEDS
-        help
-            GPIO pin for Pedal 4 status LED.
-
-    config LED_5_PIN
-        int "LED 5 Pin"
-        default 45
-        range 0 48
-        depends on ENABLE_LEDS
-        help
-            GPIO pin for Pedal 5 status LED.
-
-    config LED_6_PIN
-        int "LED 6 Pin"
-        default 46
-        range 0 48
-        depends on ENABLE_LEDS
-        help
-            GPIO pin for Pedal 6 status LED.
-
-    config LED_7_PIN
-        int "LED 7 Pin"
-        default 47
-        range 0 48
-        depends on ENABLE_LEDS
-        help
-            GPIO pin for Pedal 7 status LED.
-
-    config LED_8_PIN
-        int "LED 8 Pin"
-        default 48
-        range 0 48
-        depends on ENABLE_LEDS
-        help
-            GPIO pin for Pedal 8 status LED.
+            GPIO pin for 74HC595 shift register data.
 
 endmenu

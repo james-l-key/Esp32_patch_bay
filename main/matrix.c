@@ -25,7 +25,7 @@ static void shift_out(uint8_t *data, size_t len)
     {
         for (int j = 7; j >= 0; j--)
         {
-            gpio_set_level(CONFIG_SR_DATA_PIN, (data[i] >> j) & 1);
+            gpio_set_level(CONFIG_MATRIX_SR_DATA_PIN, (data[i] >> j) & 1);
             gpio_set_level(CONFIG_SR_CLOCK_PIN, 1);
             gpio_set_level(CONFIG_SR_CLOCK_PIN, 0);
         }
@@ -42,7 +42,7 @@ static void shift_out(uint8_t *data, size_t len)
 void matrix_init(void)
 {
     gpio_config_t io_conf = {
-        .pin_bit_mask = (1ULL << CONFIG_SR_DATA_PIN) |
+        .pin_bit_mask = (1ULL << CONFIG_MATRIX_SR_DATA_PIN) |
                         (1ULL << CONFIG_SR_CLOCK_PIN) |
                         (1ULL << CONFIG_SR_LATCH_PIN),
         .mode = GPIO_MODE_OUTPUT,
