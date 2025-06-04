@@ -1,7 +1,7 @@
 /**
  * @file matrix.c
  * @brief Implementation of the audio signal routing matrix
- * 
+ *
  * This file implements the control of the audio signal routing matrix
  * using shift registers. It manages the actual physical audio path
  * configuration based on the current effects chain.
@@ -14,7 +14,7 @@
 
 /**
  * @brief Shifts data out to the shift registers
- * 
+ *
  * @param data Pointer to the data bytes to shift out
  * @param len Number of bytes to shift out
  */
@@ -35,7 +35,7 @@ static void shift_out(uint8_t *data, size_t len)
 
 /**
  * @brief Initialize the matrix hardware
- * 
+ *
  * Sets up the GPIO pins used for controlling the shift registers that
  * implement the audio signal routing matrix.
  */
@@ -55,7 +55,7 @@ void matrix_init(void)
 
 /**
  * @brief Update the routing matrix based on current patch configuration
- * 
+ *
  * Retrieves the current patch configuration from the buttons subsystem and
  * updates the shift registers to route the audio signal accordingly.
  * This function will be called by buttons_task when the live_patch_data changes.

@@ -640,6 +640,10 @@
     [
       "29d699ec-0c90-4221-aaaa-5e1847dd8909",
       "LED Shift Registers"
+    ],
+    [
+      "3615cdd2-b3af-491e-a218-af99bd160bfe",
+      "Inhibit Registers"
     ]
   ],
   "text_variables": {}
