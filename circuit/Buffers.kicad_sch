@@ -4702,8 +4702,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "097e200c-3058-4599-bce1-5199b8d0c4ea")
-		(property "Reference" "U11'301"
-			(at 79.6133 22.87 0)
+		(property "Reference" "U301"
+			(at 79.6133 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4712,7 +4712,7 @@
 			)
 		)
 		(property "Value" "TL072"
-			(at 79.6133 25.41 0)
+			(at 79.6133 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4773,7 +4773,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/91f6596b-9a37-4517-8aab-00555625375a"
-					(reference "U11'301")
+					(reference "U301")
 					(unit 1)
 				)
 			)
@@ -4925,7 +4925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0daa2f54-35e4-45a9-819b-35be9d55c639")
-		(property "Reference" "U305"
+		(property "Reference" "U306"
 			(at 219.3133 83.83 0)
 			(effects
 				(font
@@ -4996,7 +4996,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/91f6596b-9a37-4517-8aab-00555625375a"
-					(reference "U305")
+					(reference "U306")
 					(unit 1)
 				)
 			)
@@ -5285,7 +5285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13bfb35a-a8c7-4f7d-8118-bb5ebb82a96c")
-		(property "Reference" "U307"
+		(property "Reference" "U308"
 			(at 219.3133 210.83 0)
 			(effects
 				(font
@@ -5356,7 +5356,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/91f6596b-9a37-4517-8aab-00555625375a"
-					(reference "U307")
+					(reference "U308")
 					(unit 1)
 				)
 			)
@@ -8367,7 +8367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74328880-a86a-4510-bad3-64d780164446")
-		(property "Reference" "U302"
+		(property "Reference" "U303"
 			(at 79.6133 147.33 0)
 			(effects
 				(font
@@ -8438,7 +8438,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/91f6596b-9a37-4517-8aab-00555625375a"
-					(reference "U302")
+					(reference "U303")
 					(unit 1)
 				)
 			)
@@ -9680,7 +9680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1906789-34f7-4a30-9e34-953b3472fbd7")
-		(property "Reference" "U308"
+		(property "Reference" "U309"
 			(at 360.2833 22.86 0)
 			(effects
 				(font
@@ -9751,7 +9751,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/91f6596b-9a37-4517-8aab-00555625375a"
-					(reference "U308")
+					(reference "U309")
 					(unit 1)
 				)
 			)
@@ -9834,7 +9834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8e4925a-2087-4c98-9d82-3ba808a2c903")
-		(property "Reference" "U301"
+		(property "Reference" "U302"
 			(at 79.6133 83.83 0)
 			(effects
 				(font
@@ -9905,7 +9905,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/91f6596b-9a37-4517-8aab-00555625375a"
-					(reference "U301")
+					(reference "U302")
 					(unit 1)
 				)
 			)
@@ -9988,7 +9988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c067e863-aef9-4b9e-b863-4f603dfd4caf")
-		(property "Reference" "U303"
+		(property "Reference" "U304"
 			(at 79.6133 210.83 0)
 			(effects
 				(font
@@ -10059,7 +10059,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/91f6596b-9a37-4517-8aab-00555625375a"
-					(reference "U303")
+					(reference "U304")
 					(unit 1)
 				)
 			)
@@ -11031,7 +11031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daef397d-3927-4da2-9d35-5df2b049a2d5")
-		(property "Reference" "U304"
+		(property "Reference" "U305"
 			(at 219.3133 22.87 0)
 			(effects
 				(font
@@ -11102,7 +11102,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/91f6596b-9a37-4517-8aab-00555625375a"
-					(reference "U304")
+					(reference "U305")
 					(unit 1)
 				)
 			)
@@ -11118,7 +11118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de39a67c-692b-4cde-aefa-c296e56619bc")
-		(property "Reference" "U306"
+		(property "Reference" "U307"
 			(at 219.3133 147.33 0)
 			(effects
 				(font
@@ -11189,7 +11189,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/91f6596b-9a37-4517-8aab-00555625375a"
-					(reference "U306")
+					(reference "U307")
 					(unit 1)
 				)
 			)

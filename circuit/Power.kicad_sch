@@ -2519,7 +2519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a4eac2b-5268-49e1-82b5-c5f07ae2623e")
-		(property "Reference" "C207"
+		(property "Reference" "C202"
 			(at 88.8936 129.54 90)
 			(effects
 				(font
@@ -2571,7 +2571,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "C207")
+					(reference "C202")
 					(unit 1)
 				)
 			)
@@ -2587,7 +2587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bfd6cf6-97da-4e64-9103-fb2bddefa133")
-		(property "Reference" "U1"
+		(property "Reference" "U204"
 			(at 107.95 158.75 0)
 			(effects
 				(font
@@ -2642,7 +2642,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "U1")
+					(reference "U204")
 					(unit 1)
 				)
 			)
@@ -2658,7 +2658,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c690c45-0c02-4b39-91ff-5ed7c84f53c3")
-		(property "Reference" "C201"
+		(property "Reference" "C208"
 			(at 121.92 44.9961 90)
 			(effects
 				(font
@@ -2710,7 +2710,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "C201")
+					(reference "C208")
 					(unit 1)
 				)
 			)
@@ -2726,7 +2726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b2c9013-00a2-497b-a9d3-05fb1d45c636")
-		(property "Reference" "U3"
+		(property "Reference" "U201"
 			(at 104.14 58.42 0)
 			(effects
 				(font
@@ -2787,7 +2787,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "U3")
+					(reference "U201")
 					(unit 1)
 				)
 			)
@@ -2803,7 +2803,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c22b495-6f9d-4e70-b52a-971030559d3c")
-		(property "Reference" "C209"
+		(property "Reference" "C203"
 			(at 89.6239 158.75 90)
 			(effects
 				(font
@@ -2855,7 +2855,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "C209")
+					(reference "C203")
 					(unit 1)
 				)
 			)
@@ -2871,7 +2871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c378b4a-674a-4a2f-92ce-9f0226bdb952")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR0202"
 			(at 107.95 179.07 0)
 			(effects
 				(font
@@ -2921,7 +2921,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "#PWR0204")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -2937,7 +2937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a8d581a-d996-4b0e-bb8a-324e449dcca3")
-		(property "Reference" "C205"
+		(property "Reference" "C201"
 			(at 88.8936 99.06 90)
 			(effects
 				(font
@@ -2989,7 +2989,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "C205")
+					(reference "C201")
 					(unit 1)
 				)
 			)
@@ -3074,7 +3074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ce7b32e-6e35-4d35-ab0a-ab9f26599c4c")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR0204"
 			(at 153.67 43.18 0)
 			(effects
 				(font
@@ -3124,7 +3124,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "#PWR0201")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -3206,7 +3206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5013bacb-0572-4f4f-8e20-1e6098d0f3ad")
-		(property "Reference" "#FLG0207"
+		(property "Reference" "#FLG0206"
 			(at 127 133.985 0)
 			(effects
 				(font
@@ -3256,7 +3256,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "#FLG0207")
+					(reference "#FLG0206")
 					(unit 1)
 				)
 			)
@@ -3406,7 +3406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72993fe3-321f-44b0-9303-95dfffc2ab0c")
-		(property "Reference" "#FLG0204"
+		(property "Reference" "#FLG0202"
 			(at 96.52 103.505 0)
 			(effects
 				(font
@@ -3456,7 +3456,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "#FLG0204")
+					(reference "#FLG0202")
 					(unit 1)
 				)
 			)
@@ -3472,7 +3472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77e43f55-b5d3-4434-86b1-27e816b7f545")
-		(property "Reference" "#FLG0203"
+		(property "Reference" "#FLG0201"
 			(at 72.39 57.785 0)
 			(effects
 				(font
@@ -3522,7 +3522,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "#FLG0203")
+					(reference "#FLG0201")
 					(unit 1)
 				)
 			)
@@ -3538,7 +3538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80293642-be8a-4381-a9ae-d12b9c0ea455")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR0201"
 			(at 90.17 93.98 0)
 			(effects
 				(font
@@ -3588,7 +3588,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "#PWR0202")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -3604,7 +3604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85dd4a86-2a74-4f57-8373-0872f0a1eeda")
-		(property "Reference" "C206"
+		(property "Reference" "C205"
 			(at 120.6436 99.06 90)
 			(effects
 				(font
@@ -3656,7 +3656,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "C206")
+					(reference "C205")
 					(unit 1)
 				)
 			)
@@ -3758,7 +3758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8eec841f-f88d-4586-8b8f-f9772fb05098")
-		(property "Reference" "U2"
+		(property "Reference" "U202"
 			(at 106.68 99.06 0)
 			(effects
 				(font
@@ -3814,7 +3814,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "U2")
+					(reference "U202")
 					(unit 1)
 				)
 			)
@@ -3830,7 +3830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92eac761-389c-4afc-b776-54b87fc0dca1")
-		(property "Reference" "#FLG0202"
+		(property "Reference" "#FLG0208"
 			(at 142.24 50.165 0)
 			(effects
 				(font
@@ -3880,7 +3880,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "#FLG0202")
+					(reference "#FLG0208")
 					(unit 1)
 				)
 			)
@@ -3896,7 +3896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af76c1cf-a88f-4064-a9ed-6bb7d1f7d7e9")
-		(property "Reference" "C208"
+		(property "Reference" "C206"
 			(at 120.6436 129.54 90)
 			(effects
 				(font
@@ -3948,7 +3948,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "C208")
+					(reference "C206")
 					(unit 1)
 				)
 			)
@@ -3964,7 +3964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b38622f3-c06e-48d7-9b18-79a5bc5417ef")
-		(property "Reference" "#FLG0209"
+		(property "Reference" "#FLG0207"
 			(at 127 163.195 0)
 			(effects
 				(font
@@ -4014,7 +4014,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "#FLG0209")
+					(reference "#FLG0207")
 					(unit 1)
 				)
 			)
@@ -4030,7 +4030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0350b61-cbde-441c-91df-3de970513827")
-		(property "Reference" "U4"
+		(property "Reference" "U203"
 			(at 106.68 139.7 0)
 			(effects
 				(font
@@ -4086,7 +4086,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "U4")
+					(reference "U203")
 					(unit 1)
 				)
 			)
@@ -4170,7 +4170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e37b263b-2c63-4db5-b894-080ad9c080c1")
-		(property "Reference" "#FLG0208"
+		(property "Reference" "#FLG0204"
 			(at 99.06 163.195 0)
 			(effects
 				(font
@@ -4220,7 +4220,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "#FLG0208")
+					(reference "#FLG0204")
 					(unit 1)
 				)
 			)
@@ -4236,7 +4236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea7fd290-96f0-44a7-9adc-23416ab34429")
-		(property "Reference" "#FLG0206"
+		(property "Reference" "#FLG0203"
 			(at 97.79 133.985 0)
 			(effects
 				(font
@@ -4286,7 +4286,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "#FLG0206")
+					(reference "#FLG0203")
 					(unit 1)
 				)
 			)
@@ -4302,7 +4302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6d84f69-0c7d-4007-b8af-58fb052f042d")
-		(property "Reference" "C202"
+		(property "Reference" "C209"
 			(at 134.62 44.9961 90)
 			(effects
 				(font
@@ -4354,7 +4354,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "C202")
+					(reference "C209")
 					(unit 1)
 				)
 			)
@@ -4370,7 +4370,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7f0a125-5916-49a1-968b-c98f0a40f168")
-		(property "Reference" "C203"
+		(property "Reference" "C210"
 			(at 151.13 70.5739 90)
 			(effects
 				(font
@@ -4422,7 +4422,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "C203")
+					(reference "C210")
 					(unit 1)
 				)
 			)
@@ -4438,7 +4438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe3ce09d-7b0d-47bf-b098-6dfde83c6627")
-		(property "Reference" "C210"
+		(property "Reference" "C207"
 			(at 121.3739 158.75 90)
 			(effects
 				(font
@@ -4490,7 +4490,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "C210")
+					(reference "C207")
 					(unit 1)
 				)
 			)
