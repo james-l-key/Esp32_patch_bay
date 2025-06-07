@@ -1028,10 +1028,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:AMS1117CD-3.3"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "Regulator_Linear:LM1117T-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1043,7 +1040,7 @@
 					)
 				)
 			)
-			(property "Value" "AMS1117CD-3.3"
+			(property "Value" "LM1117T-3.3"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -1052,8 +1049,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
-				(at 0 5.08 0)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1061,8 +1058,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-				(at 2.54 -6.35 0)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1070,7 +1067,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, TO-252"
+			(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1088,7 +1085,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?252*TabPin2*"
+			(property "ki_fp_filters" "TO?220*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1097,7 +1094,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AMS1117CD-3.3_0_1"
+			(symbol "LM1117T-3.3_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 1.905)
@@ -1110,7 +1107,7 @@
 					)
 				)
 			)
-			(symbol "AMS1117CD-3.3_1_1"
+			(symbol "LM1117T-3.3_1_1"
 				(pin power_in line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -1761,16 +1758,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 165.1) (xy 99.06 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0503c7c1-c929-428a-a577-810b576a2f86")
-	)
-	(wire
-		(pts
 			(xy 90.17 82.55) (xy 90.17 71.12)
 		)
 		(stroke
@@ -1888,6 +1875,16 @@
 			(type default)
 		)
 		(uuid "3ebc088c-039c-439a-bd5e-dedbfffac387")
+	)
+	(wire
+		(pts
+			(xy 92.71 165.1) (xy 99.06 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433de3c1-a115-45bf-9cf1-b6b3a977cf89")
 	)
 	(wire
 		(pts
@@ -2289,6 +2286,56 @@
 		)
 		(uuid "ff4bc6bf-7c38-49ed-a9e1-375815b2de61")
 	)
+	(label "VIN_12V"
+		(at 95.25 165.1 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56a265f0-9bbd-419b-810b-0aa1bb97653a")
+	)
+	(label "3.3V"
+		(at 115.57 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "704257c7-e960-4dcb-9388-4e402b6f10d3")
+	)
+	(label "VIN_12V"
+		(at 132.08 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8404ae85-79ee-4e84-b723-65ee1ab93d16")
+	)
+	(label "VIN_12V"
+		(at 104.14 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93cca0c9-84dd-46eb-a19e-cfd7f2f43ab7")
+	)
+	(label "VIN_12V"
+		(at 83.82 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e157f807-c35d-4cbc-9eb1-cdcff0044b8e")
+	)
 	(global_label "VIN_12V"
 		(shape output)
 		(at 143.51 52.07 0)
@@ -2572,77 +2619,6 @@
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
 					(reference "C202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:AMS1117CD-3.3")
-		(at 107.95 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bfd6cf6-97da-4e64-9103-fb2bddefa133")
-		(property "Reference" "U204"
-			(at 107.95 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMS1117-3.3"
-			(at 107.95 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
-			(at 107.95 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 110.49 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, TO-252"
-			(at 107.95 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "951b0821-e470-4a77-bcfb-401cafbbef94")
-		)
-		(pin "1"
-			(uuid "4a371645-92bd-42d8-961b-1f9cc3903a09")
-		)
-		(pin "2"
-			(uuid "124df671-f82f-496a-ad32-7174b471812e")
-		)
-		(instances
-			(project "circuit"
-				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "U204")
 					(unit 1)
 				)
 			)
@@ -4015,6 +3991,77 @@
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
 					(reference "#FLG0207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LM1117T-3.3")
+		(at 107.95 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b503e677-a211-4c2b-a32a-6dae2dcba289")
+		(property "Reference" "U204"
+			(at 107.95 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM1117T-3.3"
+			(at 107.95 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 107.95 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+			(at 107.95 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220"
+			(at 107.95 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1cca636-7031-4d62-8e0f-b41950160f77")
+		)
+		(pin "3"
+			(uuid "5277dd32-53e8-4785-b0df-3cc83c723b76")
+		)
+		(pin "2"
+			(uuid "dbc9fa2d-574b-469e-a2e2-20abc60b05fc")
+		)
+		(instances
+			(project ""
+				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
+					(reference "U204")
 					(unit 1)
 				)
 			)
