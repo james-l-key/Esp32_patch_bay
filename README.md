@@ -1,5 +1,9 @@
 # Esp32_Patch_Bay
 
+## Warning! 
+
+This project is in active hardware and software development. Things may change drastically at a moments notice.
+
 An 8-pedal mono guitar patch bay controlled by an ESP32-S3, allowing dynamic reconfiguration of guitar pedal signal chains via a user interface with an OLED display and push buttons. The project uses analog multiplexers (CD4051B, ADG419BN) and op-amps (TL072) to route audio signals, controlled through shift registers (74HC595) interfaced with the ESP32-S3. The schematic is designed in KiCad 9.0, and the firmware is developed using the ESP-IDF framework.
 
 ## Table of Contents
@@ -171,11 +175,6 @@ Esp32_patch_bay/
   Push to the branch (git push origin feature/your-feature).
   Open a Pull Request.
 
-**Please include**:
-
-  Detailed descriptions of changes.
-  Updates to documentation if necessary.
-  Tests or verification steps for hardware/firmware changes.
 
 ## Issues
 
