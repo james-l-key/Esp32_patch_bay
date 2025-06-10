@@ -940,6 +940,151 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "WE_UKW:WE-UKW_1SW_74275010"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" ""
+				(at -5.08 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Eagle_WE-UKW (rev19a):WE-UKW_74275010"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "WE-UKW EMI Suppression 6-Hole Ferrite Bead\n\nCharacteristics\n\nImpedance will increase with more turns, available in 1 to 3 turns\n4 different materials available for perfect interference suppression\nAlso available ready-bent or in individual length\nMaximum current capability is 3 A / 5 A (short-time)\nOperating temperature: –25 ºC to +125 ºC\n\nApplications\n\nProtection against radio frequency interferences\n\nhttps://katalog.we-online.de/media/images/v2/o14887v209%20Family_WE-UKW_6LOCH.jpg\n\nDetails see: http://katalog.we-online.de/en/pbs/WE-UKW/S http://katalog.we-online.de/en/pbs/WE-UKW/S\n\nCreated  by Ella Wu  2019-01-02\n2019 (C) Wurth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "WE-UKW_1SW_74275010_1_0"
+				(arc
+					(start -5.08 0)
+					(mid -3.81 1.27)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.27 1.27)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 1.27 1.27)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 3.81 1.27)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 227.33 220.98)
@@ -948,10 +1093,46 @@
 		(uuid "0765da60-bd16-46cb-b540-af8eace67431")
 	)
 	(junction
+		(at 77.47 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07c944ec-6c79-4942-80e1-0e612620905f")
+	)
+	(junction
+		(at 290.83 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ad33a3d-79ae-40d2-950c-db953d01df77")
+	)
+	(junction
+		(at 176.53 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f2bb059-0bb8-4820-845c-6004e60f98de")
+	)
+	(junction
 		(at 33.02 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18d42bdd-12f9-40c7-93bf-9e15eb679354")
+	)
+	(junction
+		(at 217.17 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2242b740-59ed-4469-94bb-fe44f687ad19")
+	)
+	(junction
+		(at 217.17 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bca576f-c15d-4e3c-a232-90b9f566b30a")
+	)
+	(junction
+		(at 72.39 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34fa426e-0036-492c-83e5-1eb69ef1adc6")
 	)
 	(junction
 		(at 87.63 93.98)
@@ -972,16 +1153,52 @@
 		(uuid "4809c0bd-fc86-4b25-a079-1128cf11b7b1")
 	)
 	(junction
+		(at 133.35 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b2527f0-1ccc-45aa-b48f-acc83c1b59cc")
+	)
+	(junction
+		(at 77.47 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d0df6f0-b298-4311-93cb-aac523a55b50")
+	)
+	(junction
 		(at 234.95 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d9c4195-d5f5-407a-991b-4335907a66ad")
 	)
 	(junction
+		(at 13.97 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ec2695f-e739-4602-a876-daf5e408892d")
+	)
+	(junction
 		(at 95.25 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "522aacbd-f400-491f-a1a2-2086780ff264")
+	)
+	(junction
+		(at 13.97 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55ecbac7-e4c4-4623-a15e-ab7e65825716")
+	)
+	(junction
+		(at 77.47 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57162950-ad36-4023-87d4-5d19eaacbae0")
+	)
+	(junction
+		(at 290.83 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d122b5a-268e-4aa5-897f-7730e9733718")
 	)
 	(junction
 		(at 234.95 233.68)
@@ -1008,6 +1225,12 @@
 		(uuid "777c4c72-95c9-4ae0-b17f-e64c22e29c2f")
 	)
 	(junction
+		(at 181.61 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79df4d1d-1444-4923-b858-a5c84eabce8f")
+	)
+	(junction
 		(at 232.41 16.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1030,6 +1253,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8763163b-d423-445e-b6db-f3495087fc27")
+	)
+	(junction
+		(at 107.95 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88e43256-3c36-4c2a-8052-6b2960b84a98")
+	)
+	(junction
+		(at 217.17 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88e9263e-7aac-4a41-820d-675e28fb8c02")
 	)
 	(junction
 		(at 260.35 30.48)
@@ -1062,10 +1297,28 @@
 		(uuid "9e4af37d-3149-4553-a1da-cf2f3d656f88")
 	)
 	(junction
+		(at 77.47 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e87a790-726a-4347-b62f-8a6277571c31")
+	)
+	(junction
+		(at 358.14 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aac5ae5e-961d-4e25-a728-7dae33550d6a")
+	)
+	(junction
 		(at 33.02 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab1ee7d5-d38d-4938-bb72-147da755cc09")
+	)
+	(junction
+		(at 217.17 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "accb964f-abd1-4006-ad21-6e1c2fb75d5e")
 	)
 	(junction
 		(at 95.25 233.68)
@@ -1122,10 +1375,16 @@
 		(uuid "c78a6173-5c14-4634-91a4-642c4c456010")
 	)
 	(junction
+		(at 107.95 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc9a83cb-7cd5-4985-a5f2-d82890ed4493")
+	)
+	(junction
 		(at 217.17 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cc36d47d-34a6-4240-b74f-00b85eaab8f3")
+		(uuid "d3682ef4-fc31-4e92-83da-01630f18767d")
 	)
 	(junction
 		(at 95.25 170.18)
@@ -1140,6 +1399,18 @@
 		(uuid "d94edaa4-80f6-4e63-9fec-3f3fe35b9962")
 	)
 	(junction
+		(at 290.83 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc30f9bb-3adf-454e-b3bc-18828ccb0f8e")
+	)
+	(junction
+		(at 176.53 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc5db700-b451-47f1-94d2-06de32e910bc")
+	)
+	(junction
 		(at 33.02 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1152,16 +1423,28 @@
 		(uuid "e06c044d-cee2-42b2-bf2b-08bb8f6d6bab")
 	)
 	(junction
+		(at 13.97 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1813c1d-f637-4153-b727-514dad852096")
+	)
+	(junction
 		(at 87.63 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5123f96-fced-41a5-86d7-f0e1cfdb55d9")
 	)
 	(junction
-		(at 217.17 82.55)
+		(at 176.53 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e54f9a83-fde9-4cb4-a088-36fda3f6f6e5")
+		(uuid "ef5bf5a6-b77f-4320-8e58-39f4db169ae0")
+	)
+	(junction
+		(at 290.83 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f46c4147-acc3-41bb-9364-3c9898b9d899")
 	)
 	(junction
 		(at 77.47 146.05)
@@ -1170,10 +1453,22 @@
 		(uuid "f5bceabd-6eba-48cf-af4a-f062cd28db21")
 	)
 	(junction
+		(at 133.35 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc78b314-b894-4396-9478-d541789971ab")
+	)
+	(junction
 		(at 217.17 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcc8497c-b4d9-4b0e-9ac0-d8750fc693f9")
+	)
+	(junction
+		(at 217.17 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff0f9173-42f5-4b78-b5a1-5f41b9959755")
 	)
 	(wire
 		(pts
@@ -1184,6 +1479,16 @@
 			(type default)
 		)
 		(uuid "00930196-b2f2-4eec-adb2-ddbbece9a788")
+	)
+	(wire
+		(pts
+			(xy 46.99 209.55) (xy 46.99 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0114efd1-d850-4fad-91af-c397b86166b0")
 	)
 	(wire
 		(pts
@@ -1204,6 +1509,16 @@
 			(type default)
 		)
 		(uuid "03d26c7d-80a6-400c-95b7-cbbbcf38c1f3")
+	)
+	(wire
+		(pts
+			(xy 13.97 54.61) (xy 13.97 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03f25700-f06e-4813-b31b-48454aef1029")
 	)
 	(wire
 		(pts
@@ -1247,6 +1562,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 13.97) (xy 181.61 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07914e2e-163d-498a-b3a2-6685ab65e403")
+	)
+	(wire
+		(pts
 			(xy 232.41 147.32) (xy 232.41 140.97)
 		)
 		(stroke
@@ -1287,6 +1612,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 119.38) (xy 290.83 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf7321a-298a-4bc2-8149-f7bfd4351e8f")
+	)
+	(wire
+		(pts
 			(xy 232.41 22.86) (xy 232.41 16.51)
 		)
 		(stroke
@@ -1294,6 +1629,16 @@
 			(type default)
 		)
 		(uuid "0d9835d1-17fd-4d57-9fdb-3587b430a321")
+	)
+	(wire
+		(pts
+			(xy 133.35 246.38) (xy 133.35 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "100dcae0-e890-4aa4-81b7-cb45f5ec76e2")
 	)
 	(wire
 		(pts
@@ -1324,6 +1669,16 @@
 			(type default)
 		)
 		(uuid "10eabd14-f968-43be-81f4-b4943822c4e0")
+	)
+	(wire
+		(pts
+			(xy 72.39 21.59) (xy 77.47 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11777754-b428-44a0-a6d0-7cfe13bf4d64")
 	)
 	(wire
 		(pts
@@ -1377,6 +1732,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 21.59) (xy 181.61 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1517ed82-cf57-44f3-bbfc-c05af23cc48d")
+	)
+	(wire
+		(pts
 			(xy 54.61 106.68) (xy 62.23 106.68)
 		)
 		(stroke
@@ -1397,13 +1762,23 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 58.42) (xy 217.17 58.42)
+			(xy 151.13 21.59) (xy 158.75 21.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16d8d501-8256-4559-9745-79ee2d468c3d")
+		(uuid "17d1d643-1def-4499-86a2-c3d872ed28ee")
+	)
+	(wire
+		(pts
+			(xy 290.83 58.42) (xy 217.17 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19cd4626-79fb-443e-a16b-c30eb5359000")
 	)
 	(wire
 		(pts
@@ -1567,6 +1942,26 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 58.42) (xy 217.17 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "231f7653-a7b7-4df0-9a1f-a7c7b1047a9f")
+	)
+	(wire
+		(pts
+			(xy 217.17 246.38) (xy 290.83 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "234986ca-eb74-44de-b7c1-0971c7553b6c")
+	)
+	(wire
+		(pts
 			(xy 95.25 45.72) (xy 95.25 72.39)
 		)
 		(stroke
@@ -1594,6 +1989,16 @@
 			(type default)
 		)
 		(uuid "25f506f9-6393-4f07-a86f-b71090c78860")
+	)
+	(wire
+		(pts
+			(xy 72.39 13.97) (xy 72.39 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26bcd7f0-97d4-422b-b3c3-45a971b59eb2")
 	)
 	(wire
 		(pts
@@ -1677,6 +2082,26 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 74.93) (xy 133.35 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3170c3d1-9c98-49d8-a7b3-fbe8dd3a8153")
+	)
+	(wire
+		(pts
+			(xy 176.53 146.05) (xy 176.53 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31cf2e4f-3f72-433f-bed0-2fee41902895")
+	)
+	(wire
+		(pts
 			(xy 248.92 93.98) (xy 252.73 93.98)
 		)
 		(stroke
@@ -1684,6 +2109,36 @@
 			(type default)
 		)
 		(uuid "321d76e4-ddb8-4893-bc97-11659fc987f1")
+	)
+	(wire
+		(pts
+			(xy 307.34 58.42) (xy 308.61 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "323760f1-8797-4b81-8517-435330cfc154")
+	)
+	(wire
+		(pts
+			(xy 335.28 21.59) (xy 335.28 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b812b4-0376-4217-a2d1-7a7cbbd8fdf5")
+	)
+	(wire
+		(pts
+			(xy 176.53 82.55) (xy 217.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f11d31-e3cd-46e0-a484-801108ca2956")
 	)
 	(wire
 		(pts
@@ -1734,16 +2189,6 @@
 			(type default)
 		)
 		(uuid "351e2a8d-9ae4-49cc-a3af-70b23fb812bd")
-	)
-	(wire
-		(pts
-			(xy 77.47 21.59) (xy 76.2 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "361c8dc1-5c57-4972-9366-f15b01010b0c")
 	)
 	(wire
 		(pts
@@ -1937,6 +2382,36 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 21.59) (xy 217.17 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a13ea7a-a336-4d91-9dc5-5a9914d0dfd1")
+	)
+	(wire
+		(pts
+			(xy 290.83 182.88) (xy 290.83 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af23647-6b8c-44a6-8d99-2c10db304022")
+	)
+	(wire
+		(pts
+			(xy 53.34 21.59) (xy 44.45 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b94d0ab-b974-424b-ab9e-592f33426fff")
+	)
+	(wire
+		(pts
 			(xy 207.01 185.42) (xy 207.01 182.88)
 		)
 		(stroke
@@ -1987,6 +2462,36 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 58.42) (xy 389.89 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5053ca90-1226-440d-a594-484fd3db038d")
+	)
+	(wire
+		(pts
+			(xy 217.17 119.38) (xy 290.83 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5101352a-b406-49cc-a7cd-a1d0e93da688")
+	)
+	(wire
+		(pts
+			(xy 176.53 146.05) (xy 217.17 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5321fd5d-cdfb-46bf-a276-338c73a9b9ad")
+	)
+	(wire
+		(pts
 			(xy 196.85 191.77) (xy 227.33 191.77)
 		)
 		(stroke
@@ -2024,6 +2529,16 @@
 			(type default)
 		)
 		(uuid "557fdbfd-9a9c-4ee6-a51d-66ae02425179")
+	)
+	(wire
+		(pts
+			(xy 107.95 67.31) (xy 107.95 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56111ded-86e7-4526-80c1-9ae91eb50b84")
 	)
 	(wire
 		(pts
@@ -2074,6 +2589,16 @@
 			(type default)
 		)
 		(uuid "5cf88190-6593-4363-8e06-c3ae0419a8ae")
+	)
+	(wire
+		(pts
+			(xy 173.99 21.59) (xy 176.53 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d06ff3c-46d3-4652-b7a7-1d380b0743b3")
 	)
 	(wire
 		(pts
@@ -2147,16 +2672,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 21.59) (xy 356.87 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62c66fa1-e4d8-4d2b-816c-3abe3dfba55b")
-	)
-	(wire
-		(pts
 			(xy 257.81 45.72) (xy 265.43 45.72)
 		)
 		(stroke
@@ -2194,6 +2709,16 @@
 			(type default)
 		)
 		(uuid "640801c2-063e-49f9-973d-3126d16ccc93")
+	)
+	(wire
+		(pts
+			(xy 133.35 182.88) (xy 133.35 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64709af8-c4e9-47db-9574-1d9bb2b9e1cc")
 	)
 	(wire
 		(pts
@@ -2407,13 +2932,23 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 82.55) (xy 76.2 82.55)
+			(xy 290.83 90.17) (xy 389.89 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76574bbe-8a89-4985-9c0c-f980b2063be4")
+		(uuid "75e4b56f-70af-40df-8d2b-c856b4c12bc5")
+	)
+	(wire
+		(pts
+			(xy 125.73 58.42) (xy 142.24 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b3b8ce-a1be-4ab6-af84-5efc4c565dbd")
 	)
 	(wire
 		(pts
@@ -2537,16 +3072,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 209.55) (xy 76.2 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81d3da13-337a-4c13-a7ed-02ce71316c25")
-	)
-	(wire
-		(pts
 			(xy 67.31 60.96) (xy 67.31 58.42)
 		)
 		(stroke
@@ -2574,6 +3099,16 @@
 			(type default)
 		)
 		(uuid "82bf8afb-0606-4cee-9f7a-ae8d5f87a10a")
+	)
+	(wire
+		(pts
+			(xy 13.97 135.89) (xy 13.97 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8318ef00-1272-4d59-8bdf-7558a7d0bdaf")
 	)
 	(wire
 		(pts
@@ -2637,6 +3172,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 246.38) (xy 133.35 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b26e059-8f2e-4f14-ae95-119f9f8b7f22")
+	)
+	(wire
+		(pts
 			(xy 403.86 38.1) (xy 403.86 48.26)
 		)
 		(stroke
@@ -2677,6 +3222,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 21.59) (xy 72.39 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d6e7851-efc3-4139-9186-fcb649db45b6")
+	)
+	(wire
+		(pts
 			(xy 358.14 25.4) (xy 358.14 21.59)
 		)
 		(stroke
@@ -2714,6 +3269,16 @@
 			(type default)
 		)
 		(uuid "9267b47e-9e3b-4025-b184-08bb1a55be5c")
+	)
+	(wire
+		(pts
+			(xy 176.53 209.55) (xy 217.17 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "931aadde-bd7c-415b-be34-ed55356460c5")
 	)
 	(wire
 		(pts
@@ -2807,6 +3372,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 209.55) (xy 176.53 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c8d9a0e-2ca9-4790-9f37-e2a121cac107")
+	)
+	(wire
+		(pts
 			(xy 33.02 86.36) (xy 33.02 91.44)
 		)
 		(stroke
@@ -2814,6 +3389,16 @@
 			(type default)
 		)
 		(uuid "9c924dac-b7a9-440a-bb0c-14d871c08993")
+	)
+	(wire
+		(pts
+			(xy 22.86 54.61) (xy 13.97 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d2d6b4d-821a-442d-8edb-4b44cc038e12")
 	)
 	(wire
 		(pts
@@ -2847,6 +3432,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 90.17) (xy 290.83 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e5a16d7-fb44-44cd-b7f2-10ab4d36f12f")
+	)
+	(wire
+		(pts
 			(xy 257.81 157.48) (xy 265.43 157.48)
 		)
 		(stroke
@@ -2867,6 +3462,26 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 119.38) (xy 77.47 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4a2a34-048e-47fb-b281-6ee440c338e1")
+	)
+	(wire
+		(pts
+			(xy 45.72 82.55) (xy 45.72 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1eb8919-ea30-46a0-80e1-9e7c47d8f229")
+	)
+	(wire
+		(pts
 			(xy 347.98 60.96) (xy 347.98 58.42)
 		)
 		(stroke
@@ -2874,16 +3489,6 @@
 			(type default)
 		)
 		(uuid "a4bcbf40-cc78-4daa-a4df-885b79fe6616")
-	)
-	(wire
-		(pts
-			(xy 217.17 55.88) (xy 217.17 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5836330-7d77-4584-9b5f-2fbb145f4482")
 	)
 	(wire
 		(pts
@@ -2917,16 +3522,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 209.55) (xy 215.9 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a799e445-1a85-4ff2-80b9-a407f57dffd8")
-	)
-	(wire
-		(pts
 			(xy 260.35 30.48) (xy 260.35 16.51)
 		)
 		(stroke
@@ -2934,6 +3529,26 @@
 			(type default)
 		)
 		(uuid "a8ab311b-4269-4639-8a88-562674908730")
+	)
+	(wire
+		(pts
+			(xy 45.72 146.05) (xy 45.72 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba36dd2-b2e4-4078-87f8-68138a7d3209")
+	)
+	(wire
+		(pts
+			(xy 77.47 182.88) (xy 133.35 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abae6977-60a7-4580-a4f7-c096d38489ec")
 	)
 	(wire
 		(pts
@@ -2977,6 +3592,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 13.97) (xy 181.61 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af3dedef-77f8-4e3d-aa6c-9ad7cd3e197f")
+	)
+	(wire
+		(pts
 			(xy 260.35 231.14) (xy 260.35 218.44)
 		)
 		(stroke
@@ -2987,13 +3612,13 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 82.55) (xy 215.9 82.55)
+			(xy 107.95 67.31) (xy 114.3 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "affa4745-70e5-4b61-832f-f1fbfe638d9d")
+		(uuid "b14e0202-de3e-48c1-8706-7cbfdf3201de")
 	)
 	(wire
 		(pts
@@ -3037,6 +3662,26 @@
 	)
 	(wire
 		(pts
+			(xy 13.97 13.97) (xy 72.39 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b56e2de5-718b-4f64-9f6e-eec4ca006df1")
+	)
+	(wire
+		(pts
+			(xy 292.1 58.42) (xy 290.83 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b78eed87-1c82-4bdf-91b0-74c951a78700")
+	)
+	(wire
+		(pts
 			(xy 77.47 243.84) (xy 77.47 246.38)
 		)
 		(stroke
@@ -3054,6 +3699,16 @@
 			(type default)
 		)
 		(uuid "b9050257-9673-4e4f-9fc1-d202dd83b2dc")
+	)
+	(wire
+		(pts
+			(xy 46.99 193.04) (xy 13.97 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9efa247-c56a-4e96-9cd9-9113fb435d34")
 	)
 	(wire
 		(pts
@@ -3097,6 +3752,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 58.42) (xy 217.17 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc05f47d-181d-4008-9e85-3ba1565495d9")
+	)
+	(wire
+		(pts
 			(xy 57.15 191.77) (xy 87.63 191.77)
 		)
 		(stroke
@@ -3137,6 +3802,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 58.42) (xy 389.89 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c07f6717-5e37-492d-90ad-3383ad5c0a4f")
+	)
+	(wire
+		(pts
 			(xy 31.75 104.14) (xy 36.83 104.14)
 		)
 		(stroke
@@ -3144,6 +3819,16 @@
 			(type default)
 		)
 		(uuid "c1461fc6-367c-41a3-95d9-5e2230c24574")
+	)
+	(wire
+		(pts
+			(xy 13.97 193.04) (xy 13.97 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c16fd018-7f5c-4bc5-be80-edf97092f1b0")
 	)
 	(wire
 		(pts
@@ -3207,6 +3892,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 82.55) (xy 77.47 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8a1ce86-fe11-4ecf-bb11-7b3779c376a1")
+	)
+	(wire
+		(pts
 			(xy 77.47 180.34) (xy 77.47 182.88)
 		)
 		(stroke
@@ -3217,6 +3912,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 135.89) (xy 13.97 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9baddde-1324-4c66-9a92-d3d131b7fca3")
+	)
+	(wire
+		(pts
 			(xy 207.01 121.92) (xy 207.01 119.38)
 		)
 		(stroke
@@ -3224,16 +3929,6 @@
 			(type default)
 		)
 		(uuid "ca4e3136-dd0a-41d5-9b2d-887fd467e75a")
-	)
-	(wire
-		(pts
-			(xy 217.17 21.59) (xy 215.9 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb0496c8-c593-4a55-b39c-e436dd087d93")
 	)
 	(wire
 		(pts
@@ -3267,6 +3962,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 182.88) (xy 290.83 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce218fd5-b335-4ae0-bc1d-f63e83f2781f")
+	)
+	(wire
+		(pts
 			(xy 201.93 109.22) (xy 201.93 133.35)
 		)
 		(stroke
@@ -3294,6 +3999,16 @@
 			(type default)
 		)
 		(uuid "cfce1c2f-a7a6-44b5-bc8e-478f67edf1b1")
+	)
+	(wire
+		(pts
+			(xy 335.28 21.59) (xy 358.14 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d08f18e6-8ad9-4dce-a8d5-ed550a1273de")
 	)
 	(wire
 		(pts
@@ -3337,6 +4052,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 58.42) (xy 107.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b7dcef-28ae-45c4-9103-92a2ab5302cb")
+	)
+	(wire
+		(pts
 			(xy 217.17 146.05) (xy 217.17 149.86)
 		)
 		(stroke
@@ -3354,6 +4079,16 @@
 			(type default)
 		)
 		(uuid "d3a464b9-75ea-4a4d-9442-7e44d6e91d43")
+	)
+	(wire
+		(pts
+			(xy 45.72 73.66) (xy 13.97 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e2dd57-4a5d-4112-ba55-8c6d420fa297")
 	)
 	(wire
 		(pts
@@ -3437,6 +4172,16 @@
 	)
 	(wire
 		(pts
+			(xy 13.97 73.66) (xy 13.97 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf4155b-acf9-4bb9-a53a-6227c5686d97")
+	)
+	(wire
+		(pts
 			(xy 53.34 93.98) (xy 49.53 93.98)
 		)
 		(stroke
@@ -3487,6 +4232,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 74.93) (xy 133.35 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ea220b-14a0-439c-a93c-db523bbc854b")
+	)
+	(wire
+		(pts
 			(xy 19.05 81.28) (xy 33.02 81.28)
 		)
 		(stroke
@@ -3524,6 +4279,16 @@
 			(type default)
 		)
 		(uuid "e5cc66a1-20b1-4e54-a0b9-c5272d9d6de1")
+	)
+	(wire
+		(pts
+			(xy 107.95 58.42) (xy 107.95 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7781914-4b12-4207-827a-8ba4519ef335")
 	)
 	(wire
 		(pts
@@ -3577,6 +4342,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 209.55) (xy 77.47 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea56d1b6-fb4d-4d25-bdd1-1ca668ac63ae")
+	)
+	(wire
+		(pts
 			(xy 207.01 60.96) (xy 207.01 58.42)
 		)
 		(stroke
@@ -3614,16 +4389,6 @@
 			(type default)
 		)
 		(uuid "ed3cef5f-a06f-47ec-9b64-58ccd462deaf")
-	)
-	(wire
-		(pts
-			(xy 77.47 146.05) (xy 76.2 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee491b8d-66e3-4a22-b544-9b194664e52d")
 	)
 	(wire
 		(pts
@@ -3687,6 +4452,36 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 82.55) (xy 176.53 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c90914-33c8-40f3-90ee-aad8774fcd5f")
+	)
+	(wire
+		(pts
+			(xy 45.72 146.05) (xy 77.47 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8daa250-4a92-47e2-9d45-cb7c4d8c1835")
+	)
+	(wire
+		(pts
+			(xy 290.83 246.38) (xy 290.83 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f99408c5-3344-4451-a787-0487d35ee7d2")
+	)
+	(wire
+		(pts
 			(xy 33.02 157.48) (xy 44.45 157.48)
 		)
 		(stroke
@@ -3727,6 +4522,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 58.42) (xy 77.47 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd6d5653-1732-4898-a79d-36db2b614674")
+	)
+	(wire
+		(pts
 			(xy 227.33 93.98) (xy 227.33 128.27)
 		)
 		(stroke
@@ -3744,16 +4549,6 @@
 			(type default)
 		)
 		(uuid "feced8c3-7cdf-43c4-995d-f67e20e1f93b")
-	)
-	(wire
-		(pts
-			(xy 217.17 146.05) (xy 215.9 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff3bc52c-72e5-4537-bb9c-a3aee1958477")
 	)
 	(wire
 		(pts
@@ -3778,50 +4573,6 @@
 		(uuid "0078b3c1-d60d-4e95-8ee7-58076f36f22f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 125.4493 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "-15V"
-		(shape input)
-		(at 217.17 182.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "00d0be42-f217-4212-9ea3-d2aa850a6b27")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.2352 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "-15V"
-		(shape input)
-		(at 217.17 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "03477065-f4ab-40ec-bd95-fd4fc39b9262")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.2352 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,28 +4622,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+15V"
-		(shape input)
-		(at 215.9 209.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "14407bdd-2cb6-4f46-8edb-162a82b3d1dd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.0853 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3987,7 +4716,7 @@
 	)
 	(global_label "+15V"
 		(shape input)
-		(at 215.9 21.59 180)
+		(at 151.13 21.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3997,7 +4726,7 @@
 		)
 		(uuid "425a0eb4-fd13-4d69-942a-4c91617d5997")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.0853 21.59 0)
+			(at 139.3153 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4007,46 +4736,24 @@
 			)
 		)
 	)
-	(global_label "+15V"
+	(global_label "-15V"
 		(shape input)
-		(at 215.9 146.05 180)
+		(at 142.24 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "43b9e9ce-2e31-4e2d-9e26-c4423342df9c")
+		(uuid "439a74ee-3e0c-431c-8363-c8dfbf971f00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.0853 146.05 0)
+			(at 150.3052 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+15V"
-		(shape input)
-		(at 356.87 21.59 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4eb2bb3b-f8f3-4607-b042-d7ba1a859674")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 345.0553 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4086,72 +4793,6 @@
 		(uuid "565e69b0-4785-4eb6-84a8-5a56660a62b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 203.9475 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "-15V"
-		(shape input)
-		(at 217.17 246.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5a325800-40c8-4fa3-b3d4-37d82c613530")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.2352 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+15V"
-		(shape input)
-		(at 215.9 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5b7ff4ad-6c72-4a1e-9e31-8e6cb34c1827")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.0853 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "-15V"
-		(shape input)
-		(at 77.47 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5de6296a-d11d-4f30-b5ed-cde847d70d07")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.5352 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4205,28 +4846,6 @@
 			)
 		)
 	)
-	(global_label "-15V"
-		(shape input)
-		(at 77.47 182.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "69acfc8c-e884-4421-81f8-3af2afe514bb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.5352 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GUITAR_IN"
 		(shape output)
 		(at 393.7 33.02 0)
@@ -4271,6 +4890,28 @@
 			)
 		)
 	)
+	(global_label "_15V_F"
+		(shape output)
+		(at 114.3 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86d5a315-5a00-411d-94f3-248b255291f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.4214 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FX_S_5"
 		(shape input)
 		(at 194.31 157.48 180)
@@ -4295,7 +4936,7 @@
 	)
 	(global_label "-15V"
 		(shape input)
-		(at 217.17 58.42 0)
+		(at 308.61 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4305,7 +4946,7 @@
 		)
 		(uuid "8a8ce738-2043-4f6a-af84-e14a38064c84")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.2352 58.42 0)
+			(at 316.6752 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +4958,7 @@
 	)
 	(global_label "+15V"
 		(shape input)
-		(at 76.2 209.55 180)
+		(at 44.45 21.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4325,75 +4966,9 @@
 			)
 			(justify right)
 		)
-		(uuid "91ef5d98-f200-4935-8093-636c3347cdbf")
+		(uuid "a6ea7ee3-78ca-41e8-ad4b-acc78c72e863")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.3853 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "-15V"
-		(shape input)
-		(at 358.14 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "98d980a1-42e8-442b-88c8-75ef1d82bdf0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 366.2052 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+15V"
-		(shape input)
-		(at 76.2 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9b04e234-5741-4085-826a-5fd10297d66f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.3853 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+15V"
-		(shape input)
-		(at 76.2 146.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9b40d9fa-1c43-4786-8366-503c657eda5f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.3853 146.05 0)
+			(at 32.6353 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4447,50 +5022,6 @@
 			)
 		)
 	)
-	(global_label "-15V"
-		(shape input)
-		(at 77.47 246.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e15fe979-5023-49df-ae73-e0828e4dca86")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.5352 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "-15V"
-		(shape input)
-		(at 77.47 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e3b1baa3-ab6c-4c34-9577-4f606bed5770")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.5352 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FX_R_3"
 		(shape output)
 		(at 111.76 93.98 0)
@@ -4535,24 +5066,24 @@
 			)
 		)
 	)
-	(global_label "+15V"
-		(shape input)
-		(at 76.2 21.59 180)
+	(global_label "+15V_F"
+		(shape output)
+		(at 22.86 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "f9eff977-f79d-46e0-b66b-8bc953dd253e")
+		(uuid "fc90e2c7-2717-4b09-85db-98e178665775")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.3853 21.59 0)
+			(at 32.9814 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4583,7 +5114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 56.896 94.996 90)
 			(effects
 				(font
@@ -4720,7 +5251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 72.39 40.64 0)
 			(effects
 				(font
@@ -4806,7 +5337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 255.27 33.02 0)
 			(effects
 				(font
@@ -4943,7 +5474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 212.09 101.6 0)
 			(effects
 				(font
@@ -5030,7 +5561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 217.17 143.51 0)
 			(effects
 				(font
@@ -5098,7 +5629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 56.896 221.996 90)
 			(effects
 				(font
@@ -5233,7 +5764,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Bay:Pedal_Jack"
+		(property "Footprint" "Library:Jack"
 			(at 26.67 106.68 0)
 			(effects
 				(font
@@ -5251,7 +5782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" ""
 			(at 26.67 106.68 0)
 			(effects
 				(font
@@ -5303,7 +5834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 212.09 228.6 0)
 			(effects
 				(font
@@ -5389,7 +5920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 255.27 106.68 0)
 			(effects
 				(font
@@ -5457,7 +5988,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 39.37 233.68 0)
 			(effects
 				(font
@@ -5527,7 +6058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 217.17 207.01 0)
 			(effects
 				(font
@@ -5595,7 +6126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 69.85 182.88 0)
 			(effects
 				(font
@@ -5664,7 +6195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 245.364 46.736 90)
 			(effects
 				(font
@@ -5734,7 +6265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 77.47 80.01 0)
 			(effects
 				(font
@@ -5802,7 +6333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 41.91 45.72 0)
 			(effects
 				(font
@@ -5870,7 +6401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 69.85 58.42 0)
 			(effects
 				(font
@@ -5938,7 +6469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Bay:Pedal_Jack"
+		(property "Footprint" "Library:Jack"
 			(at 270.51 33.02 0)
 			(effects
 				(font
@@ -5956,7 +6487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" ""
 			(at 270.51 33.02 0)
 			(effects
 				(font
@@ -6073,7 +6604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 69.85 246.38 0)
 			(effects
 				(font
@@ -6142,7 +6673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Bay:Pedal_Jack"
+		(property "Footprint" "Library:Jack"
 			(at 316.23 33.02 0)
 			(effects
 				(font
@@ -6160,7 +6691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" ""
 			(at 316.23 33.02 0)
 			(effects
 				(font
@@ -6344,7 +6875,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Bay:Pedal_Jack"
+		(property "Footprint" "Library:Jack"
 			(at 270.51 106.68 0)
 			(effects
 				(font
@@ -6362,7 +6893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" ""
 			(at 270.51 106.68 0)
 			(effects
 				(font
@@ -6412,7 +6943,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 350.52 58.42 0)
 			(effects
 				(font
@@ -6546,7 +7077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Bay:Pedal_Jack"
+		(property "Footprint" "Library:Jack"
 			(at 27.94 33.02 0)
 			(effects
 				(font
@@ -6564,7 +7095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" ""
 			(at 27.94 33.02 0)
 			(effects
 				(font
@@ -6681,7 +7212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 56.896 158.496 90)
 			(effects
 				(font
@@ -6751,7 +7282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 217.17 19.05 0)
 			(effects
 				(font
@@ -6818,7 +7349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Bay:Pedal_Jack"
+		(property "Footprint" "Library:Jack"
 			(at 27.94 93.98 0)
 			(effects
 				(font
@@ -6836,7 +7367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" ""
 			(at 27.94 93.98 0)
 			(effects
 				(font
@@ -6886,7 +7417,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Bay:Pedal_Jack"
+		(property "Footprint" "Library:Jack"
 			(at 270.51 220.98 0)
 			(effects
 				(font
@@ -6904,7 +7435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" ""
 			(at 270.51 220.98 0)
 			(effects
 				(font
@@ -6954,7 +7485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Bay:Pedal_Jack"
+		(property "Footprint" "Library:Jack"
 			(at 270.51 93.98 0)
 			(effects
 				(font
@@ -6972,7 +7503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" ""
 			(at 270.51 93.98 0)
 			(effects
 				(font
@@ -7089,7 +7620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 209.55 246.38 0)
 			(effects
 				(font
@@ -7157,7 +7688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 209.55 182.88 0)
 			(effects
 				(font
@@ -7226,7 +7757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 245.364 107.696 90)
 			(effects
 				(font
@@ -7294,7 +7825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Bay:Pedal_Jack"
+		(property "Footprint" "Library:Jack"
 			(at 26.67 170.18 0)
 			(effects
 				(font
@@ -7312,7 +7843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" ""
 			(at 26.67 170.18 0)
 			(effects
 				(font
@@ -7363,7 +7894,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 245.364 234.696 90)
 			(effects
 				(font
@@ -7498,7 +8029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Bay:Pedal_Jack"
+		(property "Footprint" "Library:Jack"
 			(at 26.67 233.68 0)
 			(effects
 				(font
@@ -7516,7 +8047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" ""
 			(at 26.67 233.68 0)
 			(effects
 				(font
@@ -7632,7 +8163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Bay:Pedal_Jack"
+		(property "Footprint" "Library:Jack"
 			(at 27.94 220.98 0)
 			(effects
 				(font
@@ -7650,7 +8181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" ""
 			(at 27.94 220.98 0)
 			(effects
 				(font
@@ -7701,7 +8232,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 245.364 34.036 90)
 			(effects
 				(font
@@ -7769,7 +8300,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 209.55 119.38 0)
 			(effects
 				(font
@@ -7812,6 +8343,74 @@
 		)
 	)
 	(symbol
+		(lib_id "WE_UKW:WE-UKW_1SW_74275010")
+		(at 299.72 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d2e079d-d974-48f7-b140-570d6a82d4db")
+		(property "Reference" "L310"
+			(at 299.72 50.8 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "600R@100Mhz"
+			(at 299.72 54.61 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" "WE-UKW:WE-UKW_74275010"
+			(at 299.72 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WE-UKW EMI Suppression 6-Hole Ferrite Bead\n\nCharacteristics\n\nImpedance will increase with more turns, available in 1 to 3 turns\n4 different materials available for perfect interference suppression\nAlso available ready-bent or in individual length\nMaximum current capability is 3 A / 5 A (short-time)\nOperating temperature: –25 ºC to +125 ºC\n\nApplications\n\nProtection against radio frequency interferences\n\nhttps://katalog.we-online.de/media/images/v2/o14887v209%20Family_WE-UKW_6LOCH.jpg\n\nDetails see: http://katalog.we-online.de/en/pbs/WE-UKW/S http://katalog.we-online.de/en/pbs/WE-UKW/S\n\nCreated  by Ella Wu  2019-01-02\n2019 (C) Wurth Elektronik"
+			(at 299.72 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "25923f6d-a348-44ca-ad6f-2efcd8aedf2c")
+		)
+		(pin "1"
+			(uuid "b2fca921-379d-4fc4-9e3c-78df0e2447b2")
+		)
+		(instances
+			(project "circuit"
+				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/91f6596b-9a37-4517-8aab-00555625375a"
+					(reference "L310")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 255.27 157.48 270)
 		(mirror x)
@@ -7838,7 +8437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 255.27 157.48 0)
 			(effects
 				(font
@@ -7907,7 +8506,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 255.27 45.72 0)
 			(effects
 				(font
@@ -8041,7 +8640,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 41.91 106.68 0)
 			(effects
 				(font
@@ -8178,7 +8777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 77.47 143.51 0)
 			(effects
 				(font
@@ -8315,7 +8914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 77.47 19.05 0)
 			(effects
 				(font
@@ -8385,7 +8984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 72.39 165.1 0)
 			(effects
 				(font
@@ -8539,7 +9138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 77.47 207.01 0)
 			(effects
 				(font
@@ -8609,7 +9208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 358.14 19.05 0)
 			(effects
 				(font
@@ -8646,6 +9245,74 @@
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/91f6596b-9a37-4517-8aab-00555625375a"
 					(reference "C335")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WE_UKW:WE-UKW_1SW_74275010")
+		(at 60.96 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8438762b-edac-475d-bd70-48fa9a9bf4c4")
+		(property "Reference" "L301"
+			(at 60.96 13.97 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "600R@100Mhz"
+			(at 60.96 17.78 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" "WE-UKW:WE-UKW_74275010"
+			(at 60.96 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WE-UKW EMI Suppression 6-Hole Ferrite Bead\n\nCharacteristics\n\nImpedance will increase with more turns, available in 1 to 3 turns\n4 different materials available for perfect interference suppression\nAlso available ready-bent or in individual length\nMaximum current capability is 3 A / 5 A (short-time)\nOperating temperature: –25 ºC to +125 ºC\n\nApplications\n\nProtection against radio frequency interferences\n\nhttps://katalog.we-online.de/media/images/v2/o14887v209%20Family_WE-UKW_6LOCH.jpg\n\nDetails see: http://katalog.we-online.de/en/pbs/WE-UKW/S http://katalog.we-online.de/en/pbs/WE-UKW/S\n\nCreated  by Ella Wu  2019-01-02\n2019 (C) Wurth Elektronik"
+			(at 60.96 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0de7d333-d983-43c9-a04e-115c5d92b080")
+		)
+		(pin "1"
+			(uuid "846add92-40bd-4516-86d9-6b218e4a4db7")
+		)
+		(instances
+			(project ""
+				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/91f6596b-9a37-4517-8aab-00555625375a"
+					(reference "L301")
 					(unit 1)
 				)
 			)
@@ -8744,7 +9411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 50.546 107.696 90)
 			(effects
 				(font
@@ -8814,7 +9481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 217.17 80.01 0)
 			(effects
 				(font
@@ -8882,7 +9549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Bay:Pedal_Jack"
+		(property "Footprint" "Library:Jack"
 			(at 270.51 157.48 0)
 			(effects
 				(font
@@ -8900,7 +9567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" ""
 			(at 270.51 157.48 0)
 			(effects
 				(font
@@ -8992,6 +9659,73 @@
 		)
 	)
 	(symbol
+		(lib_id "WE_UKW:WE-UKW_1SW_74275010")
+		(at 118.11 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95244f14-bfbf-421f-964b-3db1298baea1")
+		(property "Reference" "L302"
+			(at 118.11 50.8 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "600R@100Mhz"
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" "WE-UKW:WE-UKW_74275010"
+			(at 118.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WE-UKW EMI Suppression 6-Hole Ferrite Bead\n\nCharacteristics\n\nImpedance will increase with more turns, available in 1 to 3 turns\n4 different materials available for perfect interference suppression\nAlso available ready-bent or in individual length\nMaximum current capability is 3 A / 5 A (short-time)\nOperating temperature: –25 ºC to +125 ºC\n\nApplications\n\nProtection against radio frequency interferences\n\nhttps://katalog.we-online.de/media/images/v2/o14887v209%20Family_WE-UKW_6LOCH.jpg\n\nDetails see: http://katalog.we-online.de/en/pbs/WE-UKW/S http://katalog.we-online.de/en/pbs/WE-UKW/S\n\nCreated  by Ella Wu  2019-01-02\n2019 (C) Wurth Elektronik"
+			(at 118.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3e927859-c775-4fb7-b516-234a3db507bf")
+		)
+		(pin "1"
+			(uuid "04a04ce8-dccf-4f3d-a1da-3059e86b4963")
+		)
+		(instances
+			(project "circuit"
+				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/91f6596b-9a37-4517-8aab-00555625375a"
+					(reference "L302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 46.99 157.48 90)
 		(unit 1)
@@ -9017,7 +9751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 46.99 157.48 0)
 			(effects
 				(font
@@ -9085,7 +9819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 39.37 170.18 0)
 			(effects
 				(font
@@ -9153,7 +9887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Bay:Pedal_Jack"
+		(property "Footprint" "Library:Jack"
 			(at 270.51 170.18 0)
 			(effects
 				(font
@@ -9171,7 +9905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" ""
 			(at 270.51 170.18 0)
 			(effects
 				(font
@@ -9222,7 +9956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 255.27 170.18 0)
 			(effects
 				(font
@@ -9290,7 +10024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 332.486 34.036 90)
 			(effects
 				(font
@@ -9424,7 +10158,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Bay:Pedal_Jack"
+		(property "Footprint" "Library:Jack"
 			(at 27.94 157.48 0)
 			(effects
 				(font
@@ -9442,7 +10176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" ""
 			(at 27.94 157.48 0)
 			(effects
 				(font
@@ -9492,7 +10226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 46.99 93.98 0)
 			(effects
 				(font
@@ -9560,7 +10294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 326.39 33.02 0)
 			(effects
 				(font
@@ -9628,7 +10362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Bay:Pedal_Jack"
+		(property "Footprint" "Library:Jack"
 			(at 270.51 233.68 0)
 			(effects
 				(font
@@ -9646,7 +10380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" ""
 			(at 270.51 233.68 0)
 			(effects
 				(font
@@ -9698,7 +10432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 353.06 40.64 0)
 			(effects
 				(font
@@ -9852,7 +10586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 72.39 101.6 0)
 			(effects
 				(font
@@ -10006,7 +10740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 72.39 228.6 0)
 			(effects
 				(font
@@ -10092,7 +10826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 245.364 158.496 90)
 			(effects
 				(font
@@ -10161,7 +10895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 255.27 93.98 0)
 			(effects
 				(font
@@ -10229,7 +10963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 46.99 220.98 0)
 			(effects
 				(font
@@ -10297,7 +11031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 50.546 171.196 90)
 			(effects
 				(font
@@ -10365,7 +11099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 378.46 33.02 0)
 			(effects
 				(font
@@ -10434,7 +11168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 255.27 220.98 0)
 			(effects
 				(font
@@ -10503,7 +11237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 255.27 233.68 0)
 			(effects
 				(font
@@ -10638,7 +11372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Bay:Pedal_Jack"
+		(property "Footprint" "Library:Jack"
 			(at 270.51 45.72 0)
 			(effects
 				(font
@@ -10656,7 +11390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" ""
 			(at 270.51 45.72 0)
 			(effects
 				(font
@@ -10706,7 +11440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 49.276 234.696 90)
 			(effects
 				(font
@@ -10774,7 +11508,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Bay:Pedal_Jack"
+		(property "Footprint" "Library:Jack"
 			(at 26.67 45.72 0)
 			(effects
 				(font
@@ -10792,7 +11526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" ""
 			(at 26.67 45.72 0)
 			(effects
 				(font
@@ -10842,7 +11576,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 209.55 58.42 0)
 			(effects
 				(font
@@ -10911,7 +11645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 245.364 171.196 90)
 			(effects
 				(font
@@ -10979,7 +11713,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 69.85 119.38 0)
 			(effects
 				(font
@@ -11049,7 +11783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 212.09 40.64 0)
 			(effects
 				(font
@@ -11109,6 +11843,74 @@
 		)
 	)
 	(symbol
+		(lib_id "WE_UKW:WE-UKW_1SW_74275010")
+		(at 166.37 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd7089f2-f48c-4aca-8844-68f690ca3a22")
+		(property "Reference" "L309"
+			(at 166.37 13.97 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "600R@100Mhz"
+			(at 166.37 17.78 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" "WE-UKW:WE-UKW_74275010"
+			(at 166.37 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WE-UKW EMI Suppression 6-Hole Ferrite Bead\n\nCharacteristics\n\nImpedance will increase with more turns, available in 1 to 3 turns\n4 different materials available for perfect interference suppression\nAlso available ready-bent or in individual length\nMaximum current capability is 3 A / 5 A (short-time)\nOperating temperature: –25 ºC to +125 ºC\n\nApplications\n\nProtection against radio frequency interferences\n\nhttps://katalog.we-online.de/media/images/v2/o14887v209%20Family_WE-UKW_6LOCH.jpg\n\nDetails see: http://katalog.we-online.de/en/pbs/WE-UKW/S http://katalog.we-online.de/en/pbs/WE-UKW/S\n\nCreated  by Ella Wu  2019-01-02\n2019 (C) Wurth Elektronik"
+			(at 166.37 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "47763e65-0e9b-46ad-9dab-09d7e628365d")
+		)
+		(pin "1"
+			(uuid "1e6824f1-2dae-4d05-8062-3b82c4100346")
+		)
+		(instances
+			(project "circuit"
+				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/91f6596b-9a37-4517-8aab-00555625375a"
+					(reference "L309")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Bay:TL072")
 		(at 212.09 165.1 0)
 		(unit 1)
@@ -11136,7 +11938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 212.09 165.1 0)
 			(effects
 				(font
@@ -11222,7 +12024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 245.364 221.996 90)
 			(effects
 				(font
@@ -11291,7 +12093,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 245.364 94.996 90)
 			(effects
 				(font
@@ -11359,7 +12161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 56.896 34.036 90)
 			(effects
 				(font
@@ -11561,7 +12363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 49.276 46.736 90)
 			(effects
 				(font
@@ -11629,7 +12431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Bay:Pedal_Jack"
+		(property "Footprint" "Library:Jack"
 			(at 391.16 45.72 0)
 			(effects
 				(font
@@ -11647,7 +12449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" ""
 			(at 391.16 45.72 0)
 			(effects
 				(font
@@ -11697,7 +12499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 46.99 33.02 0)
 			(effects
 				(font

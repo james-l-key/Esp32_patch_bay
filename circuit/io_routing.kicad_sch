@@ -1525,6 +1525,18 @@
 		(uuid "2c6aa1ca-143a-4510-a029-5082def4d2a2")
 	)
 	(junction
+		(at 154.94 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65ab139d-53db-4e92-b065-3b7a5aac4230")
+	)
+	(junction
+		(at 154.94 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ea66422-2e78-4927-a7ac-6ad7926852bb")
+	)
+	(junction
 		(at 201.93 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1645,7 +1657,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 152.4) (xy 165.1 170.18)
+			(xy 165.1 152.4) (xy 165.1 173.99)
 		)
 		(stroke
 			(width 0)
@@ -1813,6 +1825,16 @@
 		)
 		(uuid "6d97a299-b727-443d-af6e-0dfa33e357b3")
 	)
+	(wire
+		(pts
+			(xy 154.94 167.64) (xy 146.05 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "715ed66c-8d35-46d0-b0bb-07f20f526176")
+	)
 	(bus
 		(pts
 			(xy 55.88 33.02) (xy 175.26 33.02)
@@ -1875,6 +1897,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 173.99) (xy 144.78 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a18ca0-faf5-45af-8d25-0fb9390d7b21")
+	)
+	(wire
+		(pts
 			(xy 196.85 99.06) (xy 196.85 95.25)
 		)
 		(stroke
@@ -1882,6 +1914,16 @@
 			(type default)
 		)
 		(uuid "a9b5664f-081c-4273-865d-e2d83d3947a7")
+	)
+	(wire
+		(pts
+			(xy 154.94 172.72) (xy 154.94 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa2ba5bd-11c4-4431-82b9-80624fa148d3")
 	)
 	(wire
 		(pts
@@ -1955,13 +1997,33 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 167.64) (xy 146.05 167.64)
+			(xy 144.78 170.18) (xy 143.51 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6c0f43-7c58-4b29-bcb8-d89dcca10387")
+	)
+	(wire
+		(pts
+			(xy 158.75 167.64) (xy 154.94 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e1ea3d97-5d12-4347-a64a-03e7231e7530")
+	)
+	(wire
+		(pts
+			(xy 154.94 173.99) (xy 144.78 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5442b1f-4ced-4c81-b9aa-a61b57e55c60")
 	)
 	(wire
 		(pts
@@ -1975,7 +2037,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 170.18) (xy 143.51 170.18)
+			(xy 165.1 173.99) (xy 154.94 173.99)
 		)
 		(stroke
 			(width 0)
@@ -2105,7 +2167,7 @@
 			)
 		)
 	)
-	(global_label "+5V"
+	(global_label "+5V_F"
 		(shape input)
 		(at 158.75 137.16 90)
 		(fields_autoplaced yes)
@@ -2171,7 +2233,7 @@
 			)
 		)
 	)
-	(global_label "-5V"
+	(global_label "-5V_F"
 		(shape input)
 		(at 196.85 99.06 270)
 		(fields_autoplaced yes)
@@ -2215,7 +2277,7 @@
 			)
 		)
 	)
-	(global_label "+5V"
+	(global_label "+5V_F"
 		(shape input)
 		(at 201.93 48.26 90)
 		(fields_autoplaced yes)
@@ -2347,7 +2409,7 @@
 			)
 		)
 	)
-	(global_label "+15V"
+	(global_label "+15V_F"
 		(shape input)
 		(at 127 142.24 90)
 		(fields_autoplaced yes)
@@ -2369,7 +2431,7 @@
 			)
 		)
 	)
-	(global_label "-15V"
+	(global_label "-15V_F"
 		(shape input)
 		(at 158.75 167.64 90)
 		(fields_autoplaced yes)
@@ -2460,7 +2522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 132.08 153.67 0)
 			(effects
 				(font
@@ -2835,7 +2897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 191.77 95.25 0)
 			(effects
 				(font
@@ -2879,6 +2941,73 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 154.94 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a26dd3f-36c7-41da-bf98-51618ff094e9")
+		(property "Reference" "C405"
+			(at 148.59 170.1864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 151.13 170.1864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+			(at 154.94 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 154.94 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08f6b806-aa9c-487a-81a0-955c635d459c")
+		)
+		(pin "2"
+			(uuid "d72f09a2-a53c-424c-8f68-dad499c2f4a7")
+		)
+		(instances
+			(project "circuit"
+				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/eb40e95c-c2ba-417c-afee-eaf028752aed"
+					(reference "C405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 210.82 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2902,7 +3031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 210.82 50.8 0)
 			(effects
 				(font
@@ -2972,7 +3101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-16_W7.62mm_SideBrazed"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 203.2 91.44 0)
 			(effects
 				(font
@@ -3147,7 +3276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 165.1 149.86 0)
 			(effects
 				(font

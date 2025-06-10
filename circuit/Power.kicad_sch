@@ -2286,25 +2286,35 @@
 		)
 		(uuid "ff4bc6bf-7c38-49ed-a9e1-375815b2de61")
 	)
-	(label "VIN_12V"
-		(at 95.25 165.1 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "56a265f0-9bbd-419b-810b-0aa1bb97653a")
-	)
-	(label "3.3V"
-		(at 115.57 165.1 0)
+	(label "12V_RAW_2"
+		(at 104.14 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "704257c7-e960-4dcb-9388-4e402b6f10d3")
+		(uuid "09feccc2-f289-472f-b9f3-20001c672652")
+	)
+	(label "12V_to_5V"
+		(at 92.71 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71cfe9ad-6efe-435d-914b-f782b06afd42")
+	)
+	(label "3.3V_1"
+		(at 118.11 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7eda4169-563c-444e-b142-cafa2698b303")
 	)
 	(label "VIN_12V"
 		(at 132.08 52.07 0)
@@ -2316,25 +2326,35 @@
 		)
 		(uuid "8404ae85-79ee-4e84-b723-65ee1ab93d16")
 	)
-	(label "VIN_12V"
-		(at 104.14 52.07 0)
+	(label "12V_RAW_1"
+		(at 80.01 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "93cca0c9-84dd-46eb-a19e-cfd7f2f43ab7")
+		(uuid "a583e324-d52d-4737-a6f0-e5f0818c6c03")
 	)
-	(label "VIN_12V"
-		(at 83.82 59.69 0)
+	(label "12V_to_3.3V"
+		(at 93.98 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e157f807-c35d-4cbc-9eb1-cdcff0044b8e")
+		(uuid "afc633e6-8331-491a-8330-c022fe71314b")
+	)
+	(label "12V_to_-5V"
+		(at 92.71 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bda9e824-7d81-4ee7-a295-80c70abfe117")
 	)
 	(global_label "VIN_12V"
 		(shape output)
@@ -2582,7 +2602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 88.9 135.89 0)
 			(effects
 				(font
@@ -2650,7 +2670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 128.27 44.45 0)
 			(effects
 				(font
@@ -2795,7 +2815,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 90.17 165.1 0)
 			(effects
 				(font
@@ -2929,7 +2949,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 88.9 105.41 0)
 			(effects
 				(font
@@ -3330,7 +3350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 118.11 76.2 0)
 			(effects
 				(font
@@ -3596,7 +3616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 120.65 105.41 0)
 			(effects
 				(font
@@ -3888,7 +3908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 120.65 135.89 0)
 			(effects
 				(font
@@ -4365,7 +4385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 140.97 44.45 0)
 			(effects
 				(font
@@ -4433,7 +4453,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 144.78 71.12 0)
 			(effects
 				(font
@@ -4501,7 +4521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 121.92 165.1 0)
 			(effects
 				(font

@@ -927,6 +927,151 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "WE_UKW:WE-UKW_1SW_74275010"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" ""
+				(at -5.08 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Eagle_WE-UKW (rev19a):WE-UKW_74275010"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "WE-UKW EMI Suppression 6-Hole Ferrite Bead\n\nCharacteristics\n\nImpedance will increase with more turns, available in 1 to 3 turns\n4 different materials available for perfect interference suppression\nAlso available ready-bent or in individual length\nMaximum current capability is 3 A / 5 A (short-time)\nOperating temperature: –25 ºC to +125 ºC\n\nApplications\n\nProtection against radio frequency interferences\n\nhttps://katalog.we-online.de/media/images/v2/o14887v209%20Family_WE-UKW_6LOCH.jpg\n\nDetails see: http://katalog.we-online.de/en/pbs/WE-UKW/S http://katalog.we-online.de/en/pbs/WE-UKW/S\n\nCreated  by Ella Wu  2019-01-02\n2019 (C) Wurth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "WE-UKW_1SW_74275010_1_0"
+				(arc
+					(start -5.08 0)
+					(mid -3.81 1.27)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.27 1.27)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 1.27 1.27)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 3.81 1.27)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1070,6 +1215,12 @@
 		(uuid "d9154a5a-0b6b-4e6e-a8c5-ae6a4cbe1562")
 	)
 	(junction
+		(at 110.49 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "076409a7-2386-4bd3-a8b3-802e76ca5606")
+	)
+	(junction
 		(at 218.44 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1106,6 +1257,12 @@
 		(uuid "4cbd238d-651d-437b-a333-64510f2dd2f8")
 	)
 	(junction
+		(at 133.35 13.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a69e8a1-9808-4951-b1a9-8a51138fca7d")
+	)
+	(junction
 		(at 54.61 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1130,10 +1287,28 @@
 		(uuid "a72f5621-763c-4c2e-882d-2f1f1732ed64")
 	)
 	(junction
+		(at 43.18 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae9aca70-ba43-48a6-9801-303d96ca190d")
+	)
+	(junction
+		(at 74.93 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0b70c20-aaae-4cc7-b55d-3d46e40839eb")
+	)
+	(junction
 		(at 54.61 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b40110f7-51cb-47d9-b9a0-729eed650247")
+	)
+	(junction
+		(at 147.32 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2130d7a-65b0-4d24-b3a4-7eeacbebeb59")
 	)
 	(junction
 		(at 74.93 116.84)
@@ -1448,6 +1623,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 26.67) (xy 133.35 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "145c1c0d-093d-4bce-b20b-23ef21420a9c")
+	)
+	(wire
+		(pts
 			(xy 220.98 86.36) (xy 204.47 86.36)
 		)
 		(stroke
@@ -1455,6 +1640,26 @@
 			(type default)
 		)
 		(uuid "18424ba6-91e3-4d8e-8552-a2be509f1da6")
+	)
+	(wire
+		(pts
+			(xy 69.85 166.37) (xy 110.49 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d44ee4c-be97-4a88-b54e-bb9f5932cc65")
+	)
+	(wire
+		(pts
+			(xy 74.93 76.2) (xy 77.47 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df15f08-df74-4546-b088-bae69373b698")
 	)
 	(bus
 		(pts
@@ -1546,6 +1751,16 @@
 		)
 		(uuid "2ee5f61e-b8ac-4c1b-aaa1-0f5886c9a1c4")
 	)
+	(wire
+		(pts
+			(xy 74.93 114.3) (xy 13.97 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "328d25ad-fb8f-464f-a532-4a70cdafbe90")
+	)
 	(bus
 		(pts
 			(xy 193.04 19.05) (xy 193.04 35.56)
@@ -1586,6 +1801,16 @@
 		)
 		(uuid "486bd1a6-36cc-453c-b15d-840316bde2e0")
 	)
+	(wire
+		(pts
+			(xy 21.59 25.4) (xy 19.05 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c711645-5875-470e-a596-ec0369caa70f")
+	)
 	(bus
 		(pts
 			(xy 64.77 111.76) (xy 64.77 104.14)
@@ -1595,6 +1820,16 @@
 			(type default)
 		)
 		(uuid "4d6ca103-6e99-4b39-88ae-d8e4c9f5c97f")
+	)
+	(wire
+		(pts
+			(xy 74.93 92.71) (xy 74.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f93c3e6-63db-4825-9dba-d8427808b97f")
 	)
 	(wire
 		(pts
@@ -1635,6 +1870,16 @@
 			(type default)
 		)
 		(uuid "56a7ead3-3d06-494d-8360-fd03502b3fb8")
+	)
+	(wire
+		(pts
+			(xy 21.59 27.94) (xy 21.59 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58eae13a-283b-41db-9c87-c503d187e50c")
 	)
 	(wire
 		(pts
@@ -1708,6 +1953,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 35.56) (xy 43.18 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e8d57d7-2a4d-419e-aa30-0af71a26d714")
+	)
+	(wire
+		(pts
 			(xy 218.44 73.66) (xy 218.44 68.58)
 		)
 		(stroke
@@ -1735,6 +1990,16 @@
 			(type default)
 		)
 		(uuid "70326f02-1185-4d88-95e3-19c9b1f5148e")
+	)
+	(wire
+		(pts
+			(xy 21.59 27.94) (xy 22.86 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72c1b380-b35e-4f84-b6a7-2b2e32f1a052")
 	)
 	(wire
 		(pts
@@ -1766,6 +2031,26 @@
 		)
 		(uuid "7a653720-8059-4742-93ea-8155e27a0325")
 	)
+	(wire
+		(pts
+			(xy 35.56 13.97) (xy 35.56 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bcc4cdd-ff4d-455a-af56-12bb76129608")
+	)
+	(wire
+		(pts
+			(xy 38.1 27.94) (xy 43.18 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f7d8d9f-b686-4b46-85e0-d9a50573591f")
+	)
 	(bus
 		(pts
 			(xy 121.92 35.56) (xy 121.92 38.1)
@@ -1788,6 +2073,26 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 92.71) (xy 74.93 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85adbf10-f5a1-48c5-ba90-057326706e13")
+	)
+	(wire
+		(pts
+			(xy 43.18 27.94) (xy 74.93 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "877d501c-f82f-4aa2-95d9-a4cf2652aec9")
+	)
+	(wire
+		(pts
 			(xy 69.85 166.37) (xy 69.85 163.83)
 		)
 		(stroke
@@ -1805,6 +2110,16 @@
 			(type default)
 		)
 		(uuid "8cfc804f-7002-4035-ae57-fe07deea4854")
+	)
+	(wire
+		(pts
+			(xy 13.97 35.56) (xy 43.18 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e3c84e3-85f2-4a25-bd32-05de84796db5")
 	)
 	(wire
 		(pts
@@ -1846,6 +2161,16 @@
 		)
 		(uuid "96f935a7-0775-42d7-bdac-0fa7bc5bcfa1")
 	)
+	(wire
+		(pts
+			(xy 218.44 92.71) (xy 147.32 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98307d7b-1874-4aa1-8ed8-1b99bd60a87b")
+	)
 	(bus
 		(pts
 			(xy 195.58 45.72) (xy 195.58 104.14)
@@ -1856,6 +2181,16 @@
 		)
 		(uuid "99974f0f-5397-4e38-beb5-c3fa8b0ec1f5")
 	)
+	(wire
+		(pts
+			(xy 43.18 26.67) (xy 43.18 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bee75ef-ce3a-4e56-bc5f-1efa6e1a1356")
+	)
 	(bus
 		(pts
 			(xy 48.26 111.76) (xy 64.77 111.76)
@@ -1865,6 +2200,26 @@
 			(type default)
 		)
 		(uuid "9c84646b-3212-4b91-89d7-8e83b683edf0")
+	)
+	(wire
+		(pts
+			(xy 147.32 92.71) (xy 110.49 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc663bf-611d-4ab4-81a8-4d3df6a1ca95")
+	)
+	(wire
+		(pts
+			(xy 205.74 26.67) (xy 205.74 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe59566-e4ba-4b1e-99ef-47905e9f890b")
 	)
 	(bus
 		(pts
@@ -2008,6 +2363,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 76.2) (xy 74.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb0a1c87-d2c7-445c-837d-ec911baffd3d")
+	)
+	(wire
+		(pts
 			(xy 69.85 163.83) (xy 69.85 157.48)
 		)
 		(stroke
@@ -2048,7 +2413,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 77.47) (xy 147.32 74.93)
+			(xy 13.97 114.3) (xy 13.97 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7239985-6aa5-4738-8277-f05369719533")
+	)
+	(wire
+		(pts
+			(xy 147.32 74.93) (xy 147.32 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2078,6 +2453,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 26.67) (xy 133.35 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd10a80c-b2dd-4bf9-bcd8-9b27dadddfa0")
+	)
+	(wire
+		(pts
 			(xy 72.39 68.58) (xy 72.39 85.09)
 		)
 		(stroke
@@ -2088,13 +2473,23 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 26.67) (xy 74.93 27.94)
+			(xy 223.52 26.67) (xy 205.74 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "decba540-24cf-4bd0-b35a-51430f517135")
+		(uuid "e0b91075-c9ac-413a-8867-2964cb30a4b6")
+	)
+	(wire
+		(pts
+			(xy 133.35 13.97) (xy 35.56 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1169cd7-dc7f-4de4-884f-e3c052afdebb")
 	)
 	(bus
 		(pts
@@ -2118,6 +2513,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 13.97) (xy 133.35 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f0a2e7-0072-4f4d-bf07-8baf26762749")
+	)
+	(wire
+		(pts
 			(xy 204.47 73.66) (xy 204.47 86.36)
 		)
 		(stroke
@@ -2135,6 +2540,16 @@
 			(type default)
 		)
 		(uuid "ec0346bb-8901-4442-86ce-33f804c88341")
+	)
+	(wire
+		(pts
+			(xy 35.56 26.67) (xy 43.18 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03e4298-6384-47a4-9b6d-22751cd6b0f1")
 	)
 	(wire
 		(pts
@@ -2168,7 +2583,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 78.74) (xy 218.44 73.66)
+			(xy 218.44 73.66) (xy 218.44 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2185,6 +2600,16 @@
 			(type default)
 		)
 		(uuid "fa68fa3c-66b8-4061-b665-c19869c557bd")
+	)
+	(wire
+		(pts
+			(xy 110.49 166.37) (xy 110.49 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc4a4862-017d-4a37-b20d-a926c8f14779")
 	)
 	(wire
 		(pts
@@ -2385,28 +2810,6 @@
 			(justify left bottom)
 		)
 		(uuid "f8178bb2-e4c1-4e0c-a04e-1ee9f4f3cddb")
-	)
-	(global_label "+5V"
-		(shape input)
-		(at 74.93 114.3 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "010caf5e-99de-49f4-974e-a8b115e43559")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.93 107.4443 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "FX_R_4"
 		(shape input)
@@ -2826,28 +3229,6 @@
 			)
 		)
 	)
-	(global_label "-5V"
-		(shape input)
-		(at 69.85 166.37 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "705001e1-1504-400a-87c3-c695579d0b80")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.9152 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FX_R_4"
 		(shape input)
 		(at 85.09 55.88 0)
@@ -3002,28 +3383,6 @@
 			)
 		)
 	)
-	(global_label "-5V"
-		(shape input)
-		(at 147.32 77.47 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "99dc41f1-3178-4fad-8671-e83f1b6694e9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.3852 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FX_R_4"
 		(shape input)
 		(at 233.68 55.88 0)
@@ -3068,28 +3427,6 @@
 			)
 		)
 	)
-	(global_label "+5V"
-		(shape input)
-		(at 152.4 26.67 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ac6785b6-072c-4d96-bd55-e54d782a7896")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4 19.8143 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FX_S_8"
 		(shape output)
 		(at 59.69 137.16 180)
@@ -3112,9 +3449,31 @@
 			)
 		)
 	)
+	(global_label "+5V"
+		(shape input)
+		(at 19.05 25.4 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b93b6ec6-277e-4c00-87d3-dca0e92776c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.05 18.5443 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "-5V"
 		(shape input)
-		(at 69.85 76.2 270)
+		(at 92.71 76.2 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3122,9 +3481,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b364a414-eaa0-4b95-8ec5-1b6ec4f89d64")
+		(uuid "c31bbdc0-b2c8-4bc7-883d-53683771bfe9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.9152 76.2 0)
+			(at 100.7752 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3266,50 +3625,6 @@
 			)
 		)
 	)
-	(global_label "+5V"
-		(shape input)
-		(at 74.93 26.67 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e4b86d28-8c60-4be8-9da8-971d0d630337")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.93 19.8143 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+5V"
-		(shape input)
-		(at 223.52 26.67 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e9f9d0e7-b307-434e-8feb-43d0694e0d84")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.52 19.8143 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FX_R_3"
 		(shape input)
 		(at 233.68 53.34 0)
@@ -3328,28 +3643,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "-5V"
-		(shape input)
-		(at 218.44 78.74 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ef89ce88-c579-485a-a4e9-fcfff82bc270")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.5052 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3415,7 +3708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-16_W7.62mm_SideBrazed"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 76.2 158.75 0)
 			(effects
 				(font
@@ -3526,7 +3819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 236.22 27.94 0)
 			(effects
 				(font
@@ -3724,7 +4017,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 210.82 73.66 0)
 			(effects
 				(font
@@ -3922,7 +4215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 86.36 116.84 0)
 			(effects
 				(font
@@ -3990,7 +4283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 60.96 163.83 0)
 			(effects
 				(font
@@ -4058,7 +4351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 138.43 74.93 0)
 			(effects
 				(font
@@ -4166,6 +4459,142 @@
 		)
 	)
 	(symbol
+		(lib_id "WE_UKW:WE-UKW_1SW_74275010")
+		(at 85.09 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b8ee0b9-a1d5-4324-8d50-8f5500c8fc1c")
+		(property "Reference" "L602"
+			(at 85.09 68.58 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "600R@100Mhz"
+			(at 85.09 72.39 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" "WE-UKW:WE-UKW_74275010"
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WE-UKW EMI Suppression 6-Hole Ferrite Bead\n\nCharacteristics\n\nImpedance will increase with more turns, available in 1 to 3 turns\n4 different materials available for perfect interference suppression\nAlso available ready-bent or in individual length\nMaximum current capability is 3 A / 5 A (short-time)\nOperating temperature: –25 ºC to +125 ºC\n\nApplications\n\nProtection against radio frequency interferences\n\nhttps://katalog.we-online.de/media/images/v2/o14887v209%20Family_WE-UKW_6LOCH.jpg\n\nDetails see: http://katalog.we-online.de/en/pbs/WE-UKW/S http://katalog.we-online.de/en/pbs/WE-UKW/S\n\nCreated  by Ella Wu  2019-01-02\n2019 (C) Wurth Elektronik"
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d611729d-a4d0-4e6c-9ab0-93850f558352")
+		)
+		(pin "1"
+			(uuid "3989ac06-1f5f-46c4-9732-605d0d56902a")
+		)
+		(instances
+			(project "circuit"
+				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/badefe61-f2aa-4ce3-b43f-f44172d96524"
+					(reference "L602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WE_UKW:WE-UKW_1SW_74275010")
+		(at 30.48 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d9f978c-df6b-47df-9e24-08bb5622a055")
+		(property "Reference" "L601"
+			(at 30.48 20.32 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "600R@100Mhz"
+			(at 30.48 24.13 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" "WE-UKW:WE-UKW_74275010"
+			(at 30.48 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WE-UKW EMI Suppression 6-Hole Ferrite Bead\n\nCharacteristics\n\nImpedance will increase with more turns, available in 1 to 3 turns\n4 different materials available for perfect interference suppression\nAlso available ready-bent or in individual length\nMaximum current capability is 3 A / 5 A (short-time)\nOperating temperature: –25 ºC to +125 ºC\n\nApplications\n\nProtection against radio frequency interferences\n\nhttps://katalog.we-online.de/media/images/v2/o14887v209%20Family_WE-UKW_6LOCH.jpg\n\nDetails see: http://katalog.we-online.de/en/pbs/WE-UKW/S http://katalog.we-online.de/en/pbs/WE-UKW/S\n\nCreated  by Ella Wu  2019-01-02\n2019 (C) Wurth Elektronik"
+			(at 30.48 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a72566f8-c19f-41fe-87c0-3a6a1e48b29b")
+		)
+		(pin "1"
+			(uuid "6df5e4e0-d1ae-42cd-b72d-f4f1d97da4d6")
+		)
+		(instances
+			(project "circuit"
+				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/badefe61-f2aa-4ce3-b43f-f44172d96524"
+					(reference "L601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 88.9 27.94 270)
 		(unit 1)
@@ -4191,7 +4620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 88.9 27.94 0)
 			(effects
 				(font
@@ -4324,7 +4753,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 168.91 27.94 0)
 			(effects
 				(font
@@ -4394,7 +4823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-16_W7.62mm_SideBrazed"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 76.2 69.85 0)
 			(effects
 				(font
@@ -4505,7 +4934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 60.96 73.66 0)
 			(effects
 				(font
@@ -4640,7 +5069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-16_W7.62mm_SideBrazed"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 153.67 69.85 0)
 			(effects
 				(font
@@ -4753,7 +5182,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-16_W7.62mm_SideBrazed"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 224.79 69.85 0)
 			(effects
 				(font

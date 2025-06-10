@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.6,
-          "height": 1.6,
-          "width": 1.6
+          "drill": 2.5,
+          "height": 3.5,
+          "width": 3.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -58,40 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "starved_thermal|127230412|138010412|45a85852-c961-4704-bd01-823b710f1903|0bbb9e00-d5ee-4724-93f9-81056d056859|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|128750000|88190000|ce5bdc69-f561-4e81-ade3-608bfc8c7409|05fd8cb8-174f-4559-92a9-9ac646e2429a|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|151730411|87459588|ce5bdc69-f561-4e81-ade3-608bfc8c7409|39d4354c-c1fc-432f-abfb-17116b055dc1|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|152875000|77280000|f9fe4fd7-f0d5-4206-9702-ede344f4ffe9|3f1b31f1-4530-441d-b5fd-e16454ec3317|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|152875000|77280000|f9fe4fd7-f0d5-4206-9702-ede344f4ffe9|3f1b31f1-4530-441d-b5fd-e16454ec3317|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|166378600|46235700|f9fe4fd7-f0d5-4206-9702-ede344f4ffe9|3455294f-9e28-40c1-ab21-dfcceb40381b|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|179767856|142692143|ce5bdc69-f561-4e81-ade3-608bfc8c7409|d8b0c06c-0e44-4401-81d9-1f0f73717f83|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|95823700|111500000|9e819ac3-94c1-41d4-8ab3-74f02b0fac0f|88e1cd91-92ee-4b9d-858a-bb55947db087|F.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -172,7 +139,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -527,7 +494,7 @@
         "microvia_drill": 0.1,
         "name": "3.3V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.8,
         "via_diameter": 0.6,
@@ -539,9 +506,23 @@
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "PWR_IN",
+        "name": "AGND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PWR_IN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.8,
         "via_diameter": 0.6,
@@ -569,6 +550,34 @@
       {
         "netclass": "3.3V",
         "pattern": "U204"
+      },
+      {
+        "netclass": "PWR_IN",
+        "pattern": "/Power/12V_RAW_1"
+      },
+      {
+        "netclass": "PWR_IN",
+        "pattern": "/Power/12V_RAW_2"
+      },
+      {
+        "netclass": "PWR_IN",
+        "pattern": "/Power/12V_to_3.3V"
+      },
+      {
+        "netclass": "3.3V",
+        "pattern": "/Power/3.3V_1"
+      },
+      {
+        "netclass": "PWR_IN",
+        "pattern": "/Power/12V_to_-5V"
+      },
+      {
+        "netclass": "PWR_IN",
+        "pattern": "/Power/12V_to_5V"
+      },
+      {
+        "netclass": "AGND",
+        "pattern": "AGND"
       }
     ]
   },
@@ -577,7 +586,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
