@@ -2253,7 +2253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pedal_2"
 			(at 99.06 76.2 0)
 			(effects
 				(font
@@ -2601,7 +2601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pedal_7"
 			(at 242.57 86.36 0)
 			(effects
 				(font
@@ -2884,7 +2884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pedal_4"
 			(at 99.06 96.52 0)
 			(effects
 				(font
@@ -2962,7 +2962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pedal_1"
 			(at 99.06 66.04 0)
 			(effects
 				(font
@@ -3040,7 +3040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pedal_8"
 			(at 242.57 96.52 0)
 			(effects
 				(font
@@ -3118,7 +3118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pedal_3"
 			(at 99.06 86.36 0)
 			(effects
 				(font
@@ -3196,7 +3196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pedal_6"
 			(at 242.57 76.2 0)
 			(effects
 				(font
@@ -3477,7 +3477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Status"
 			(at 99.06 106.68 0)
 			(effects
 				(font
@@ -3623,7 +3623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pedal_5"
 			(at 242.57 66.04 0)
 			(effects
 				(font

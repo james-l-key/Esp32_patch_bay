@@ -6081,7 +6081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FX_R_4"
 			(at 27.94 106.68 0)
 			(effects
 				(font
@@ -6786,7 +6786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FX_S_1"
 			(at 270.51 33.02 0)
 			(effects
 				(font
@@ -6990,7 +6990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Guitar_In"
 			(at 316.23 33.02 0)
 			(effects
 				(font
@@ -7192,7 +7192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FX_S_4"
 			(at 270.51 106.68 0)
 			(effects
 				(font
@@ -7394,7 +7394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FX_R_1"
 			(at 27.94 33.02 0)
 			(effects
 				(font
@@ -7666,7 +7666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FX_R_3"
 			(at 27.94 93.98 0)
 			(effects
 				(font
@@ -7734,7 +7734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FX_S_7"
 			(at 270.51 220.98 0)
 			(effects
 				(font
@@ -7802,7 +7802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FX_S_3"
 			(at 270.51 93.98 0)
 			(effects
 				(font
@@ -8142,7 +8142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FX_R_6"
 			(at 27.94 170.18 0)
 			(effects
 				(font
@@ -8346,7 +8346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FX_R_8"
 			(at 27.94 233.68 0)
 			(effects
 				(font
@@ -8480,7 +8480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FX_R_7"
 			(at 27.94 220.98 0)
 			(effects
 				(font
@@ -9866,7 +9866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FX_S_5"
 			(at 270.51 157.48 0)
 			(effects
 				(font
@@ -10271,7 +10271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FX_S_6"
 			(at 270.51 170.18 0)
 			(effects
 				(font
@@ -10542,7 +10542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FX_R_5"
 			(at 27.94 157.48 0)
 			(effects
 				(font
@@ -10745,7 +10745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FX_S_8"
 			(at 270.51 233.68 0)
 			(effects
 				(font
@@ -11755,7 +11755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FX_S_2"
 			(at 270.51 45.72 0)
 			(effects
 				(font
@@ -11957,7 +11957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FX_R_2"
 			(at 27.94 45.72 0)
 			(effects
 				(font
@@ -12945,7 +12945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Amp_out"
 			(at 391.16 45.72 0)
 			(effects
 				(font
