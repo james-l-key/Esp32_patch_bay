@@ -861,11 +861,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4007"
+		(symbol "Diode:1N5822"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -879,7 +880,7 @@
 					)
 				)
 			)
-			(property "Value" "1N4007"
+			(property "Value" "1N5822"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -887,7 +888,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -896,7 +897,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(property "Datasheet" "http://www.vishay.com/docs/88526/1n5820.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -905,7 +906,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+			(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -914,7 +915,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "D"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -923,7 +924,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=K 2=A"
+			(property "ki_fp_filters" "D*DO?201AD*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -932,28 +933,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4007_0_1"
+			(symbol "1N5822_0_1"
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -988,7 +971,7 @@
 					)
 				)
 			)
-			(symbol "1N4007_1_1"
+			(symbol "1N5822_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1778,7 +1761,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 46.99) (xy 92.71 36.83)
+			(xy 92.71 41.91) (xy 92.71 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1868,7 +1851,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 52.07) (xy 92.71 52.07)
+			(xy 87.63 46.99) (xy 92.71 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2008,6 +1991,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 46.99) (xy 92.71 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e5b0a9-a078-41c9-95e8-b52429f0b762")
+	)
+	(wire
+		(pts
 			(xy 144.78 66.04) (xy 114.3 66.04)
 		)
 		(stroke
@@ -2088,7 +2081,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 46.99) (xy 92.71 46.99)
+			(xy 87.63 41.91) (xy 92.71 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2315,16 +2308,6 @@
 			(justify left bottom)
 		)
 		(uuid "7eda4169-563c-444e-b142-cafa2698b303")
-	)
-	(label "VIN_12V"
-		(at 132.08 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8404ae85-79ee-4e84-b723-65ee1ab93d16")
 	)
 	(label "12V_RAW_1"
 		(at 80.01 59.69 0)
@@ -2602,7 +2585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 88.9 135.89 0)
 			(effects
 				(font
@@ -2949,7 +2932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 88.9 105.41 0)
 			(effects
 				(font
@@ -3350,7 +3333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 118.11 76.2 0)
 			(effects
 				(font
@@ -3616,7 +3599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 120.65 105.41 0)
 			(effects
 				(font
@@ -3653,92 +3636,6 @@
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
 					(reference "C205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4007")
-		(at 99.06 52.07 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "886ec040-720d-4ced-b347-548164762917")
-		(property "Reference" "D201"
-			(at 99.06 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 99.06 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 99.06 56.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 99.06 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 99.06 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 99.06 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 99.06 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a459e6d8-ec91-4637-bddd-10417220cacd")
-		)
-		(pin "1"
-			(uuid "893e9e23-a787-4796-8ea4-89284cacfba7")
-		)
-		(instances
-			(project "circuit"
-				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
-					(reference "D201")
 					(unit 1)
 				)
 			)
@@ -3908,7 +3805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 120.65 135.89 0)
 			(effects
 				(font
@@ -4161,16 +4058,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack")
-		(at 80.01 49.53 0)
+		(at 80.01 44.45 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cefed335-a072-469a-a35f-e66956fdf4ec")
 		(property "Reference" "J201"
-			(at 80.01 40.64 0)
+			(at 80.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4178,7 +4075,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack"
-			(at 80.01 43.18 0)
+			(at 80.01 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4186,7 +4083,7 @@
 			)
 		)
 		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal_CircularHoles"
-			(at 81.28 50.546 0)
+			(at 81.28 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,7 +4092,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 50.546 0)
+			(at 81.28 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +4101,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack"
-			(at 80.01 49.53 0)
+			(at 80.01 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4222,6 +4119,74 @@
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
 					(reference "J201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5822")
+		(at 99.06 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7bab592-5dbd-4b4a-97e0-f5b01d56afa7")
+		(property "Reference" "D201"
+			(at 99.3775 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5822"
+			(at 99.3775 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(at 99.06 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88526/1n5820.pdf"
+			(at 99.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
+			(at 99.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e30a216-dacc-4907-b0fd-5edf6a71a8c8")
+		)
+		(pin "1"
+			(uuid "e7ff2e87-5d7d-4a61-8ea8-4e152b04f4c2")
+		)
+		(instances
+			(project ""
+				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/52ecec71-1c0e-4647-a50f-721f168ee7e0"
+					(reference "D201")
 					(unit 1)
 				)
 			)
@@ -4453,7 +4418,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 144.78 71.12 0)
 			(effects
 				(font

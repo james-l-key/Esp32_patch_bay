@@ -239,7 +239,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|2184400|444500|9ee80b0b-8171-4f01-a40d-d9465d491727|00000000-0000-0000-0000-000000000000|/420e3d7a-6c9a-4806-b4be-05d56aeb21de|/420e3d7a-6c9a-4806-b4be-05d56aeb21de|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -510,7 +515,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
+        "track_width": 0.6,
         "via_diameter": 0.6,
         "via_drill": 0.3
       },

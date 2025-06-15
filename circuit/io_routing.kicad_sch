@@ -2522,7 +2522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 132.08 153.67 0)
 			(effects
 				(font
@@ -2881,7 +2881,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b030b93-a2d1-495a-8707-3b5bc22e83a8")
-		(property "Reference" "C403"
+		(property "Reference" "C404"
 			(at 191.7636 88.9 90)
 			(effects
 				(font
@@ -2897,7 +2897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 191.77 95.25 0)
 			(effects
 				(font
@@ -2933,7 +2933,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/eb40e95c-c2ba-417c-afee-eaf028752aed"
-					(reference "C403")
+					(reference "C404")
 					(unit 1)
 				)
 			)
@@ -2948,7 +2948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a26dd3f-36c7-41da-bf98-51618ff094e9")
-		(property "Reference" "C405"
+		(property "Reference" "C402"
 			(at 148.59 170.1864 90)
 			(effects
 				(font
@@ -2964,7 +2964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 154.94 170.18 0)
 			(effects
 				(font
@@ -3000,7 +3000,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/eb40e95c-c2ba-417c-afee-eaf028752aed"
-					(reference "C405")
+					(reference "C402")
 					(unit 1)
 				)
 			)
@@ -3015,7 +3015,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c314c32-dbea-43d4-b45e-bec332385fc5")
-		(property "Reference" "C404"
+		(property "Reference" "C405"
 			(at 210.8136 44.45 90)
 			(effects
 				(font
@@ -3031,7 +3031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 210.82 50.8 0)
 			(effects
 				(font
@@ -3067,7 +3067,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/eb40e95c-c2ba-417c-afee-eaf028752aed"
-					(reference "C404")
+					(reference "C405")
 					(unit 1)
 				)
 			)
@@ -3260,7 +3260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e805c053-7220-4030-9c7e-d90907224062")
-		(property "Reference" "C402"
+		(property "Reference" "C403"
 			(at 158.75 149.8664 90)
 			(effects
 				(font
@@ -3276,7 +3276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 165.1 149.86 0)
 			(effects
 				(font
@@ -3312,7 +3312,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de/eb40e95c-c2ba-417c-afee-eaf028752aed"
-					(reference "C402")
+					(reference "C403")
 					(unit 1)
 				)
 			)

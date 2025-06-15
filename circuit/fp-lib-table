@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "ESP")(type "KiCad")(uri "${KIPRJMOD}/Espressif.pretty")(options "")(descr ""))
   (lib (name "Bay")(type "KiCad")(uri "${KIPRJMOD}/Bay.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Bay.pretty/Library.pretty")(options "")(descr ""))
+  (lib (name "WE-UKW")(type "Eagle")(uri "${KIPRJMOD}/Eagle_WE-UKW (rev19a).lbr")(options "")(descr ""))
 )
