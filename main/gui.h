@@ -23,6 +23,22 @@
 void gui_init(void);
 
 /**
+ * @brief Initialize a fallback GUI when display fails
+ * 
+ * This creates a minimal GUI setup that won't crash when the display
+ * initialization fails, allowing the rest of the system to function.
+ */
+void gui_init_fallback(void);
+
+/**
+ * @brief Safely trigger a manual display refresh
+ * 
+ * Forces a controlled display update to ensure GUI content is visible
+ * without causing I2C timeouts.
+ */
+void gui_force_refresh(void);
+
+/**
  * @brief Update the chain display in the GUI
  * 
  * @param patch Array containing the current patch configuration

@@ -43,8 +43,8 @@ void matrix_init(void)
 {
     gpio_config_t io_conf = {
         .pin_bit_mask = (1ULL << CONFIG_MATRIX_SR_DATA_PIN) |
-                        (1ULL << CONFIG_SR_CLOCK_PIN) |
-                        (1ULL << CONFIG_SR_LATCH_PIN),
+        (1ULL << CONFIG_SR_CLOCK_PIN) |
+        (1ULL << CONFIG_SR_LATCH_PIN),
         .mode = GPIO_MODE_OUTPUT,
         .pull_up_en = GPIO_PULLUP_DISABLE,
         .pull_down_en = GPIO_PULLDOWN_DISABLE, // Good practice to define both

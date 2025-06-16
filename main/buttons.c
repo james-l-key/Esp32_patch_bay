@@ -484,6 +484,9 @@ void buttons_init(void)
     matrix_update(); // Update matrix with loaded/default config
     gui_update_chain(live_patch_data, live_patch_len, loaded_from_preset_slot);
     gui_set_status(loaded_from_preset_slot != -1 ? "P%d Loaded" : "Live Config", loaded_from_preset_slot != -1 ? loaded_from_preset_slot + 1 : 0);
+    
+    // Now that we have better I2C settings, we can try a controlled refresh
+    gui_force_refresh();
     vTaskDelay(pdMS_TO_TICKS(1500)); // Show initial status
     gui_set_status("");
 

@@ -1,16 +1,36 @@
 menu "Patch Bay Configuration"
 
-    choice DISPLAY_TYPE
-        prompt "Display Driver"
-        default SSD1306
+    choice EXAMPLE_LCD_CONTROLLER
+        prompt "LCD controller model"
+        default EXAMPLE_LCD_CONTROLLER_SSD1306
         help
-            Select the OLED display driver.
+            Select LCD controller model
 
-        config SSD1306
+        config EXAMPLE_LCD_CONTROLLER_SSD1306
             bool "SSD1306"
-        config SH1106
-            bool "SH1106"
+
+        config EXAMPLE_LCD_CONTROLLER_SH1107
+            bool "SH1107"
     endchoice
+
+    if EXAMPLE_LCD_CONTROLLER_SSD1306
+        choice EXAMPLE_SSD1306_HEIGHT
+            prompt "SSD1306 Height in pixels"
+            default EXAMPLE_SSD1306_HEIGHT_64
+            help
+                Height of the display in pixels. a.k.a vertical resolution
+
+            config EXAMPLE_SSD1306_HEIGHT_64
+                bool "64"
+            config EXAMPLE_SSD1306_HEIGHT_32
+                bool "32"
+        endchoice
+
+        config EXAMPLE_SSD1306_HEIGHT
+            int
+            default 64 if EXAMPLE_SSD1306_HEIGHT_64
+            default 32 if EXAMPLE_SSD1306_HEIGHT_32
+    endif
 
     config I2C_SDA_PIN
         int "I2C SDA Pin"
@@ -124,17 +144,17 @@ menu "Patch Bay Configuration"
         help
             GPIO pin for 74HC595 shift register output enable.
 
-    config ENABLE_LEDS
-        bool "Enable LED Indicators"
-        default n
+    config INHIBIT_SR_DATA_PIN
+        int "Inhibit Shift Register Data Pin (INHIBIT_SR_DS)"
+        default 35
+        range 0 48
         help
-            Enable 8 LEDs for pedal status indicators.
+            GPIO pin for 74HC595 shift register data.
 
     config LED_SR_DATA_PIN
         int "LED Shift Register Data Pin (LED_SR_DS)"
         default 21
         range 0 48
-        depends on ENABLE_LEDS
         help
             GPIO pin for 74HC595 shift register data.
 
