@@ -11,17 +11,15 @@ An 8-pedal mono guitar patch bay controlled by an ESP32-S3, allowing dynamic rec
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Hardware](#hardware)
-    - [Power Requirements](#power-requirements)
   - [Software](#software)
-    - [Dependencies](#dependencies)
   - [Installation](#installation)
-    - [Prerequisites](#prerequisites)
-    - [Steps](#steps)
-  - [Scaling to 8 Pedals](#scaling-to-8-pedals)
+  - [Usage](#usage)
+  - [Project Structure](#project-structure)
   - [Contributing](#contributing)
   - [Issues](#issues)
   - [License](#license)
   - [Acknowledgements](#acknowledgements)
+
 
 ## Features
 - **Dynamic Signal Routing**: Reconfigure the signal chain for up to 8 mono guitar pedals using a 9x8 matrix.
@@ -32,29 +30,7 @@ An 8-pedal mono guitar patch bay controlled by an ESP32-S3, allowing dynamic rec
 - **Open Source**: Full schematic (`circuit.kicad_sch`), PCB layout, and firmware provided.
 
 ## Hardware
-The patch bay is built around the following components:
-- **Microcontroller**: ESP32-S3 (e.g., ESP32-S3-WROOM-1 module).
-- **Display**: SSD1306/SH1106 128x64 OLED (I2C interface).
-- **Audio Routing**:
-  - CD4051B 8-channel analog multiplexers and ADG419BN SPDT analog switches for signal path selection.
-  - 3x TL072 dual op-amps for input/output buffering.
-  - 6x 1/4” mono jacks (Guitar In/Out, Pedal 1 In/Out, Pedal 2 In/Out).
-- **Control**:
-  - 2x 74HC595 8-bit shift registers to control multiplexer select lines.
-  - 3x push buttons (Program, Pedal 1, Pedal 2) with pull-up resistors.
-  - 1x LED for Program Mode indication.
-- **Power**:
-  - +3.3V for ESP32-S3, OLED, and 74HC595.
-  - ±9V for analog components (CD4051B, ADG419BN, and TL072) to handle audio signals.
-- **Schematic**: Designed in KiCad 9.0 (`circuit.kicad_sch`).
-
-### Power Requirements
-- **Input Power**: The system is designed for an external **12V DC power supply** connected via a barrel jack.
-- **Isolated Dual Rails (±15V)**: A TMA-1215D DC/DC converter (U3) takes the 12V input and generates isolated **±15V** rails, which are used by the analog audio circuitry.
-- **Regulated +5V**: A linear regulator (e.g., LM7805) provides +5V, primarily for digital components if needed, and as an input to the 3.3V regulator.
-- **Regulated -5V**: A linear regulator (e.g., LM7905) provides -5V.
-- **Regulated +3.3V**: A linear regulator (e.g., AMS1117-3.3) provides +3.3V for the ESP32-S3 and OLED display.
-- Ensure proper decoupling capacitors (e.g., 100nF, 10µF) near each IC.
+The patch bay is built around an **ESP32-S3** microcontroller and uses analog multiplexers for audio routing. For the complete hardware details, including the **schematic**, **PCB layout**, and **Bill of Materials (BOM)**, please see the dedicated [hardware repository](https://github.com/your-username/esp32_patch_bay_hardware).
 
 ## Software
 The firmware is written in C using the **ESP-IDF** framework (v5.1 or later) for the ESP32-S3. Key components include:
